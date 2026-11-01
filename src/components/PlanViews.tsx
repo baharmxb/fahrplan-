@@ -56,7 +56,6 @@ export function PlanView() {
                       {fa(doneCount(progress, day.tasks))} از {fa(day.tasks.length)} فعالیت
                     </span>
                     <span>{formatMinutes(day.minutes)}</span>
-                    {day.tasks.some((t) => t.book === "review") && <span>همراه با مرور</span>}
                     {day.day === current && <span className="flag">امروز</span>}
                     {carried > 0 && <span className="flag flag--alert">{fa(carried)} منتقل‌شده</span>}
                   </span>

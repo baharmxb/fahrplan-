@@ -149,6 +149,8 @@ function dayTasks(lesson: Lesson, day: number, round: LessonRound): Task[] {
   ];
 }
 
+const reviewTitle = (first: number, last: number) => `مرور درس‌های ${fa(first)} تا ${fa(last)}`;
+
 function reviewTask(lessons: number[], day: number, round: LessonRound): Task {
   const first = lessons[0];
   const last = lessons[lessons.length - 1];
@@ -158,8 +160,8 @@ function reviewTask(lessons: number[], day: number, round: LessonRound): Task {
     round,
     book: "review",
     lesson: null,
-    label: `مرور درس ${fa(first)} تا ${fa(last)}`,
-    note: "لغات، گرامر و تمرین‌های اشتباه این سه درس را مرور کن.",
+    label: reviewTitle(first, last),
+    note: "این سه درس را از صفحه‌ی هر درس مرور کن.",
     minutes: MINUTES.review,
     reviewOf: lessons,
   };
@@ -256,15 +258,16 @@ function buildPlan(): PlanDay[] {
     for (const lesson of LESSONS) {
       day += 1;
       const tasks = dayTasks(lesson, day, round);
-      // روز بعد از هر سه درس کامل، مرور هم به فهرست همان روز اضافه می‌شود
-      if (lesson.n > 1 && (lesson.n - 1) % 3 === 0) {
-        tasks.push(reviewTask([lesson.n - 3, lesson.n - 2, lesson.n - 1], day, round));
-      }
-      push(round, lesson.n, `درس ${fa(lesson.n)}`, lesson.title, tasks);
+      // هر سه درس یک گروه است و مرور گروه، پیش از درس روز بعد می‌آید
+      const hasReview = lesson.n > 1 && (lesson.n - 1) % 3 === 0;
+      if (hasReview) tasks.unshift(reviewTask([lesson.n - 3, lesson.n - 2, lesson.n - 1], day, round));
+      const title = `درس ${fa(lesson.n)}`;
+      const heading = hasReview ? `${reviewTitle(lesson.n - 3, lesson.n - 1)} + ${title}` : title;
+      push(round, lesson.n, heading, lesson.title, tasks);
     }
     // درس ۱۳ نداریم، پس مرور سه درس آخر روز جداگانه‌ی خودش را دارد
     day += 1;
-    push(round, null, `مرور درس ${fa(10)} تا ${fa(12)}`, "Wiederholung", [reviewTask([10, 11, 12], day, round)]);
+    push(round, null, reviewTitle(10, 12), "Wiederholung", [reviewTask([10, 11, 12], day, round)]);
   }
   for (const exam of EXAM_DAYS) {
     day += 1;

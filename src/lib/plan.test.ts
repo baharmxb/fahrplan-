@@ -1,10 +1,11 @@
 import { readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import { LESSONS, getLesson, grammarPages, sectionPages } from "@/data/curriculum";
 import type { LessonContent } from "./content";
 import { addDays, diffDays, longDate, weekStart } from "./dates";
 import { ALL_TASKS, PLAN, PLAN_START, TOTAL_DAYS, getDay } from "./plan";
+import { sync } from "./github";
 import {
   currentDayNumber,
   emptyProgress,
@@ -13,6 +14,9 @@ import {
   lessonState,
   mergeProgress,
   overdueTasks,
+  pendingReviews,
+  reviewState,
+  sameProgress,
   type Progress,
 } from "./progress";
 
@@ -61,6 +65,11 @@ describe("plan", () => {
     expect(reviewDays.map((d) => d.day)).toEqual([4, 7, 10, 13]);
     expect(getDay(4).tasks.find((t) => t.book === "review")?.reviewOf).toEqual([1, 2, 3]);
     expect(getDay(13).tasks[0].reviewOf).toEqual([10, 11, 12]);
+    expect(getDay(4).tasks[0].book).toBe("review");
+    expect(getDay(7).tasks[0].reviewOf).toEqual([4, 5, 6]);
+    expect(getDay(4).heading).toBe("مرور درس‌های ۱ تا ۳ + درس ۴");
+    expect(getDay(7).heading).toBe("مرور درس‌های ۴ تا ۶ + درس ۷");
+    expect(getDay(5).heading).toBe("درس ۵");
   });
 
   it("keeps Kursbuch, Arbeitsbuch and Grammatik on every exam day too", () => {
@@ -132,6 +141,84 @@ describe("progress", () => {
       z: { done: true, at: 3 },
     });
     expect(merged.startDate).toBe("2026-11-05");
+  });
+});
+
+describe("review after every three lessons", () => {
+  const start = "2026-11-03";
+  const review = getDay(4).tasks[0];
+  const group = ALL_TASKS.filter((t) => t.round === 1 && t.book === "kursbuch" && [1, 2, 3].includes(t.lesson ?? 0));
+  const finishOn = (iso: string): Progress => ({
+    ...emptyProgress(start),
+    entries: Object.fromEntries(group.map((t) => [t.id, { done: true, at: new Date(`${iso}T12:00:00`).getTime() }])),
+  });
+
+  it("stays locked until all three lessons are finished", () => {
+    const missingOne = finishOn("2026-11-05");
+    delete missingOne.entries[group[group.length - 1].id];
+    expect(reviewState(missingOne, review, addDays(start, 3)).kind).toBe("locked");
+    expect(pendingReviews(missingOne, addDays(start, 3))).toEqual([]);
+  });
+
+  it("appears on day four when lesson three is finished on day three", () => {
+    const p = finishOn("2026-11-05");
+    expect(reviewState(p, review, "2026-11-05")).toEqual({ kind: "waiting", from: "2026-11-06" });
+    expect(reviewState(p, review, "2026-11-06").kind).toBe("open");
+    expect(pendingReviews(p, "2026-11-06").map((t) => t.id)).toEqual([review.id]);
+  });
+
+  it("moves to the day after a late finish", () => {
+    const p = finishOn("2026-11-08");
+    expect(reviewState(p, review, "2026-11-08")).toEqual({ kind: "waiting", from: "2026-11-09" });
+    expect(pendingReviews(p, "2026-11-09").map((t) => t.id)).toEqual([review.id]);
+  });
+
+  it("does not come early when lessons are finished ahead of plan", () => {
+    const p = finishOn("2026-11-03");
+    expect(reviewState(p, review, "2026-11-04")).toEqual({ kind: "waiting", from: "2026-11-06" });
+  });
+
+  it("is never listed as overdue", () => {
+    const p = finishOn("2026-11-05");
+    expect(overdueTasks(p, addDays(start, 6)).some((t) => t.book === "review")).toBe(false);
+  });
+});
+
+describe("server storage", () => {
+  const base: Progress = { ...emptyProgress("2026-11-03"), startDateAt: 5, entries: { x: { done: true, at: 1 } } };
+  const stub = (remote: Progress) => {
+    const puts: string[] = [];
+    const content = Buffer.from(JSON.stringify(remote)).toString("base64");
+    vi.stubGlobal("fetch", async (_url: string, init?: RequestInit) => {
+      if (init?.method === "PUT") {
+        puts.push(String(init.body));
+        return new Response("{}", { status: 200 });
+      }
+      return new Response(JSON.stringify({ content, sha: "s1" }), { status: 200 });
+    });
+    return puts;
+  };
+
+  it("keeps the newest reading spot when merging", () => {
+    const a = { ...base, lastRead: { lesson: 2, tab: "words", scroll: 10, at: 5 } };
+    const b = { ...base, lastRead: { lesson: 7, tab: "grammar", scroll: 90, at: 9 } };
+    expect(mergeProgress(a, b).lastRead?.lesson).toBe(7);
+    expect(mergeProgress(b, a).lastRead?.lesson).toBe(7);
+  });
+
+  it("does not create a commit when nothing changed", async () => {
+    const puts = stub(base);
+    await sync({ repo: "a/b", token: "t" }, { ...base });
+    expect(puts).toHaveLength(0);
+  });
+
+  it("uploads when this device has something new", async () => {
+    const puts = stub(base);
+    const local = { ...base, entries: { ...base.entries, y: { done: true, at: 2 } } };
+    const merged = await sync({ repo: "a/b", token: "t" }, local);
+    expect(puts).toHaveLength(1);
+    expect(JSON.parse(puts[0]).sha).toBe("s1");
+    expect(sameProgress(merged, local)).toBe(true);
   });
 });
 

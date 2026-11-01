@@ -1,9 +1,16 @@
 import { LESSONS } from "@/data/curriculum";
-import { addDays, diffDays, monthKey, monthName, weekStart, shortDate } from "./dates";
+import { addDays, diffDays, monthKey, monthName, shortDate, todayIso, weekStart } from "./dates";
 import { ALL_TASKS, BOOKS, PLAN, TOTAL_DAYS, type BookId, type PlanDay, type Round, type Task } from "./plan";
 
 export interface Entry {
   done: boolean;
+  at: number;
+}
+
+export interface ReadingSpot {
+  lesson: number;
+  tab: string;
+  scroll: number;
   at: number;
 }
 
@@ -13,6 +20,7 @@ export interface Progress {
   startDateAt: number;
   // لغو تیک هم ثبت می‌شود تا هنگام ادغام با نسخه‌ی گیت‌هاب برنگردد
   entries: Record<string, Entry>;
+  lastRead?: ReadingSpot;
 }
 
 export const emptyProgress = (startDate: string): Progress => ({
@@ -29,7 +37,21 @@ export function mergeProgress(a: Progress, b: Progress): Progress {
     if (!entries[id] || entry.at > entries[id].at) entries[id] = entry;
   }
   const newer = b.startDateAt > a.startDateAt ? b : a;
-  return { version: 1, startDate: newer.startDate, startDateAt: newer.startDateAt, entries };
+  const lastRead = (b.lastRead?.at ?? 0) > (a.lastRead?.at ?? 0) ? b.lastRead : a.lastRead;
+  return { version: 1, startDate: newer.startDate, startDateAt: newer.startDateAt, entries, lastRead };
+}
+
+// ترتیب کلیدها مهم نیست؛ اگر چیزی عوض نشده باشد نباید commit تازه ساخته شود
+export function sameProgress(a: Progress, b: Progress) {
+  const ids = new Set([...Object.keys(a.entries), ...Object.keys(b.entries)]);
+  for (const id of ids) {
+    if (a.entries[id]?.done !== b.entries[id]?.done || a.entries[id]?.at !== b.entries[id]?.at) return false;
+  }
+  return (
+    a.startDate === b.startDate &&
+    a.startDateAt === b.startDateAt &&
+    JSON.stringify(a.lastRead ?? null) === JSON.stringify(b.lastRead ?? null)
+  );
 }
 
 export const isDone = (p: Progress, id: string) => p.entries[id]?.done === true;
@@ -46,15 +68,40 @@ export const ratio = (done: number, total: number) => (total ? done / total : 0)
 
 export const isDayComplete = (p: Progress, day: PlanDay) => day.tasks.every((t) => isDone(p, t.id));
 
+export type ReviewState = { kind: "locked" } | { kind: "waiting"; from: string } | { kind: "open" };
+
+// مرور روز بعد از تکمیل بخش‌های Kursbuch هر سه درس گروه ساخته می‌شود و زودتر از روز برنامه نمی‌آید
+export function reviewState(p: Progress, task: Task, today: string): ReviewState {
+  const lessons = task.reviewOf ?? [];
+  const sections = ALL_TASKS.filter(
+    (t) => t.round === task.round && t.book === "kursbuch" && lessons.includes(t.lesson ?? 0),
+  );
+  if (!sections.every((t) => isDone(p, t.id))) return { kind: "locked" };
+  const finishedAt = Math.max(...sections.map((t) => p.entries[t.id].at));
+  const afterFinish = addDays(todayIso(new Date(finishedAt)), 1);
+  const scheduled = dayDate(p, task.day);
+  const from = afterFinish > scheduled ? afterFinish : scheduled;
+  return today >= from ? { kind: "open" } : { kind: "waiting", from };
+}
+
+export function pendingReviews(p: Progress, today: string): Task[] {
+  const current = currentDayNumber(p, today);
+  return ALL_TASKS.filter(
+    (t) => t.book === "review" && t.day <= current && !isDone(p, t.id) && reviewState(p, t, today).kind === "open",
+  );
+}
+
 export function overdueTasks(p: Progress, today: string): Task[] {
   const current = Math.min(currentDayNumber(p, today), TOTAL_DAYS + 1);
   return PLAN.slice(0, Math.max(current - 1, 0))
     .flatMap((d) => d.tasks)
-    .filter((t) => !isDone(p, t.id));
+    .filter((t) => t.book !== "review" && !isDone(p, t.id));
 }
 
 export function carriedCount(p: Progress, day: PlanDay, today: string) {
-  return day.day < currentDayNumber(p, today) ? day.tasks.length - doneCount(p, day.tasks) : 0;
+  if (day.day >= currentDayNumber(p, today)) return 0;
+  const tasks = day.tasks.filter((t) => t.book !== "review");
+  return tasks.length - doneCount(p, tasks);
 }
 
 export type LessonState = "done" | "partial" | "none";

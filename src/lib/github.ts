@@ -1,4 +1,4 @@
-import { mergeProgress, type Progress } from "./progress";
+import { mergeProgress, sameProgress, type Progress } from "./progress";
 
 export interface GithubConfig {
   token: string;
@@ -86,6 +86,7 @@ export async function sync(cfg: GithubConfig, local: Progress): Promise<Progress
     const merged = remote.data
       ? mergeProgress(local, remote.data)
       : { ...local, startDateAt: local.startDateAt || Date.now() };
+    if (remote.data && sameProgress(merged, remote.data)) return merged;
     try {
       await put(cfg, merged, remote.sha);
       return merged;

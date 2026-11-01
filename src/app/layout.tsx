@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     icon: `${BASE_PATH}/icon-192.png`,
     apple: { url: `${BASE_PATH}/icon-180.png`, sizes: "180x180" },
   },
+  referrer: "no-referrer",
   appleWebApp: { capable: true, title: "Fahrplan", statusBarStyle: "default" },
 };
 

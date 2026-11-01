@@ -1,10 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { fa, faPercent, formatMinutes, longDate, weekday } from "@/lib/dates";
+import { getLesson } from "@/data/curriculum";
+import { fa, faPercent, formatMinutes, longDate, shortDate, weekday } from "@/lib/dates";
 import { ROUND_PHASE, TOTAL_DAYS, getDay, type PlanDay } from "@/lib/plan";
-import { currentDayNumber, dayDate, doneCount, isDone, overdueTasks, ratio } from "@/lib/progress";
+import { currentDayNumber, dayDate, doneCount, isDone, overdueTasks, pendingReviews, ratio, reviewState } from "@/lib/progress";
 import { useProgress } from "@/lib/store";
+import { TAB_NAMES, useReader, type ReaderTab } from "./Reader";
 import { TaskList } from "./TaskList";
 import { De, Loading, Notice, Plate } from "./ui";
 
@@ -53,6 +55,23 @@ function Poster({ day, iso }: { day: PlanDay; iso: string }) {
   );
 }
 
+function ResumeCard() {
+  const { progress } = useProgress();
+  const { open } = useReader();
+  const spot = progress.lastRead;
+  if (!spot) return null;
+  const tab = spot.tab as ReaderTab;
+  return (
+    <button type="button" className="resume" onClick={() => open(spot.lesson, tab, spot.scroll)}>
+      <span className="resume__label">ادامه از همان‌جا</span>
+      <De className="resume__title">{getLesson(spot.lesson).title}</De>
+      <span className="resume__where">
+        درس {fa(spot.lesson)}، {TAB_NAMES[tab]}
+      </span>
+    </button>
+  );
+}
+
 export function TodayView() {
   const { ready, progress, today } = useProgress();
   if (!ready) return <Loading />;
@@ -72,6 +91,11 @@ export function TodayView() {
   }
 
   const day = number <= TOTAL_DAYS ? getDay(number) : null;
+  const reviews = pendingReviews(progress, today);
+  const lessonTasks = day?.tasks.filter((t) => t.book !== "review" || isDone(progress, t.id)) ?? [];
+  const planned = [...reviews, ...lessonTasks];
+  const upcoming = day?.tasks.find((t) => t.book === "review" && !isDone(progress, t.id) && !reviews.includes(t));
+  const upcomingState = upcoming && reviewState(progress, upcoming, today);
 
   return (
     <div className="page">
@@ -83,6 +107,8 @@ export function TodayView() {
         </Notice>
       )}
 
+      <ResumeCard />
+
       {overdue.length > 0 && (
         <section className="block" aria-labelledby="overdue-title">
           <h2 id="overdue-title" className="block__title block__title--alert">
@@ -93,12 +119,20 @@ export function TodayView() {
         </section>
       )}
 
-      {day && (
+      {(planned.length > 0 || upcoming) && (
         <section className="block" aria-labelledby="today-title">
           <h2 id="today-title" className="block__title">
             کارهای امروز
           </h2>
-          <TaskList tasks={day.tasks} />
+          {upcoming && upcomingState && (
+            <p className="review-hint">
+              {upcoming.label}{" "}
+              {upcomingState.kind === "waiting"
+                ? `از ${shortDate(upcomingState.from)} اضافه می‌شود.`
+                : "بعد از تکمیل این سه درس به برنامه اضافه می‌شود."}
+            </p>
+          )}
+          {planned.length > 0 && <TaskList tasks={planned} />}
         </section>
       )}
     </div>

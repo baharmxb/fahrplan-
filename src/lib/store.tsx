@@ -4,11 +4,12 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useRef, use
 import { todayIso } from "./dates";
 import { GithubError, sync, type GithubConfig, type SyncError } from "./github";
 import { PLAN_START } from "./plan";
-import { emptyProgress, mergeProgress, type Progress } from "./progress";
+import { emptyProgress, mergeProgress, type Progress, type ReadingSpot } from "./progress";
 
 const PROGRESS_KEY = "fahrplan.progress.v1";
 const GITHUB_KEY = "fahrplan.github.v1";
 const SYNC_DELAY_MS = 1500;
+const REFRESH_AFTER_MS = 60_000;
 
 export type SyncStatus = "local" | "syncing" | "synced" | "error";
 
@@ -19,8 +20,10 @@ interface Store {
   repo: string | null;
   status: SyncStatus;
   syncError: SyncError | null;
+  lastSync: number | null;
   toggle: (taskId: string) => void;
   setStartDate: (iso: string) => void;
+  saveSpot: (spot: ReadingSpot) => void;
   connect: (cfg: GithubConfig) => Promise<SyncError | null>;
   disconnect: () => void;
   syncNow: () => void;
@@ -53,6 +56,8 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   const [config, setConfig] = useState<GithubConfig | null>(null);
   const [status, setStatus] = useState<SyncStatus>("local");
   const [syncError, setSyncError] = useState<SyncError | null>(null);
+  const [lastSync, setLastSync] = useState<number | null>(null);
+  const lastSyncRef = useRef(0);
 
   const latest = useRef<Progress | null>(null);
   const dirty = useRef(false);
@@ -75,6 +80,8 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
         commit(mergeProgress(latest.current, merged));
         setStatus("synced");
         setSyncError(null);
+        lastSyncRef.current = Date.now();
+        setLastSync(lastSyncRef.current);
         return null;
       } catch (error) {
         dirty.current = true;
@@ -112,8 +119,20 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     const retry = () => {
       if (dirty.current) void runSync(config);
     };
+    // با برگشت به اپ نسخه‌ی سرور خوانده و هنگام خروج، تغییرهای مانده فرستاده می‌شود
+    const onVisibility = () => {
+      const hidden = document.visibilityState === "hidden";
+      if (hidden ? dirty.current : Date.now() - lastSyncRef.current > REFRESH_AFTER_MS) {
+        clearTimeout(timer.current);
+        void runSync(config);
+      }
+    };
     window.addEventListener("online", retry);
-    return () => window.removeEventListener("online", retry);
+    document.addEventListener("visibilitychange", onVisibility);
+    return () => {
+      window.removeEventListener("online", retry);
+      document.removeEventListener("visibilitychange", onVisibility);
+    };
   }, [config, runSync]);
 
   const update = useCallback(
@@ -141,6 +160,8 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     (startDate: string) => update((p) => ({ ...p, startDate, startDateAt: Date.now() })),
     [update],
   );
+
+  const saveSpot = useCallback((spot: ReadingSpot) => update((p) => ({ ...p, lastRead: spot })), [update]);
 
   const connect = useCallback(
     async (cfg: GithubConfig) => {
@@ -178,13 +199,15 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
       repo: config?.repo ?? null,
       status,
       syncError,
+      lastSync,
       toggle,
       setStartDate,
+      saveSpot,
       connect,
       disconnect,
       syncNow,
     }),
-    [progress, today, config, status, syncError, toggle, setStartDate, connect, disconnect, syncNow],
+    [progress, today, config, status, syncError, lastSync, toggle, setStartDate, saveSpot, connect, disconnect, syncNow],
   );
 
   return <StoreContext.Provider value={value}>{children}</StoreContext.Provider>;

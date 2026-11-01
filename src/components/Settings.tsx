@@ -76,8 +76,8 @@ export function ThemeSwitch() {
 }
 
 export function GithubPanel() {
-  const { repo, status, syncError, connect, disconnect, syncNow } = useProgress();
-  const [repoInput, setRepoInput] = useState("");
+  const { repo, status, syncError, lastSync, connect, disconnect, syncNow } = useProgress();
+  const [repoInput, setRepoInput] = useState("baharmxb/fahrplan-data");
   const [token, setToken] = useState("");
   const [busy, setBusy] = useState(false);
 
@@ -93,7 +93,8 @@ export function GithubPanel() {
     return (
       <div className="github">
         <p>
-          پیشرفت در مخزن <bdi dir="ltr">{repo}</bdi> هم ذخیره می‌شود.
+          پیشرفت در مخزن <bdi dir="ltr">{repo}</bdi> ذخیره می‌شود.
+          {lastSync && ` آخرین ذخیره ساعت ${new Date(lastSync).toLocaleTimeString("fa-IR", { hour: "2-digit", minute: "2-digit" })}.`}
         </p>
         {syncError && (
           <p className="error" role="alert">
@@ -115,8 +116,8 @@ export function GithubPanel() {
   return (
     <form className="github" onSubmit={submit}>
       <p>
-        پیشرفت فعلاً فقط در همین دستگاه است. برای داشتن آن روی موبایل و کامپیوتر، یک مخزن خصوصی و یک توکن با
-        دسترسی نوشتن Contents فقط روی همان مخزن بساز. توکن فقط در حافظه‌ی این مرورگر می‌ماند.
+        پیشرفت فعلاً فقط در همین گوشی است. با اتصال به یک مخزن خصوصی، تیک‌ها و جای مطالعه روی گیت‌هاب هم ذخیره
+        می‌شوند و بعد از نصب دوباره برمی‌گردند. توکن فقط در حافظه‌ی همین گوشی می‌ماند.
       </p>
       <label className="field">
         <span>مخزن</span>

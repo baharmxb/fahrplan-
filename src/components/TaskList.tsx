@@ -2,21 +2,22 @@
 
 import { fa, shortDate } from "@/lib/dates";
 import { BOOKS, type Task } from "@/lib/plan";
-import { dayDate, isDone } from "@/lib/progress";
+import { dayDate, isDone, reviewState } from "@/lib/progress";
 import { useProgress } from "@/lib/store";
 import { useReader, type ReaderTab } from "./Reader";
 import { De } from "./ui";
 
 function TaskRow({ task, carried }: { task: Task; carried?: boolean }) {
-  const { progress, toggle } = useProgress();
+  const { progress, today, toggle } = useProgress();
   const { open } = useReader();
   const done = isDone(progress, task.id);
   const inputId = `task-${task.id}`;
+  const locked = task.book === "review" && !done && reviewState(progress, task, today).kind !== "open";
   const tab: ReaderTab | null = task.book === "kursbuch" ? "guide" : task.book === "grammatik" ? "grammar" : null;
 
   return (
-    <li className="task" data-done={done || undefined} data-carried={carried || undefined}>
-      <input id={inputId} type="checkbox" checked={done} onChange={() => toggle(task.id)} />
+    <li className="task" data-done={done || undefined} data-carried={carried || undefined} data-book={task.book}>
+      <input id={inputId} type="checkbox" checked={done} disabled={locked} onChange={() => toggle(task.id)} />
       <div className="task__body">
         <label htmlFor={inputId}>
           <span className="task__label">{task.label}</span>
@@ -27,7 +28,7 @@ function TaskRow({ task, carried }: { task: Task; carried?: boolean }) {
             <De>{task.noteDe}</De>
           </p>
         )}
-        {task.note && <p className="task__note">{task.note}</p>}
+        {task.note && <p className="task__note">{locked ? "بعد از تکمیل این سه درس باز می‌شود." : task.note}</p>}
         {carried && (
           <p className="task__carried">
             منتقل‌شده از روز {fa(task.day)}، {shortDate(dayDate(progress, task.day))}

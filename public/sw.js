@@ -1,5 +1,5 @@
 // با هر تغییر محتوای پیش‌ذخیره، شماره‌ی نسخه را بالا ببر
-const CACHE = "fahrplan-v5";
+const CACHE = "fahrplan-v6";
 const scope = new URL(self.registration.scope);
 const lessons = Array.from({ length: 12 }, (_, i) => `content/lektion-${String(i + 1).padStart(2, "0")}.json`);
 const PRECACHE = ["", "dashboard/", "plan/", "lessons/", "reports/", "manifest.webmanifest", ...lessons].map(

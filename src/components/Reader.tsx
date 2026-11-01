@@ -4,12 +4,14 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useRef, use
 import { XTRA_TITLES, getLesson, grammarPages, lessonFolder, pdfPage, sectionPages } from "@/data/curriculum";
 import { BASE_PATH, BOOK_PDF, contentPath, loadLesson, type LessonContent, type Line, type Word } from "@/lib/content";
 import { fa } from "@/lib/dates";
+import { useGermanSpeech } from "@/lib/speech";
+import { useProgress } from "@/lib/store";
 import { De, Plate } from "./ui";
 
 export type ReaderTab = "guide" | "sentences" | "words" | "grammar" | "proverbs" | "dialog";
 
 interface ReaderContextValue {
-  open: (lesson: number, tab?: ReaderTab) => void;
+  open: (lesson: number, tab?: ReaderTab, scroll?: number) => void;
 }
 
 const ReaderContext = createContext<ReaderContextValue | null>(null);
@@ -17,12 +19,13 @@ const ReaderContext = createContext<ReaderContextValue | null>(null);
 interface Target {
   lesson: number;
   tab: ReaderTab;
+  scroll: number;
 }
 
 export function ReaderProvider({ children }: { children: ReactNode }) {
   const [target, setTarget] = useState<Target | null>(null);
   const value = useMemo<ReaderContextValue>(
-    () => ({ open: (lesson, tab = "guide") => setTarget({ lesson, tab }) }),
+    () => ({ open: (lesson, tab = "guide", scroll = 0) => setTarget({ lesson, tab, scroll }) }),
     [],
   );
   return (
@@ -39,37 +42,7 @@ export function useReader() {
   return value;
 }
 
-function useGermanSpeech() {
-  const [voice, setVoice] = useState<SpeechSynthesisVoice | null>(null);
-
-  useEffect(() => {
-    if (!("speechSynthesis" in window)) return;
-    const pick = () => setVoice(speechSynthesis.getVoices().find((v) => v.lang.startsWith("de")) ?? null);
-    pick();
-    speechSynthesis.addEventListener("voiceschanged", pick);
-    return () => {
-      speechSynthesis.removeEventListener("voiceschanged", pick);
-      speechSynthesis.cancel();
-    };
-  }, []);
-
-  const speak = useCallback(
-    (text: string) => {
-      if (!voice) return;
-      speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.voice = voice;
-      utterance.lang = voice.lang;
-      speechSynthesis.speak(utterance);
-    },
-    [voice],
-  );
-
-  return { canSpeak: voice !== null, speak };
-}
-
-function SpeakButton({ text, speak }: { text: string; speak: ((text: string) => void) | null }) {
-  if (!speak) return null;
+function SpeakButton({ text, speak }: { text: string; speak: (text: string) => void }) {
   return (
     <button type="button" className="speak" onClick={() => speak(text)} aria-label={`خواندن با صدا: ${text}`}>
       <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -79,7 +52,7 @@ function SpeakButton({ text, speak }: { text: string; speak: ((text: string) => 
   );
 }
 
-function WordCard({ word, speak }: { word: Word; speak: ((text: string) => void) | null }) {
+function WordCard({ word, speak }: { word: Word; speak: (text: string) => void }) {
   const spoken = word.art ? `${word.art} ${word.de}` : word.de;
   return (
     <li className="word" data-art={word.art ?? "none"}>
@@ -98,7 +71,7 @@ function WordCard({ word, speak }: { word: Word; speak: ((text: string) => void)
   );
 }
 
-function Pair({ line, speak, className = "" }: { line: Line; speak: ((text: string) => void) | null; className?: string }) {
+function Pair({ line, speak, className = "" }: { line: Line; speak: (text: string) => void; className?: string }) {
   return (
     <div className={`pair ${className}`}>
       <div>
@@ -132,7 +105,7 @@ function PageLink({ pages, hasBook }: { pages: [number, number]; hasBook: boolea
   );
 }
 
-function Guide({ content, lesson, hasBook, speak }: { content: LessonContent; lesson: number; hasBook: boolean; speak: ((text: string) => void) | null }) {
+function Guide({ content, lesson, hasBook, speak }: { content: LessonContent; lesson: number; hasBook: boolean; speak: (text: string) => void }) {
   const info = getLesson(lesson);
   const { guide } = content;
   return (
@@ -193,13 +166,22 @@ function Guide({ content, lesson, hasBook, speak }: { content: LessonContent; le
   );
 }
 
+export const TAB_NAMES: Record<ReaderTab, string> = {
+  guide: "راهنمای کتاب",
+  sentences: "جملات",
+  words: "لغات",
+  grammar: "گرامر",
+  proverbs: "ضرب‌المثل‌ها",
+  dialog: "مکالمه",
+};
+
 const TABS: { key: ReaderTab; label: string; count: (c: LessonContent) => number }[] = [
-  { key: "guide", label: "راهنمای کتاب", count: (c) => Object.keys(c.guide.sections).length },
-  { key: "sentences", label: "جملات", count: (c) => c.sentences.length },
-  { key: "words", label: "لغات", count: (c) => c.words.length },
-  { key: "grammar", label: "گرامر", count: (c) => c.grammar.length },
-  { key: "proverbs", label: "ضرب‌المثل‌ها", count: (c) => c.proverbs.length },
-  { key: "dialog", label: "مکالمه", count: (c) => c.dialog.lines.length },
+  { key: "guide", label: TAB_NAMES.guide, count: (c) => Object.keys(c.guide.sections).length },
+  { key: "sentences", label: TAB_NAMES.sentences, count: (c) => c.sentences.length },
+  { key: "words", label: TAB_NAMES.words, count: (c) => c.words.length },
+  { key: "grammar", label: TAB_NAMES.grammar, count: (c) => c.grammar.length },
+  { key: "proverbs", label: TAB_NAMES.proverbs, count: (c) => c.proverbs.length },
+  { key: "dialog", label: TAB_NAMES.dialog, count: (c) => c.dialog.lines.length },
 ];
 
 function Reader({ target, onClose }: { target: Target; onClose: () => void }) {
@@ -211,8 +193,11 @@ function Reader({ target, onClose }: { target: Target; onClose: () => void }) {
   const [attempt, setAttempt] = useState(0);
   const panel = useRef<HTMLDivElement>(null);
   const closeButton = useRef<HTMLButtonElement>(null);
-  const { canSpeak, speak } = useGermanSpeech();
-  const speaker = canSpeak ? speak : null;
+  const body = useRef<HTMLDivElement>(null);
+  const position = useRef(target.scroll);
+  const currentTab = useRef(target.tab);
+  const { speak, failed: speechFailed } = useGermanSpeech();
+  const { saveSpot } = useProgress();
   const hasBook = useBookAvailable();
 
   useEffect(() => {
@@ -245,6 +230,30 @@ function Reader({ target, onClose }: { target: Target; onClose: () => void }) {
       previousFocus?.focus({ preventScroll: true });
     };
   }, []);
+
+  useEffect(() => {
+    if (content && body.current && target.tab === currentTab.current) body.current.scrollTop = target.scroll;
+  }, [content, target]);
+
+  // جای مطالعه هنگام بستن درس یا رفتن از اپ ثبت می‌شود، نه با هر اسکرول
+  useEffect(() => {
+    const save = () => saveSpot({ lesson, tab: currentTab.current, scroll: Math.round(position.current), at: Date.now() });
+    const onHide = () => {
+      if (document.visibilityState === "hidden") save();
+    };
+    document.addEventListener("visibilitychange", onHide);
+    return () => {
+      document.removeEventListener("visibilitychange", onHide);
+      save();
+    };
+  }, [lesson, saveSpot]);
+
+  const chooseTab = (next: ReaderTab) => {
+    currentTab.current = next;
+    position.current = 0;
+    setTab(next);
+    if (body.current) body.current.scrollTop = 0;
+  };
 
   const onKeyDown = (event: React.KeyboardEvent) => {
     if (event.key === "Escape") onClose();
@@ -297,7 +306,7 @@ function Reader({ target, onClose }: { target: Target; onClose: () => void }) {
               type="button"
               role="tab"
               aria-selected={tab === item.key}
-              onClick={() => setTab(item.key)}
+              onClick={() => chooseTab(item.key)}
             >
               {item.label}
               <span className="count">{fa(item.count(content))}</span>
@@ -306,7 +315,7 @@ function Reader({ target, onClose }: { target: Target; onClose: () => void }) {
         </div>
       )}
 
-      <div className="reader__body">
+      <div className="reader__body" ref={body} onScroll={(e) => (position.current = e.currentTarget.scrollTop)}>
         {failed && (
           <div className="notice">
             <h2>متن این درس باز نشد</h2>
@@ -331,11 +340,13 @@ function Reader({ target, onClose }: { target: Target; onClose: () => void }) {
             {content.audio && (
               <audio className="reader__audio" controls src={`${BASE_PATH}/${content.audio}`} />
             )}
-            {!canSpeak && !content.audio && (
-              <p className="reader__source">این مرورگر صدای آلمانی ندارد، پس دکمه‌ی خواندن با صدا نمایش داده نمی‌شود.</p>
+            {speechFailed && (
+              <p className="error" role="alert">
+                صدا پخش نشد. اینترنت را بررسی کن و دوباره بزن.
+              </p>
             )}
 
-            {tab === "guide" && <Guide content={content} lesson={lesson} hasBook={hasBook} speak={speaker} />}
+            {tab === "guide" && <Guide content={content} lesson={lesson} hasBook={hasBook} speak={speak} />}
             {tab === "sentences" &&
               info.sections.map((section) => (
                 <section key={section.key} className="group" data-section={section.key}>
@@ -348,7 +359,7 @@ function Reader({ target, onClose }: { target: Target; onClose: () => void }) {
                       .filter((line) => line.section === section.key)
                       .map((line) => (
                         <li key={line.de} className="sentence">
-                          <Pair line={line} speak={speaker} />
+                          <Pair line={line} speak={speak} />
                         </li>
                       ))}
                   </ul>
@@ -377,7 +388,7 @@ function Reader({ target, onClose }: { target: Target; onClose: () => void }) {
                       {content.words
                         .filter((word) => word.topic === topic)
                         .map((word) => (
-                          <WordCard key={word.de} word={word} speak={speaker} />
+                          <WordCard key={word.de} word={word} speak={speak} />
                         ))}
                     </ul>
                   </section>
@@ -393,7 +404,7 @@ function Reader({ target, onClose }: { target: Target; onClose: () => void }) {
                     </h3>
                     <p>{note.fa}</p>
                     {note.examples.map((example) => (
-                      <Pair key={example.de} line={example} speak={speaker} />
+                      <Pair key={example.de} line={example} speak={speak} />
                     ))}
                   </li>
                 ))}
@@ -403,7 +414,7 @@ function Reader({ target, onClose }: { target: Target; onClose: () => void }) {
               <ul className="stack">
                 {content.proverbs.map((line) => (
                   <li key={line.de} className="proverb">
-                    <Pair line={line} speak={speaker} />
+                    <Pair line={line} speak={speak} />
                   </li>
                 ))}
               </ul>
@@ -415,7 +426,7 @@ function Reader({ target, onClose }: { target: Target; onClose: () => void }) {
                   {content.dialog.lines.map((line) => (
                     <li key={`${line.who}-${line.de}`} data-side={line.who === content.dialog.lines[0].who ? "a" : "b"}>
                       <De className="dialog__who">{line.who}</De>
-                      <Pair line={line} speak={speaker} />
+                      <Pair line={line} speak={speak} />
                     </li>
                   ))}
                 </ul>
