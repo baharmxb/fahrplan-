@@ -25,14 +25,11 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover", // برای استفاده از env(safe-area-inset-*) در ناچ و نوار خانه
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#FBF5F6" },
-    { media: "(prefers-color-scheme: dark)", color: "#1A1019" },
-  ],
+  themeColor: "#FBF5F6",
 };
 
 // پیش از نقاشی صفحه اجرا می‌شود تا تم انتخابی چشمک نزند
-const themeScript = `try{var t=localStorage.getItem("fahrplan.theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}`;
+const themeScript = `try{var t=localStorage.getItem("fahrplan.theme");if(t==="dark")document.documentElement.dataset.theme=t}catch(e){}`;
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (

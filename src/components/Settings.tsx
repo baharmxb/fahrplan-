@@ -35,17 +35,17 @@ export function StartDatePicker() {
   );
 }
 
-type Theme = "system" | "light" | "dark";
+type Theme = "light" | "dark";
 const THEME_KEY = "fahrplan.theme";
 
 export function ThemeSwitch() {
-  const [theme, setTheme] = useState<Theme>("system");
+  const [theme, setTheme] = useState<Theme>("light");
 
   useEffect(() => {
     try {
-      setTheme((localStorage.getItem(THEME_KEY) as Theme | null) ?? "system");
+      setTheme(localStorage.getItem(THEME_KEY) === "dark" ? "dark" : "light");
     } catch {
-      // بدون حافظه‌ی مرورگر، تم سیستم می‌ماند
+      // بدون حافظه‌ی مرورگر، تم روشن می‌ماند
     }
   }, []);
 
@@ -56,11 +56,11 @@ export function ThemeSwitch() {
     } catch {
       // انتخاب فقط برای همین نشست اعمال می‌شود
     }
-    if (next === "system") document.documentElement.removeAttribute("data-theme");
+    if (next === "light") document.documentElement.removeAttribute("data-theme");
     else document.documentElement.dataset.theme = next;
   };
 
-  const names: Record<Theme, string> = { system: "مثل سیستم", light: "روشن", dark: "تاریک" };
+  const names: Record<Theme, string> = { light: "روشن", dark: "تاریک" };
   return (
     <div className="field">
       <span id="theme-label">ظاهر</span>

@@ -51,36 +51,6 @@
   color-scheme: light;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --paper: #1a1019;
-    --surface: #261826;
-    --sunken: #332233;
-    --ink: #f6ecf1;
-    --ink-2: #c3aebd;
-    --rule: #3e2b3d;
-    --accent: #4a2240;
-    --on-accent: #fbe4ec;
-    --brand: #4e2145;
-    --on-brand: #ffffff;
-    --on-brand-2: #e2c6d6;
-  --highlight: #ffd1e1;
-    --action: #f0a8c6;
-    --on-action: #2b1a2a;
-    --alert: #ff9fb2;
-    --mark-full: #f0a8c6;
-    --mark-part: #8a4f70;
-    --line-1: #e0668f;
-    --line-2: #b98834;
-    --line-3: #3fa892;
-    --line-4: #9c82e0;
-    --der: #8fb4ee;
-    --die: #f08db0;
-    --das: #6fd0a4;
-    color-scheme: dark;
-  }
-}
-
 :root[data-theme="dark"] {
   --paper: #1a1019;
   --surface: #261826;
