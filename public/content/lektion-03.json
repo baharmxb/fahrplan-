@@ -1,0 +1,205 @@
+{
+  "lesson": 3,
+  "source": "app",
+  "audio": null,
+  "grammar": [
+    {
+      "title": "Präteritum: regelmäßige und unregelmäßige Verben",
+      "fa": "گذشته‌ی ساده بیشتر در نوشته به کار می‌رود. فعل‌های باقاعده -te می‌گیرند و بی‌قاعده‌ها ریشه‌شان عوض می‌شود. شخص اول و سوم مفرد پایانه ندارند.",
+      "examples": [
+        {
+          "de": "Sie arbeitete zehn Jahre in Bonn.",
+          "fa": "او ده سال در بن کار کرد."
+        },
+        {
+          "de": "Wir fuhren jeden Sommer ans Meer.",
+          "fa": "هر تابستان به کنار دریا می‌رفتیم."
+        }
+      ]
+    },
+    {
+      "title": "Konjunktiv II sollen",
+      "fa": "sollte برای توصیه و پیشنهاد مؤدبانه است، یعنی «بهتر است».",
+      "examples": [
+        {
+          "de": "Du solltest deine Eltern öfter anrufen.",
+          "fa": "بهتر است بیشتر به پدر و مادرت زنگ بزنی."
+        },
+        {
+          "de": "Ihr solltet früher schlafen gehen.",
+          "fa": "بهتر است زودتر بخوابید."
+        }
+      ]
+    },
+    {
+      "title": "reziproke Verben",
+      "fa": "این فعل‌ها رابطه‌ی دوطرفه را نشان می‌دهند و با ضمیر sich یا uns و euch می‌آیند، یعنی «همدیگر را».",
+      "examples": [
+        {
+          "de": "Wir treffen uns jeden Freitag.",
+          "fa": "هر جمعه همدیگر را می‌بینیم."
+        },
+        {
+          "de": "Die beiden verstehen sich sehr gut.",
+          "fa": "آن دو خیلی خوب همدیگر را درک می‌کنند."
+        }
+      ]
+    },
+    {
+      "title": "Wortbildung: un + Adjektiv",
+      "fa": "پیشوند un- معنای صفت را منفی می‌کند.",
+      "examples": [
+        {
+          "de": "Das ist wirklich unfreundlich.",
+          "fa": "این واقعاً نامهربانانه است."
+        },
+        {
+          "de": "Mein Bruder ist manchmal unordentlich.",
+          "fa": "برادرم گاهی شلخته است."
+        }
+      ]
+    }
+  ],
+  "proverbs": [
+    {
+      "de": "Blut ist dicker als Wasser.",
+      "fa": "خون از آب غلیظ‌تر است؛ خانواده مقدم است."
+    },
+    {
+      "de": "Der Apfel fällt nicht weit vom Stamm.",
+      "fa": "گندم از گندم بروید، جو ز جو؛ فرزند به پدر و مادرش می‌رود."
+    }
+  ],
+  "dialog": {
+    "title": "ماجرای آشنایی",
+    "lines": [
+      {
+        "who": "Mina",
+        "de": "Wie habt ihr euch eigentlich kennengelernt?",
+        "fa": "راستی شما چطور با هم آشنا شدید؟"
+      },
+      {
+        "who": "Jonas",
+        "de": "An der Uni. Wir saßen im selben Kurs.",
+        "fa": "در دانشگاه. سر یک کلاس می‌نشستیم."
+      },
+      {
+        "who": "Mina",
+        "de": "War es Liebe auf den ersten Blick?",
+        "fa": "عشق در نگاه اول بود؟"
+      },
+      {
+        "who": "Jonas",
+        "de": "Nein! Ich fand sie zuerst unsympathisch.",
+        "fa": "نه! اول به نظرم آدم نچسبی بود."
+      },
+      {
+        "who": "Mina",
+        "de": "Und wann habt ihr geheiratet?",
+        "fa": "کی ازدواج کردید؟"
+      },
+      {
+        "who": "Jonas",
+        "de": "Vor fünf Jahren. Wir sind sehr glücklich.",
+        "fa": "پنج سال پیش. خیلی خوشبختیم."
+      }
+    ]
+  },
+  "guide": {
+    "osd": "نوشتن ایمیل شخصی درباره‌ی خانواده و گذشته تمرین مستقیم Schreiben است.",
+    "starten": "شنیدن نسبت‌های خانوادگی روی یک عکس و کشیدن شجره‌نامه‌ی خانواده‌ی خودت.",
+    "sections": {
+      "A": "سه مصاحبه درباره‌ی سه نوع خانواده: خانواده‌ی چندفرهنگی Philipp، خانواده‌ی هسته‌ای Karin و خانواده‌ی ترکیبی Anna. لغات خانواده، Präteritum فعل‌های sein و haben و نوشتن درباره‌ی خانواده‌ی خودت.",
+      "B": "صفت‌های ظاهر و شخصیت، و ماجرای یک پدر که برای بچه‌هایش تعریف می‌کند با مادرشان چطور بعد از یک مهمانی و یک چتر آشنا شد. Präteritum باقاعده و بی‌قاعده.",
+      "C": "فرق Freund و Bekannte، مصاحبه‌ی رادیویی درباره‌ی دوستان فیس‌بوکی، فعل‌های دوطرفه و نصیحت با sollte. ساختن فهرست توصیه برای شبکه‌های اجتماعی."
+    },
+    "xtra": "دختری در یازده‌سالگی نامه‌ای به آینده‌ی خودش می‌نویسد و ده سال بعد به آن پاسخ می‌دهد.",
+    "phrases": [
+      {
+        "de": "Ich bin ledig.",
+        "fa": "مجردم."
+      },
+      {
+        "de": "Du hast recht.",
+        "fa": "حق با توست."
+      },
+      {
+        "de": "Das glaube ich nicht.",
+        "fa": "این را قبول ندارم."
+      },
+      {
+        "de": "Das stimmt nicht.",
+        "fa": "درست نیست."
+      },
+      {
+        "de": "Du solltest vorsichtig sein.",
+        "fa": "بهتر است مراقب باشی."
+      },
+      {
+        "de": "Also, ich weiß nicht.",
+        "fa": "راستش نمی‌دانم."
+      }
+    ]
+  },
+  "sentences": [
+    {"section":"A","de":"Mein Großvater kam 1960 nach Deutschland.","fa":"پدربزرگم سال ۱۹۶۰ به آلمان آمد."},
+    {"section":"A","de":"Als Kind wohnte ich bei meiner Tante.","fa":"در کودکی پیش عمه‌ام زندگی می‌کردم."},
+    {"section":"A","de":"Wir sind eine große Patchworkfamilie.","fa":"ما یک خانواده‌ی بزرگ و ترکیبی هستیم."},
+    {"section":"A","de":"Meine Tante hat drei Kinder.","fa":"خاله‌ام سه بچه دارد."},
+    {"section":"A","de":"Früher lebten wir alle in einem Haus.","fa":"قدیم همه در یک خانه زندگی می‌کردیم."},
+    {"section":"A","de":"Meine Tochter geht schon in den Kindergarten.","fa":"دخترم دیگر به مهدکودک می‌رود."},
+    {"section":"A","de":"Das Baby schläft im Kinderwagen.","fa":"نوزاد در کالسکه خوابیده است."},
+    {"section":"A","de":"Meine Schwester ist schwanger.","fa":"خواهرم باردار است."},
+    {"section":"A","de":"Die Geschwister streiten oft beim Essen.","fa":"خواهر و برادرها موقع غذا اغلب دعوا می‌کنند."},
+    {"section":"B","de":"Meine Eltern lernten sich im Zug kennen.","fa":"پدر و مادرم در قطار با هم آشنا شدند."},
+    {"section":"B","de":"Er war freundlich, aber ein bisschen unpünktlich.","fa":"او مهربان بود، ولی کمی وقت‌نشناس."},
+    {"section":"B","de":"Sie ist ruhig und sehr nett.","fa":"او آرام و خیلی مهربان است."},
+    {"section":"B","de":"Wir heirateten im Sommer in Isfahan.","fa":"تابستان در اصفهان ازدواج کردیم."},
+    {"section":"B","de":"Ich sah ihn zum ersten Mal im Park.","fa":"اولین بار او را در پارک دیدم."},
+    {"section":"B","de":"Am Sonntag bin ich ein bisschen faul.","fa":"یکشنبه‌ها کمی تنبلم."},
+    {"section":"B","de":"Der Film ist gut, aber das Plakat ist hässlich.","fa":"فیلم خوب است، ولی پوسترش زشت است."},
+    {"section":"C","de":"Du solltest nicht so viel Zeit am Handy verbringen.","fa":"بهتر است این‌قدر وقت با موبایل نگذرانی."},
+    {"section":"C","de":"Da hast du recht, das sehe ich auch so.","fa":"حق با توست، من هم همین‌طور فکر می‌کنم."},
+    {"section":"C","de":"Echte Freunde treffen sich auch offline.","fa":"دوستان واقعی بیرون از اینترنت هم همدیگر را می‌بینند."},
+    {"section":"C","de":"Ich poste nicht gern Fotos von meiner Familie.","fa":"دوست ندارم عکس خانواده‌ام را پست کنم."},
+    {"section":"C","de":"Das finde ich nicht richtig.","fa":"به نظرم این درست نیست."},
+    {"section":"C","de":"Unser Nachbar ist ein guter Freund.","fa":"همسایه‌مان دوست خوبی است."},
+    {"section":"C","de":"Das Passwort zu teilen ist gefährlich.","fa":"هم‌رسانی گذرواژه خطرناک است."}
+  ],
+  "words": [
+    {"de":"Eltern","art":null,"fa":"والدین (همیشه جمع)","topic":"Familie"},
+    {"de":"Geschwister","art":null,"fa":"خواهر و برادر (جمع)","topic":"Familie"},
+    {"de":"Enkelkind","art":"das","pl":"-er","fa":"نوه","topic":"Familie"},
+    {"de":"Onkel","art":"der","pl":"-","fa":"عمو، دایی","topic":"Familie"},
+    {"de":"Tante","art":"die","pl":"-n","fa":"عمه، خاله","topic":"Familie"},
+    {"de":"Ehefrau","art":"die","pl":"-en","fa":"همسر (زن)","topic":"Familientypen"},
+    {"de":"Ehemann","art":"der","pl":"¨-er","fa":"همسر (مرد)","topic":"Familientypen"},
+    {"de":"Hochzeit","art":"die","pl":"-en","fa":"عروسی","topic":"Familientypen"},
+    {"de":"heiraten","art":null,"fa":"ازدواج کردن","topic":"Familientypen"},
+    {"de":"Großfamilie","art":"die","pl":"-n","fa":"خانواده‌ی بزرگ","topic":"Familientypen"},
+    {"de":"alleinerziehend","art":null,"fa":"سرپرست تنهای فرزند","topic":"Familientypen"},
+    {"de":"geschieden","art":null,"fa":"طلاق‌گرفته","topic":"Familientypen"},
+    {"de":"Charakter","art":"der","pl":"-e","fa":"شخصیت","topic":"Aussehen und Charakter"},
+    {"de":"ehrlich","art":null,"fa":"صادق","topic":"Aussehen und Charakter"},
+    {"de":"unhöflich","art":null,"fa":"بی‌ادب","topic":"Aussehen und Charakter"},
+    {"de":"sich verlieben","art":null,"fa":"عاشق شدن","topic":"Aussehen und Charakter"},
+    {"de":"Vergangenheit","art":"die","fa":"گذشته","topic":"Aussehen und Charakter"},
+    {"de":"lustig","art":null,"fa":"شوخ","topic":"Aussehen und Charakter"},
+    {"de":"ruhig","art":null,"fa":"آرام","topic":"Aussehen und Charakter"},
+    {"de":"nett","art":null,"fa":"مهربان","topic":"Aussehen und Charakter"},
+    {"de":"Netzwerk","art":"das","pl":"-e","fa":"شبکه","topic":"Freunde und soziale Medien"},
+    {"de":"Nachricht","art":"die","pl":"-en","fa":"پیام","topic":"Freunde und soziale Medien"},
+    {"de":"Foto","art":"das","pl":"-s","fa":"عکس","topic":"Freunde und soziale Medien"},
+    {"de":"Kommentar","art":"der","pl":"-e","fa":"نظر، کامنت","topic":"Freunde und soziale Medien"},
+    {"de":"posten","art":null,"fa":"پست گذاشتن","topic":"Freunde und soziale Medien"},
+    {"de":"teilen","art":null,"fa":"هم‌رسانی کردن","topic":"Freunde und soziale Medien"},
+    {"de":"Kindergarten","art":"der","pl":"¨-","fa":"مهدکودک","topic":"Familie"},
+    {"de":"Kinderwagen","art":"der","pl":"-","fa":"کالسکه","topic":"Familie"},
+    {"de":"schwanger","art":null,"fa":"باردار","topic":"Familientypen"},
+    {"de":"streiten","art":null,"fa":"دعوا کردن","topic":"Familientypen"},
+    {"de":"faul","art":null,"fa":"تنبل","topic":"Aussehen und Charakter"},
+    {"de":"hässlich","art":null,"fa":"زشت","topic":"Aussehen und Charakter"},
+    {"de":"Nachbar","art":"der","pl":"-n","fa":"همسایه","topic":"Freunde und soziale Medien"},
+    {"de":"gefährlich","art":null,"fa":"خطرناک","topic":"Freunde und soziale Medien"}
+  ]
+}

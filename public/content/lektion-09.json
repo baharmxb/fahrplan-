@@ -1,0 +1,192 @@
+{
+  "lesson": 9,
+  "source": "app",
+  "audio": null,
+  "grammar": [
+    {
+      "title": "Konnektor dann",
+      "fa": "dann ترتیب رویدادها را نشان می‌دهد. اگر اول جمله بیاید، فعل بلافاصله بعد از آن قرار می‌گیرد.",
+      "examples": [
+        {
+          "de": "Zuerst esse ich, dann sehe ich fern.",
+          "fa": "اول غذا می‌خورم، بعد تلویزیون می‌بینم."
+        },
+        {
+          "de": "Wir kaufen ein, dann kochen wir zusammen.",
+          "fa": "خرید می‌کنیم، بعد با هم آشپزی می‌کنیم."
+        }
+      ]
+    },
+    {
+      "title": "Adjektivdeklination nach indefinitem Artikel im Akkusativ und Dativ",
+      "fa": "در آکوزاتیو فقط مذکر ‎-en می‌گیرد و مؤنث و خنثی مانند نومیناتیو هستند. در دَتیو همه‌ی جنس‌ها ‎-en می‌گیرند.",
+      "examples": [
+        {
+          "de": "Ich habe einen neuen Laptop.",
+          "fa": "یک لپ‌تاپ جدید دارم."
+        },
+        {
+          "de": "Er spielt mit einem kleinen Kind.",
+          "fa": "او با یک بچه‌ی کوچک بازی می‌کند."
+        }
+      ]
+    },
+    {
+      "title": "Verben mit Dativ- und Akkusativergänzung",
+      "fa": "فعل‌هایی مثل schenken و geben و zeigen دو مفعول دارند: شخص در دَتیو و چیز در آکوزاتیو.",
+      "examples": [
+        {
+          "de": "Ich schenke meiner Schwester ein Buch.",
+          "fa": "به خواهرم یک کتاب هدیه می‌دهم."
+        },
+        {
+          "de": "Er zeigt dem Gast die Wohnung.",
+          "fa": "او آپارتمان را به مهمان نشان می‌دهد."
+        }
+      ]
+    }
+  ],
+  "proverbs": [
+    {
+      "de": "Morgenstund hat Gold im Mund.",
+      "fa": "سحرخیز باش تا کامروا باشی."
+    },
+    {
+      "de": "Wer rastet, der rostet.",
+      "fa": "هر که از حرکت بایستد، زنگ می‌زند."
+    }
+  ],
+  "dialog": {
+    "title": "مهمانی کوچک",
+    "lines": [
+      {
+        "who": "Gastgeberin",
+        "de": "Schön, dass du da bist! Komm doch rein.",
+        "fa": "چه خوب که آمدی! بیا تو."
+      },
+      {
+        "who": "Gast",
+        "de": "Danke für die Einladung! Das ist für dich.",
+        "fa": "ممنون بابت دعوت! این برای توست."
+      },
+      {
+        "who": "Gastgeberin",
+        "de": "Oh, wie nett! Möchtest du etwas trinken?",
+        "fa": "وای، چه لطفی! چیزی می‌نوشی؟"
+      },
+      {
+        "who": "Gast",
+        "de": "Gern, ein Glas Wasser, bitte.",
+        "fa": "با کمال میل، یک لیوان آب لطفاً."
+      },
+      {
+        "who": "Gastgeberin",
+        "de": "Nimm dir auch ein paar Snacks.",
+        "fa": "چند تا خوراکی هم بردار."
+      },
+      {
+        "who": "Gast",
+        "de": "Die sehen lecker aus. Vielen Dank!",
+        "fa": "خیلی خوشمزه به نظر می‌رسند. خیلی ممنون!"
+      }
+    ]
+  },
+  "guide": {
+    "osd": "پیشنهاد دادن و پذیرفتن یا ردکردن آن در نقش میزبان، برای برنامه‌ریزی مشترک شفاهی مفید است.",
+    "starten": "واژه‌ی Fernsehen را در چند زبان پیدا می‌کنی و درباره‌ی برنامه‌های تلویزیون حرف می‌زنی.",
+    "sections": {
+      "A": "جدول برنامه‌های تلویزیون، dann، متن درباره‌ی تماشای آنلاین و پایانه‌ی صفت در آکوزاتیو. حدس زدن این‌که برای یار تمرینی چه محصولی خریده‌ای.",
+      "B": "خانه‌ی هوشمند و یخچال اینترنتی، dativ صفت بعد از ein، کارهایی که در اینترنت می‌کنی، معرفی و نقد چند اپ و نقش میزبانی که خوراکی پیشنهاد می‌دهد.",
+      "C": "جشن‌های Weihnachten، Ostern و Silvester از زبان سه وبلاگ‌نویس، فعل با دَتیو و آکوزاتیو، این‌که به چه کسی چه هدیه می‌دهیم و نوشتن درباره‌ی جشن محبوب کودکی."
+    },
+    "xtra": "طرح یک لپ‌تاپ برای هر کودک در کشورهای فقیر، با دلایل موافقان و منتقدان.",
+    "phrases": [
+      {
+        "de": "Was läuft denn im Fernsehen?",
+        "fa": "تلویزیون چی دارد؟"
+      },
+      {
+        "de": "Wie wär's mit ...?",
+        "fa": "با ... چطوری؟"
+      },
+      {
+        "de": "Was darf ich dir anbieten?",
+        "fa": "چه چیزی برایت بیاورم؟"
+      },
+      {
+        "de": "Nein, danke, im Moment nicht.",
+        "fa": "نه ممنون، فعلاً نه."
+      },
+      {
+        "de": "Frohe Weihnachten!",
+        "fa": "کریسمس مبارک!"
+      },
+      {
+        "de": "Ein frohes neues Jahr!",
+        "fa": "سال نو مبارک!"
+      }
+    ]
+  },
+  "sentences": [
+    {"section":"A","de":"Was läuft heute Abend im Fernsehen?","fa":"امشب تلویزیون چه برنامه‌ای دارد؟"},
+    {"section":"A","de":"Ich sehe Serien lieber im Internet.","fa":"ترجیح می‌دهم سریال‌ها را در اینترنت ببینم."},
+    {"section":"A","de":"Hast du deiner Mutter das richtige Handy gekauft?","fa":"برای مادرت گوشی مناسب را خریدی؟"},
+    {"section":"A","de":"Ich sehe abends nur die Nachrichten.","fa":"شب‌ها فقط اخبار می‌بینم."},
+    {"section":"A","de":"Hast du für deinen Vater die richtige Maus gekauft?","fa":"برای پدرت موس درست را خریدی؟"},
+    {"section":"A","de":"Meine Eltern sehen abends gern eine Talkshow.","fa":"پدر و مادرم شب‌ها دوست دارند برنامه‌ی گفت‌وگو ببینند."},
+    {"section":"A","de":"Die Sendung finde ich später in der Mediathek.","fa":"این برنامه را بعداً در آرشیو آنلاین پیدا می‌کنم."},
+    {"section":"A","de":"Am Computer brauche ich einen größeren Monitor.","fa":"برای کامپیوتر نمایشگر بزرگ‌تری لازم دارم."},
+    {"section":"A","de":"Ich habe die Nachrichten leider verpasst.","fa":"متأسفانه اخبار را از دست دادم."},
+    {"section":"B","de":"Ich nutze das Internet vor allem zum Lernen.","fa":"از اینترنت بیشتر برای یادگیری استفاده می‌کنم."},
+    {"section":"B","de":"Darf ich dir etwas zu trinken anbieten?","fa":"می‌توانم چیزی برای نوشیدن به تو پیشنهاد کنم؟"},
+    {"section":"B","de":"Meine Lieblings-App hilft mir beim Deutschlernen.","fa":"اپ محبوبم در یادگیری آلمانی کمکم می‌کند."},
+    {"section":"B","de":"Möchtest du einen Tee oder lieber einen Saft?","fa":"چای می‌خواهی یا آب‌میوه را ترجیح می‌دهی؟"},
+    {"section":"B","de":"Ich habe die App gestern heruntergeladen.","fa":"دیروز این اپ را دانلود کردم."},
+    {"section":"B","de":"Hast du dein Handy schon wieder verloren?","fa":"باز هم موبایلت را گم کردی؟"},
+    {"section":"B","de":"Mit dieser App kann man die Heizung steuern.","fa":"با این اپ می‌شود سیستم گرمایش را کنترل کرد."},
+    {"section":"C","de":"Zuerst decken wir den Tisch, dann kommen die Gäste.","fa":"اول میز را می‌چینیم، بعد مهمان‌ها می‌آیند."},
+    {"section":"C","de":"Zu Nouruz schenkt mein Großvater uns neues Geld.","fa":"در نوروز پدربزرگم به ما پول نو عیدی می‌دهد."},
+    {"section":"C","de":"Als Kind war Neujahr mein Lieblingsfest.","fa":"در کودکی، سال نو جشن محبوبم بود."},
+    {"section":"C","de":"Am Geburtstag schenken wir den Kindern Bücher.","fa":"در روز تولد به بچه‌ها کتاب هدیه می‌دهیم."},
+    {"section":"C","de":"Bei uns ist Nouruz das wichtigste Fest.","fa":"پیش ما نوروز مهم‌ترین جشن است."},
+    {"section":"C","de":"Das Feuerwerk beginnt um Mitternacht.","fa":"آتش‌بازی نیمه‌شب شروع می‌شود."},
+    {"section":"C","de":"An Heiligabend ist die Familie zusammen.","fa":"در شب کریسمس خانواده دور هم هستند."}
+  ],
+  "words": [
+    {"de":"Sendung","art":"die","pl":"-en","fa":"برنامه‌ی تلویزیونی","topic":"Fernsehen und Sendungen"},
+    {"de":"Nachrichten","art":null,"fa":"اخبار (جمع)","topic":"Fernsehen und Sendungen"},
+    {"de":"Serie","art":"die","pl":"-n","fa":"سریال","topic":"Fernsehen und Sendungen"},
+    {"de":"Fernbedienung","art":"die","pl":"-en","fa":"کنترل از راه دور","topic":"Fernsehen und Sendungen"},
+    {"de":"Sender","art":"der","pl":"-","fa":"شبکه‌ی تلویزیونی","topic":"Fernsehen und Sendungen"},
+    {"de":"Krimi","art":"der","pl":"-s","fa":"فیلم پلیسی","topic":"Fernsehen und Sendungen"},
+    {"de":"Passwort","art":"das","pl":"¨-er","fa":"گذرواژه","topic":"Internet"},
+    {"de":"herunterladen","art":null,"fa":"دانلود کردن","topic":"Internet"},
+    {"de":"Webseite","art":"die","pl":"-n","fa":"وب‌سایت","topic":"Internet"},
+    {"de":"suchen","art":null,"fa":"جست‌وجو کردن","topic":"Internet"},
+    {"de":"Bildschirm","art":"der","pl":"-e","fa":"صفحه‌نمایش","topic":"Computer"},
+    {"de":"Tastatur","art":"die","pl":"-en","fa":"صفحه‌کلید","topic":"Computer"},
+    {"de":"Datei","art":"die","pl":"-en","fa":"فایل","topic":"Computer"},
+    {"de":"speichern","art":null,"fa":"ذخیره کردن","topic":"Computer"},
+    {"de":"praktisch","art":null,"fa":"کاربردی","topic":"Apps"},
+    {"de":"App","art":"die","pl":"-s","fa":"اپلیکیشن","topic":"Apps"},
+    {"de":"Handy","art":"das","pl":"-s","fa":"موبایل","topic":"Apps"},
+    {"de":"installieren","art":null,"fa":"نصب کردن","topic":"Apps"},
+    {"de":"Gastgeber","art":"der","pl":"-","fa":"میزبان","topic":"Apps"},
+    {"de":"anbieten","art":null,"fa":"پیشنهاد کردن، پذیرایی کردن","topic":"Apps"},
+    {"de":"Feiertag","art":"der","pl":"-e","fa":"تعطیل رسمی","topic":"Feste und Feiertage"},
+    {"de":"Fest","art":"das","pl":"-e","fa":"جشن","topic":"Feste und Feiertage"},
+    {"de":"Geschenk","art":"das","pl":"-e","fa":"هدیه","topic":"Feste und Feiertage"},
+    {"de":"feiern","art":null,"fa":"جشن گرفتن","topic":"Feste und Feiertage"},
+    {"de":"Geburtstag","art":"der","pl":"-e","fa":"تولد","topic":"Feste und Feiertage"},
+    {"de":"Neujahr","art":"das","fa":"سال نو","topic":"Feste und Feiertage"},
+    {"de":"schenken","art":null,"fa":"هدیه دادن","topic":"Feste und Feiertage"},
+    {"de":"Talkshow","art":"die","pl":"-s","fa":"برنامه‌ی گفت‌وگو","topic":"Fernsehen und Sendungen"},
+    {"de":"Mediathek","art":"die","pl":"-en","fa":"آرشیو آنلاین تلویزیون","topic":"Fernsehen und Sendungen"},
+    {"de":"Monitor","art":"der","pl":"-e","fa":"نمایشگر","topic":"Computer"},
+    {"de":"verpassen","art":null,"fa":"از دست دادن","topic":"Fernsehen und Sendungen"},
+    {"de":"verlieren","art":null,"fa":"گم کردن","topic":"Apps"},
+    {"de":"Heizung","art":"die","pl":"-en","fa":"سیستم گرمایش","topic":"Internet"},
+    {"de":"Feuerwerk","art":"das","pl":"-e","fa":"آتش‌بازی","topic":"Feste und Feiertage"},
+    {"de":"Heiligabend","art":"der","pl":"-e","fa":"شب کریسمس","topic":"Feste und Feiertage"}
+  ]
+}

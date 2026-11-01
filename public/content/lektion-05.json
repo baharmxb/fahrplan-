@@ -1,0 +1,178 @@
+{
+  "lesson": 5,
+  "source": "app",
+  "audio": null,
+  "grammar": [
+    {
+      "title": "Konjunktiv II: haben / können",
+      "fa": "برای خواهش مؤدبانه و آرزو از hätte و könnte استفاده می‌کنیم. ساختار جمله مثل زمان حال است.",
+      "examples": [
+        {
+          "de": "Ich hätte gern einen Kaffee.",
+          "fa": "یک قهوه می‌خواستم."
+        },
+        {
+          "de": "Könntest du mir das Salz geben?",
+          "fa": "ممکن است نمک را به من بدهی؟"
+        }
+      ]
+    },
+    {
+      "title": "Indefinitpronomen ein- / welch- im Nominativ und Akkusativ",
+      "fa": "ein- جای اسم مفرد قابل‌شمارش می‌نشیند، مثلاً einer, eine, eins. welch- جای اسم جمع یا غیرقابل‌شمارش می‌آید. منفی آن‌ها با kein- ساخته می‌شود.",
+      "examples": [
+        {
+          "de": "Brauchst du einen Löffel? Ja, ich brauche einen.",
+          "fa": "قاشق لازم داری؟ بله، یکی لازم دارم."
+        },
+        {
+          "de": "Gibt es noch Tomaten? Ja, hier sind welche.",
+          "fa": "هنوز گوجه هست؟ بله، اینجا چندتایی هست."
+        }
+      ]
+    }
+  ],
+  "proverbs": [
+    {
+      "de": "Der Appetit kommt beim Essen.",
+      "fa": "اشتها با خوردن باز می‌شود."
+    },
+    {
+      "de": "Liebe geht durch den Magen.",
+      "fa": "راه دل از معده می‌گذرد."
+    }
+  ],
+  "dialog": {
+    "title": "شام در وین",
+    "lines": [
+      {
+        "who": "Kellner",
+        "de": "Guten Abend! Was darf ich Ihnen bringen?",
+        "fa": "عصر به‌خیر! چه میل دارید؟"
+      },
+      {
+        "who": "Gast",
+        "de": "Ich hätte gern die Tagessuppe und ein Wasser.",
+        "fa": "سوپ روز و یک آب می‌خواهم."
+      },
+      {
+        "who": "Kellner",
+        "de": "Sehr gern. Und als Hauptspeise?",
+        "fa": "با کمال میل. برای غذای اصلی چطور؟"
+      },
+      {
+        "who": "Gast",
+        "de": "Das Wiener Schnitzel, bitte, aber ohne Pommes.",
+        "fa": "لطفاً شنیتسل وینی، اما بدون سیب‌زمینی سرخ‌کرده."
+      },
+      {
+        "who": "Kellner",
+        "de": "Hat es Ihnen geschmeckt?",
+        "fa": "غذا به مذاقتان خوش آمد؟"
+      },
+      {
+        "who": "Gast",
+        "de": "Ja, sehr gut! Könnte ich bitte zahlen?",
+        "fa": "بله، خیلی خوب بود! می‌توانم حساب کنم؟"
+      }
+    ]
+  },
+  "guide": {
+    "osd": "سفارش در رستوران و برنامه‌ریزی مهمانی شبیه بخش برنامه‌ریزی مشترک در آزمون شفاهی است.",
+    "starten": "Theo و پدرش Max خریدها را باز می‌کنند و مقدارها را نام می‌بری.",
+    "sections": {
+      "A": "بسته‌بندی‌ها و مقدارها، و متن درباره‌ی فروشگاهی بدون بسته‌بندی در برلین که مشتری ظرف خودش را می‌آورد. نظر دادن درباره‌ی ایده، ضمایر einer و eins و دسته‌بندی زباله.",
+      "B": "خاطره‌ی تولد کودکی، فهرست خرید مشترک و پیام‌های Max و مادرش برای تولد Theo. ضمایر ein- و welch- در آکوزاتیو و برنامه‌ریزی مهمانی کلاس.",
+      "C": "Max در وین مهمان Mia است: دعوت، سفارش، پرداخت و Konjunktiv II با haben و können. برنامه‌ی رادیویی درباره‌ی مقدار انعام."
+    },
+    "xtra": "برنامه‌ی آشپزی Tim Steiner در پرتغال و پخت ماهی با مراحل دستور غذا.",
+    "phrases": [
+      {
+        "de": "Ich hätte gerne ...",
+        "fa": "... می‌خواستم."
+      },
+      {
+        "de": "Könnte ich bitte zahlen?",
+        "fa": "می‌توانم حساب کنم؟"
+      },
+      {
+        "de": "Stimmt so.",
+        "fa": "باقی‌اش برای خودتان."
+      },
+      {
+        "de": "Hättest du Lust auf ...?",
+        "fa": "پایه‌ی ... هستی؟"
+      },
+      {
+        "de": "Was kannst du empfehlen?",
+        "fa": "چه چیزی پیشنهاد می‌کنی؟"
+      },
+      {
+        "de": "Haben Sie gewählt?",
+        "fa": "انتخاب کرده‌اید؟"
+      }
+    ]
+  },
+  "sentences": [
+    {"section":"A","de":"Wir bringen beim Einkaufen eine Stofftasche mit.","fa":"موقع خرید یک کیسه‌ی پارچه‌ای با خودمان می‌بریم."},
+    {"section":"A","de":"Glas gehört nicht in den Restmüll.","fa":"شیشه نباید در زباله‌ی عمومی ریخته شود."},
+    {"section":"A","de":"Ich kaufe Obst lieber ohne Verpackung.","fa":"میوه را بیشتر بدون بسته‌بندی می‌خرم."},
+    {"section":"A","de":"Die Idee finde ich gut, aber sie ist teuer.","fa":"این ایده به نظرم خوب است، ولی گران است."},
+    {"section":"A","de":"Papier kommt in die blaue Tonne.","fa":"کاغذ در سطل آبی ریخته می‌شود."},
+    {"section":"A","de":"Der kleine Laden verkauft frisches Obst.","fa":"این مغازه‌ی کوچک میوه‌ی تازه می‌فروشد."},
+    {"section":"A","de":"In der Kantine gibt es Selbstbedienung.","fa":"سلف‌سرویس غذاخوری اداره به‌صورت خودپذیرایی است."},
+    {"section":"A","de":"Die alte Dose kommt in die gelbe Tonne.","fa":"قوطی کهنه در سطل زرد ریخته می‌شود."},
+    {"section":"B","de":"Für die Party brauchen wir zwei Kilo Kartoffeln.","fa":"برای مهمانی دو کیلو سیب‌زمینی لازم داریم."},
+    {"section":"B","de":"Im Kühlschrank habe ich immer Milch und Eier.","fa":"در یخچال همیشه شیر و تخم‌مرغ دارم."},
+    {"section":"B","de":"Haben wir noch Saft? Ja, im Keller ist noch welcher.","fa":"هنوز آب‌میوه داریم؟ بله، توی زیرزمین هنوز هست."},
+    {"section":"B","de":"Wir brauchen noch einen Kasten Wasser.","fa":"یک جعبه آب دیگر لازم داریم."},
+    {"section":"B","de":"Hast du Käse? Nein, ich habe keinen mehr.","fa":"پنیر داری؟ نه، دیگر ندارم."},
+    {"section":"B","de":"Bring bitte noch ein Päckchen Tee mit.","fa":"لطفاً یک بسته چای هم بیاور."},
+    {"section":"C","de":"Ich hätte gern ein Schnitzel mit Salat.","fa":"من یک شنیتسل با سالاد می‌خواهم."},
+    {"section":"C","de":"Könnten Sie mir bitte die Rechnung bringen?","fa":"ممکن است لطفاً صورت‌حساب را بیاورید؟"},
+    {"section":"C","de":"In Österreich gibt man etwa zehn Prozent Trinkgeld.","fa":"در اتریش حدود ده درصد انعام می‌دهند."},
+    {"section":"C","de":"Haben Sie eine Speisekarte auf Englisch?","fa":"منوی انگلیسی دارید؟"},
+    {"section":"C","de":"Zusammen oder getrennt?","fa":"با هم حساب می‌کنید یا جدا؟"},
+    {"section":"C","de":"Der Kellner bringt uns die Speisekarte.","fa":"گارسون منو را برایمان می‌آورد."},
+    {"section":"C","de":"Bitte sei höflich zu den Gästen.","fa":"لطفاً با مهمان‌ها مؤدب باش."}
+  ],
+  "words": [
+    {"de":"Verpackung","art":"die","pl":"-en","fa":"بسته‌بندی","topic":"Verpackungen"},
+    {"de":"Dose","art":"die","pl":"-n","fa":"قوطی","topic":"Verpackungen"},
+    {"de":"Tüte","art":"die","pl":"-n","fa":"کیسه","topic":"Verpackungen"},
+    {"de":"Müll","art":"der","fa":"زباله","topic":"Verpackungen"},
+    {"de":"Flasche","art":"die","pl":"-n","fa":"بطری","topic":"Verpackungen"},
+    {"de":"Packung","art":"die","pl":"-en","fa":"بسته","topic":"Verpackungen"},
+    {"de":"Brot","art":"das","pl":"-e","fa":"نان","topic":"Lebensmittel"},
+    {"de":"Käse","art":"der","pl":"-","fa":"پنیر","topic":"Lebensmittel"},
+    {"de":"Ei","art":"das","pl":"-er","fa":"تخم‌مرغ","topic":"Lebensmittel"},
+    {"de":"Gemüse","art":"das","fa":"سبزیجات","topic":"Lebensmittel"},
+    {"de":"Gramm","art":"das","pl":"-","fa":"گرم","topic":"Mengenangaben"},
+    {"de":"Kasten","art":"der","pl":"¨-","fa":"جعبه، کارتن","topic":"Mengenangaben"},
+    {"de":"Kilo","art":"das","pl":"-s","fa":"کیلو","topic":"Mengenangaben"},
+    {"de":"Liter","art":"der","pl":"-","fa":"لیتر","topic":"Mengenangaben"},
+    {"de":"Stück","art":"das","pl":"-e","fa":"عدد، تکه","topic":"Mengenangaben"},
+    {"de":"Kühlschrank","art":"der","pl":"¨-e","fa":"یخچال","topic":"Einkaufsliste"},
+    {"de":"Liste","art":"die","pl":"-n","fa":"فهرست","topic":"Einkaufsliste"},
+    {"de":"Getränke","art":"die","fa":"نوشیدنی‌ها","topic":"Einkaufsliste"},
+    {"de":"brauchen","art":null,"fa":"لازم داشتن","topic":"Einkaufsliste"},
+    {"de":"Vorspeise","art":"die","pl":"-n","fa":"پیش‌غذا","topic":"Im Restaurant"},
+    {"de":"Rechnung","art":"die","pl":"-en","fa":"صورت‌حساب","topic":"Im Restaurant"},
+    {"de":"bestellen","art":null,"fa":"سفارش دادن","topic":"Im Restaurant"},
+    {"de":"lecker","art":null,"fa":"خوشمزه","topic":"Im Restaurant"},
+    {"de":"Speisekarte","art":"die","pl":"-n","fa":"منو","topic":"Im Restaurant"},
+    {"de":"Hauptspeise","art":"die","pl":"-n","fa":"غذای اصلی","topic":"Im Restaurant"},
+    {"de":"Nachtisch","art":"der","pl":"-e","fa":"دسر","topic":"Im Restaurant"},
+    {"de":"Trinkgeld","art":"das","pl":"-er","fa":"انعام","topic":"Trinkgeld"},
+    {"de":"bezahlen","art":null,"fa":"پرداختن","topic":"Trinkgeld"},
+    {"de":"stimmt so","art":null,"fa":"باقی‌اش مال خودتان","topic":"Trinkgeld"},
+    {"de":"Service","art":"der","fa":"خدمات","topic":"Trinkgeld"},
+    {"de":"zusammen oder getrennt","art":null,"fa":"با هم یا جدا (پرداخت)","topic":"Trinkgeld"},
+    {"de":"Laden","art":"der","pl":"¨-","fa":"مغازه","topic":"Einkaufsliste"},
+    {"de":"Selbstbedienung","art":"die","fa":"سلف‌سرویس","topic":"Einkaufsliste"},
+    {"de":"Tonne","art":"die","pl":"-n","fa":"سطل بزرگ زباله","topic":"Verpackungen"},
+    {"de":"Päckchen","art":"das","pl":"-","fa":"بسته‌ی کوچک","topic":"Mengenangaben"},
+    {"de":"Kellner","art":"der","pl":"-","fa":"گارسون","topic":"Im Restaurant"},
+    {"de":"höflich","art":null,"fa":"مؤدب","topic":"Trinkgeld"}
+  ]
+}

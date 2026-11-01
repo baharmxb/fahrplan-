@@ -1,0 +1,232 @@
+{
+  "lesson": 6,
+  "source": "app",
+  "audio": null,
+  "grammar": [
+    {
+      "title": "Reflexive Verben",
+      "fa": "این فعل‌ها با ضمیر بازتابی می‌آیند: mich, dich, sich, uns, euch, sich. ضمیر به خود فاعل برمی‌گردد.",
+      "examples": [
+        {
+          "de": "Ich fühle mich heute wohl.",
+          "fa": "امروز احساس خوبی دارم."
+        },
+        {
+          "de": "Wir erholen uns am Wochenende.",
+          "fa": "آخر هفته استراحت می‌کنیم."
+        }
+      ]
+    },
+    {
+      "title": "Verben mit präpositionaler Ergänzung im Akkusativ",
+      "fa": "برخی فعل‌ها حرف اضافه‌ی ثابت دارند و آن را باید با فعل حفظ کرد، مانند sich freuen auf و sich interessieren für و warten auf.",
+      "examples": [
+        {
+          "de": "Ich warte auf den Bus.",
+          "fa": "منتظر اتوبوس هستم."
+        },
+        {
+          "de": "Sie denkt oft an ihre Familie.",
+          "fa": "او اغلب به خانواده‌اش فکر می‌کند."
+        }
+      ]
+    },
+    {
+      "title": "Artikelwort dies- im Dativ",
+      "fa": "در دَتیو پایانه‌ها چنین است: diesem برای مذکر و خنثی، dieser برای مؤنث و diesen برای جمع.",
+      "examples": [
+        {
+          "de": "Ich fahre mit diesem Zug.",
+          "fa": "با این قطار می‌روم."
+        },
+        {
+          "de": "In dieser Stadt gibt es viele Museen.",
+          "fa": "در این شهر موزه‌های زیادی هست."
+        }
+      ]
+    },
+    {
+      "title": "temporale Präpositionen: in, während",
+      "fa": "in با دَتیو یعنی «تا مدتی دیگر» و زمان آینده را نشان می‌دهد. während یعنی «در طول» و معمولاً با ژنیتیو می‌آید.",
+      "examples": [
+        {
+          "de": "In einer Stunde bin ich da.",
+          "fa": "یک ساعت دیگر آنجا هستم."
+        },
+        {
+          "de": "Während des Films darf man nicht telefonieren.",
+          "fa": "در طول فیلم نباید تلفن زد."
+        }
+      ]
+    },
+    {
+      "title": "Wortbildung: Verb → Nomen",
+      "fa": "از مصدر فعل می‌توان اسم خنثی ساخت (das Reisen). پسوند -ung هم اسم مؤنث می‌سازد (die Einladung).",
+      "examples": [
+        {
+          "de": "Das Reisen macht mir viel Spaß.",
+          "fa": "سفر کردن خیلی برایم لذت‌بخش است."
+        },
+        {
+          "de": "Danke für die Einladung!",
+          "fa": "ممنون بابت دعوت!"
+        }
+      ]
+    }
+  ],
+  "proverbs": [
+    {
+      "de": "Andere Länder, andere Sitten.",
+      "fa": "هر سرزمین رسم خودش را دارد."
+    },
+    {
+      "de": "Was lange währt, wird endlich gut.",
+      "fa": "گر صبر کنی ز غوره حلوا سازی."
+    }
+  ],
+  "dialog": {
+    "title": "قرار سینما",
+    "lines": [
+      {
+        "who": "Tina",
+        "de": "Hast du Lust auf das Open-Air-Kino am Samstag?",
+        "fa": "شنبه پایه‌ی سینمای روباز هستی؟"
+      },
+      {
+        "who": "Reza",
+        "de": "Gern! Welcher Film läuft denn?",
+        "fa": "با کمال میل! چه فیلمی اکران است؟"
+      },
+      {
+        "who": "Tina",
+        "de": "Eine Komödie. Ich freue mich schon darauf.",
+        "fa": "یک کمدی. از الان مشتاقم."
+      },
+      {
+        "who": "Reza",
+        "de": "Leider habe ich um acht noch einen Termin.",
+        "fa": "متأسفانه ساعت هشت هنوز قرار دارم."
+      },
+      {
+        "who": "Tina",
+        "de": "Kannst du ihn verschieben? Der Film beginnt um neun.",
+        "fa": "می‌توانی آن را عقب بیندازی؟ فیلم ساعت نه شروع می‌شود."
+      },
+      {
+        "who": "Reza",
+        "de": "Ich versuche es. In einer Stunde sage ich dir Bescheid.",
+        "fa": "سعی می‌کنم. یک ساعت دیگر خبرت می‌کنم."
+      }
+    ]
+  },
+  "guide": {
+    "osd": "نوشتن ایمیل برای تغییر قرار با دلیل و پیشنهاد زمان جدید، ساختاری نزدیک به Schreiben آزمون دارد. صفحه‌ی ۷۴ هم تمرین خوب Lesen است.",
+    "starten": "درباره‌ی یک عکس از هنر خیابانی حرف می‌زنی و نظرت را می‌گویی.",
+    "sections": {
+      "A": "برنامه‌ای درباره‌ی Anna و هنر خیابانی، فعل‌های بازتابی و متن وبلاگ درباره‌ی Streetart در برلین. dies- در دَتیو، آرزوها برای شهر و گردآوری ترندها.",
+      "B": "برنامه‌ی تلویزیونی سفر دو تیم با کوله‌پشتی در پنج کشور با امتیاز محیط زیستی. ساختن اسم از فعل با ung و er، و نوشتن ایمیل نیمه‌رسمی برای جابه‌جایی قرار.",
+      "C": "پرسش‌نامه‌ی فیلم، سینمای روباز، während با ژنیتیو و in برای زمان آینده. گفت‌وگوی انتخاب فیلم و نوشتن و ارائه‌ی متن درباره‌ی فیلم محبوب.",
+      "D": "حرف زدن درباره‌ی رابطه‌ی آدم‌های یک عکس، فعل با حرف اضافه‌ی آکوزاتیو، بازنویسی یک داستان فیلم و شعر طنز Poetry Slam با نوشتن بندهای تازه."
+    },
+    "xtra": "پیدا کردن آگهی مناسب برای چند موقعیت، با ساختاری شبیه تمرین‌های خواندن آزمون.",
+    "phrases": [
+      {
+        "de": "Sehr geehrter Herr ...",
+        "fa": "جناب آقای ... محترم"
+      },
+      {
+        "de": "Mit freundlichen Grüßen",
+        "fa": "با احترام"
+      },
+      {
+        "de": "Es tut uns leid.",
+        "fa": "متأسفیم."
+      },
+      {
+        "de": "Ist mir doch egal!",
+        "fa": "اصلاً برایم مهم نیست!"
+      },
+      {
+        "de": "Was schlägst du vor?",
+        "fa": "چه پیشنهادی داری؟"
+      },
+      {
+        "de": "Cool, gute Idee!",
+        "fa": "عالی، ایده‌ی خوبی است!"
+      }
+    ]
+  },
+  "sentences": [
+    {"section":"A","de":"Ich interessiere mich sehr für Streetart.","fa":"خیلی به هنر خیابانی علاقه دارم."},
+    {"section":"A","de":"Ich freue mich, wenn die Stadt bunter wird.","fa":"خوشحال می‌شوم وقتی شهر رنگارنگ‌تر می‌شود."},
+    {"section":"A","de":"Ich ärgere mich über den Müll in der Stadt.","fa":"از زباله‌های شهر عصبانی می‌شوم."},
+    {"section":"A","de":"Ich wünsche mir mehr Parks in meiner Stadt.","fa":"آرزو دارم شهرم پارک‌های بیشتری داشته باشد."},
+    {"section":"A","de":"Der Künstler malt ein großes Bild.","fa":"هنرمند یک تصویر بزرگ می‌کشد."},
+    {"section":"A","de":"Auf der Mauer sieht man bunte Farben.","fa":"روی دیوار رنگ‌های شادی دیده می‌شود."},
+    {"section":"A","de":"Die Straße ist heute sehr schmutzig.","fa":"خیابان امروز خیلی کثیف است."},
+    {"section":"B","de":"Während der Reise schlafen wir in Jugendherbergen.","fa":"در طول سفر در خوابگاه‌های جوانان می‌خوابیم."},
+    {"section":"B","de":"Können wir den Termin auf Freitag verschieben?","fa":"می‌توانیم قرار را به جمعه موکول کنیم؟"},
+    {"section":"B","de":"Vielleicht ist er noch unterwegs.","fa":"شاید هنوز در راه باشد."},
+    {"section":"B","de":"Liebe Frau Roth, leider muss ich den Termin absagen.","fa":"خانم روت عزیز، متأسفانه باید قرار را لغو کنم."},
+    {"section":"B","de":"Bitte lesen Sie zuerst die Regeln.","fa":"لطفاً اول قوانین را بخوانید."},
+    {"section":"B","de":"Wir übernachten in einer kleinen Pension.","fa":"در یک پانسیون کوچک شب را می‌مانیم."},
+    {"section":"B","de":"Bitte sei morgen pünktlich.","fa":"لطفاً فردا سر وقت باش."},
+    {"section":"C","de":"In zwei Wochen beginnt das Open-Air-Kino.","fa":"دو هفته دیگر سینمای روباز شروع می‌شود."},
+    {"section":"C","de":"Mit diesem Film verbinde ich schöne Erinnerungen.","fa":"با این فیلم خاطره‌های زیبایی دارم."},
+    {"section":"C","de":"Wie heißt dein Lieblingsfilm?","fa":"اسم فیلم محبوبت چیست؟"},
+    {"section":"C","de":"Der Film beginnt in zehn Minuten.","fa":"فیلم ده دقیقه دیگر شروع می‌شود."},
+    {"section":"C","de":"Ein Liebesfilm ist nichts für meinen Bruder.","fa":"فیلم عاشقانه به درد برادرم نمی‌خورد."},
+    {"section":"D","de":"Das ist mir völlig egal.","fa":"این برایم اصلاً مهم نیست."},
+    {"section":"D","de":"Vielleicht sind die beiden Geschwister.","fa":"شاید آن دو خواهر و برادر باشند."},
+    {"section":"D","de":"Ich lese gern Gedichte, aber ich schreibe keine.","fa":"دوست دارم شعر بخوانم، ولی شعر نمی‌نویسم."},
+    {"section":"D","de":"Mode ist mir egal, aber Musik nicht.","fa":"مد برایم مهم نیست، ولی موسیقی مهم است."},
+    {"section":"D","de":"Sie ist stark und hat keine Angst.","fa":"او قوی است و نمی‌ترسد."}
+  ],
+  "words": [
+    {"de":"Rucksack","art":"der","pl":"¨-e","fa":"کوله‌پشتی","topic":"Reisen"},
+    {"de":"Jugendherberge","art":"die","pl":"-n","fa":"خوابگاه جوانان","topic":"Reisen"},
+    {"de":"Reiseziel","art":"das","pl":"-e","fa":"مقصد سفر","topic":"Reisen"},
+    {"de":"übernachten","art":null,"fa":"شب ماندن","topic":"Reisen"},
+    {"de":"Umwelt","art":"die","fa":"محیط زیست","topic":"Umwelt"},
+    {"de":"Fahrrad","art":"das","pl":"¨-er","fa":"دوچرخه","topic":"Umwelt"},
+    {"de":"Natur","art":"die","fa":"طبیعت","topic":"Umwelt"},
+    {"de":"schützen","art":null,"fa":"محافظت کردن","topic":"Umwelt"},
+    {"de":"Termin","art":"der","pl":"-e","fa":"قرار، وقت ملاقات","topic":"Termine"},
+    {"de":"verschieben","art":null,"fa":"به تعویق انداختن","topic":"Termine"},
+    {"de":"Kalender","art":"der","pl":"-","fa":"تقویم","topic":"Termine"},
+    {"de":"absagen","art":null,"fa":"لغو کردن","topic":"Termine"},
+    {"de":"Trend","art":"der","pl":"-s","fa":"ترند، گرایش روز","topic":"Trends"},
+    {"de":"Mode","art":"die","pl":"-n","fa":"مد","topic":"Trends"},
+    {"de":"neu","art":null,"fa":"جدید","topic":"Trends"},
+    {"de":"beliebt","art":null,"fa":"محبوب","topic":"Trends"},
+    {"de":"Kunst","art":"die","pl":"¨-e","fa":"هنر","topic":"Kunst"},
+    {"de":"Bild","art":"das","pl":"-er","fa":"تصویر، تابلو","topic":"Kunst"},
+    {"de":"Wand","art":"die","pl":"¨-e","fa":"دیوار","topic":"Kunst"},
+    {"de":"Ausstellung","art":"die","pl":"-en","fa":"نمایشگاه","topic":"Kunst"},
+    {"de":"Gefühl","art":"das","pl":"-e","fa":"احساس","topic":"Gefühle"},
+    {"de":"sich ärgern über","art":null,"fa":"از چیزی عصبانی شدن","topic":"Gefühle"},
+    {"de":"sich freuen auf","art":null,"fa":"مشتاق چیزی بودن","topic":"Gefühle"},
+    {"de":"traurig","art":null,"fa":"غمگین","topic":"Gefühle"},
+    {"de":"froh","art":null,"fa":"خوشحال","topic":"Gefühle"},
+    {"de":"Angst","art":"die","pl":"¨-e","fa":"ترس","topic":"Gefühle"},
+    {"de":"Vorstellung","art":"die","pl":"-en","fa":"اجرا، سانس","topic":"Kino und Filme"},
+    {"de":"Leinwand","art":"die","pl":"¨-e","fa":"پرده‌ی سینما","topic":"Kino und Filme"},
+    {"de":"spannend","art":null,"fa":"هیجان‌انگیز","topic":"Kino und Filme"},
+    {"de":"Komödie","art":"die","pl":"-n","fa":"کمدی","topic":"Kino und Filme"},
+    {"de":"Schauspieler","art":"der","pl":"-","fa":"بازیگر","topic":"Kino und Filme"},
+    {"de":"Eintrittskarte","art":"die","pl":"-n","fa":"بلیت ورودی","topic":"Kino und Filme"},
+    {"de":"Gedicht","art":"das","pl":"-e","fa":"شعر","topic":"Poesie"},
+    {"de":"Strophe","art":"die","pl":"-n","fa":"بند شعر","topic":"Poesie"},
+    {"de":"Reim","art":"der","pl":"-e","fa":"قافیه","topic":"Poesie"},
+    {"de":"Text","art":"der","pl":"-e","fa":"متن","topic":"Poesie"},
+    {"de":"vortragen","art":null,"fa":"اجرا کردن، خواندن","topic":"Poesie"},
+    {"de":"Künstler","art":"der","pl":"-","fa":"هنرمند","topic":"Kunst"},
+    {"de":"Mauer","art":"die","pl":"-n","fa":"دیوار بیرونی","topic":"Kunst"},
+    {"de":"Regel","art":"die","pl":"-n","fa":"قانون","topic":"Reisen"},
+    {"de":"Pension","art":"die","pl":"-en","fa":"پانسیون","topic":"Reisen"},
+    {"de":"pünktlich","art":null,"fa":"وقت‌شناس","topic":"Termine"},
+    {"de":"schmutzig","art":null,"fa":"کثیف","topic":"Umwelt"},
+    {"de":"stark","art":null,"fa":"قوی","topic":"Gefühle"},
+    {"de":"Liebesfilm","art":"der","pl":"-e","fa":"فیلم عاشقانه","topic":"Kino und Filme"}
+  ]
+}

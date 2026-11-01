@@ -1,0 +1,223 @@
+{
+  "lesson": 2,
+  "source": "app",
+  "audio": null,
+  "grammar": [
+    {
+      "title": "Demonstrativartikel dies- im Nominativ und Akkusativ",
+      "fa": "dies- یعنی «این» و پایانه‌اش مانند حرف تعریف معین است: dieser, diese, dieses و در آکوزاتیو مذکر diesen.",
+      "examples": [
+        {
+          "de": "Dieser Mantel ist zu teuer.",
+          "fa": "این پالتو خیلی گران است."
+        },
+        {
+          "de": "Ich nehme diesen Rock.",
+          "fa": "این دامن را برمی‌دارم."
+        }
+      ]
+    },
+    {
+      "title": "Frageartikel welch- im Nominativ und Akkusativ",
+      "fa": "با welch- یعنی «کدام» از میان چند گزینه می‌پرسیم. پایانه‌هایش مثل dies- است.",
+      "examples": [
+        {
+          "de": "Welches Kleid gefällt dir?",
+          "fa": "کدام پیراهن را می‌پسندی؟"
+        },
+        {
+          "de": "Welchen Schal möchtest du?",
+          "fa": "کدام شال‌گردن را می‌خواهی؟"
+        }
+      ]
+    },
+    {
+      "title": "Wortbildung: Nationalitäten",
+      "fa": "ملیت‌ها معمولاً با پسوند -er برای مرد و -erin برای زن ساخته می‌شوند. گروهی هم پسوند -e و -in دارند.",
+      "examples": [
+        {
+          "de": "Er ist Österreicher, sie ist Österreicherin.",
+          "fa": "او (مرد) اتریشی است، او (زن) هم اتریشی است."
+        },
+        {
+          "de": "Mein Kollege ist Türke.",
+          "fa": "همکارم ترک است."
+        }
+      ]
+    },
+    {
+      "title": "Komparativ: schön, groß",
+      "fa": "صفت برتر با -er ساخته می‌شود و برای مقایسه als می‌آید. صفت‌های کوتاه مثل groß اوملاوت می‌گیرند.",
+      "examples": [
+        {
+          "de": "Diese Tasche ist schöner als die andere.",
+          "fa": "این کیف از آن یکی زیباتر است."
+        },
+        {
+          "de": "Mein Bruder ist größer als ich.",
+          "fa": "برادرم از من بلندتر است."
+        }
+      ]
+    },
+    {
+      "title": "Komparativ und Superlativ: gut, viel, gerne",
+      "fa": "این سه واژه بی‌قاعده‌اند: gut, besser, am besten و viel, mehr, am meisten و gerne, lieber, am liebsten.",
+      "examples": [
+        {
+          "de": "Ich trage lieber Jeans als Anzüge.",
+          "fa": "شلوار جین را به کت‌وشلوار ترجیح می‌دهم."
+        },
+        {
+          "de": "Am liebsten kaufe ich online ein.",
+          "fa": "بیش از همه دوست دارم آنلاین خرید کنم."
+        }
+      ]
+    }
+  ],
+  "proverbs": [
+    {
+      "de": "Kleider machen Leute.",
+      "fa": "لباس، شخصیت آدم را می‌سازد."
+    },
+    {
+      "de": "Über Geschmack lässt sich nicht streiten.",
+      "fa": "درباره‌ی سلیقه نمی‌شود جدل کرد."
+    }
+  ],
+  "dialog": {
+    "title": "در بوتیک",
+    "lines": [
+      {
+        "who": "Verkäuferin",
+        "de": "Guten Tag! Kann ich Ihnen helfen?",
+        "fa": "روز به‌خیر! می‌توانم کمکتان کنم؟"
+      },
+      {
+        "who": "Kundin",
+        "de": "Ja, ich suche eine Bluse für die Arbeit.",
+        "fa": "بله، دنبال یک بلوز برای کار می‌گردم."
+      },
+      {
+        "who": "Verkäuferin",
+        "de": "Welche Größe haben Sie denn?",
+        "fa": "سایزتان چند است؟"
+      },
+      {
+        "who": "Kundin",
+        "de": "Größe 38. Darf ich diese Bluse anprobieren?",
+        "fa": "سایز ۳۸. می‌توانم این بلوز را پرو کنم؟"
+      },
+      {
+        "who": "Verkäuferin",
+        "de": "Natürlich, die Umkleidekabine ist dort hinten.",
+        "fa": "البته، اتاق پرو آن عقب است."
+      },
+      {
+        "who": "Kundin",
+        "de": "Sie passt gut, aber die weiße gefällt mir besser.",
+        "fa": "اندازه است، ولی آن سفیده را بیشتر می‌پسندم."
+      }
+    ]
+  },
+  "guide": {
+    "osd": "توصیف ظاهر و لباس و بیان نظر در خرید، برای موضوع‌های گفت‌وگوی بخش شفاهی مفید است.",
+    "starten": "در نمایشگاه مد برلین نام لباس‌ها را روی تصویر پیدا می‌کنی و می‌شنوی.",
+    "sections": {
+      "A": "رنگ و لباس را مرور می‌کنی و گفت‌وگوی Emilia و Maria را در بوتیک درباره‌ی یک پلیور می‌شنوی. Komparativ با schön و groß و نقش‌بازی فروشنده و مشتری.",
+      "B": "متنی درباره‌ی سه برند مد برلین: Kim Tischer، زوج آلمانی‌فرانسوی Frank Martin و Robbie Dolade که بر تولید اخلاقی تأکید دارد. گرامر gut، viel و gerne و نوشتن جمله درباره‌ی هم‌کلاسی‌ها برای حدس‌زدن.",
+      "C": "توصیف مو، چشم و قد، و مسابقه‌ای درباره‌ی بازیگران با تمرکز بر ملیت‌ها. Demonstrativartikel با dies- و بازی حدس ستاره‌ی سینما.",
+      "D": "چهار نفر از دوسلدورف، برلین، وین و اشتوتگارت می‌گویند کجا خرید می‌کنند و چه چیزی را پیشنهاد می‌دهند. welch- در آکوزاتیو، dies- و توصیف فردی که دوستش داری."
+    },
+    "xtra": "پیام‌های واتس‌اپ برای شناختن مهمان‌ها در فرودگاه از روی ظاهرشان، و نوشتن پیامی مشابه.",
+    "phrases": [
+      {
+        "de": "Kann ich Ihnen helfen?",
+        "fa": "می‌توانم کمکتان کنم؟"
+      },
+      {
+        "de": "Welche Größe brauchen Sie?",
+        "fa": "چه سایزی لازم دارید؟"
+      },
+      {
+        "de": "Das steht dir richtig gut.",
+        "fa": "خیلی به تو می‌آید."
+      },
+      {
+        "de": "Es passt mir nicht.",
+        "fa": "اندازه‌ام نیست."
+      },
+      {
+        "de": "Ich brauche eine Nummer größer.",
+        "fa": "یک سایز بزرگ‌تر لازم دارم."
+      },
+      {
+        "de": "Was kostet ...?",
+        "fa": "... چند است؟"
+      }
+    ]
+  },
+  "sentences": [
+    {"section":"A","de":"Diese Jacke steht dir wirklich gut.","fa":"این کت واقعاً به تو می‌آید."},
+    {"section":"A","de":"Haben Sie diesen Pullover auch in Blau?","fa":"این پلیور را به رنگ آبی هم دارید؟"},
+    {"section":"A","de":"Die Hose ist leider zu lang.","fa":"این شلوار متأسفانه خیلی بلند است."},
+    {"section":"A","de":"Was kostet dieses Hemd?","fa":"این پیراهن چند است؟"},
+    {"section":"A","de":"Für die Hochzeit kauft er einen dunklen Anzug.","fa":"برای عروسی یک کت‌وشلوار تیره می‌خرد."},
+    {"section":"A","de":"Die Bluse ist schön, aber zu teuer.","fa":"این بلوز زیباست، ولی خیلی گران است."},
+    {"section":"B","de":"Junge Leute tragen gern bequeme Schuhe.","fa":"جوان‌ها کفش راحت را دوست دارند."},
+    {"section":"B","de":"Meine Mutter kann am besten nähen.","fa":"مادرم از همه بهتر خیاطی می‌کند."},
+    {"section":"B","de":"Mein Bruder kocht besser als ich.","fa":"برادرم بهتر از من آشپزی می‌کند."},
+    {"section":"B","de":"Im Sommer trage ich am liebsten Weiß.","fa":"تابستان بیشتر از همه سفید می‌پوشم."},
+    {"section":"B","de":"Im Büro trägt mein Vater immer eine Krawatte.","fa":"پدرم در اداره همیشه کراوات می‌زند."},
+    {"section":"C","de":"Er hat kurze Haare und braune Augen.","fa":"او موهای کوتاه و چشمان قهوه‌ای دارد."},
+    {"section":"C","de":"Die Schauspielerin ist Italienerin.","fa":"آن بازیگر ایتالیایی است."},
+    {"section":"C","de":"Sie trägt eine Brille und hat lockige Haare.","fa":"او عینک می‌زند و موهای فر دارد."},
+    {"section":"C","de":"Wie sieht deine Schwester aus?","fa":"خواهرت چه شکلی است؟"},
+    {"section":"C","de":"Mein Onkel ist ziemlich groß.","fa":"عمویم نسبتاً قدبلند است."},
+    {"section":"D","de":"Ich empfehle dir das kleine Geschäft am Markt.","fa":"آن مغازه‌ی کوچک کنار بازار را به تو پیشنهاد می‌کنم."},
+    {"section":"D","de":"Welcher Film gefällt dir am besten?","fa":"کدام فیلم را از همه بیشتر دوست داری؟"},
+    {"section":"D","de":"Dort sind die Schuhe billiger als im Zentrum.","fa":"آنجا کفش‌ها از مرکز شهر ارزان‌ترند."},
+    {"section":"D","de":"Ich finde diesen Schauspieler sehr sympathisch.","fa":"این بازیگر به نظرم خیلی دوست‌داشتنی است."},
+    {"section":"D","de":"Sie kauft gern Schmuck aus Silber.","fa":"او دوست دارد زیورآلات نقره بخرد."},
+    {"section":"D","de":"Im Kaufhaus gibt es heute viele Angebote.","fa":"امروز فروشگاه بزرگ تخفیف‌های زیادی دارد."},
+    {"section":"D","de":"Am Sonntag gehen wir auf den Flohmarkt.","fa":"یکشنبه به بازار دست‌دوم می‌رویم."}
+  ],
+  "words": [
+    {"de":"Kleidung","art":"die","fa":"لباس، پوشاک","topic":"Kleidung"},
+    {"de":"Hose","art":"die","pl":"-n","fa":"شلوار","topic":"Kleidung"},
+    {"de":"Rock","art":"der","pl":"¨-e","fa":"دامن","topic":"Kleidung"},
+    {"de":"Hemd","art":"das","pl":"-en","fa":"پیراهن مردانه","topic":"Kleidung"},
+    {"de":"Kleid","art":"das","pl":"-er","fa":"پیراهن زنانه","topic":"Kleidung"},
+    {"de":"Mantel","art":"der","pl":"¨-","fa":"پالتو","topic":"Kleidung"},
+    {"de":"Jacke","art":"die","pl":"-n","fa":"کت","topic":"Kleidung"},
+    {"de":"Schuh","art":"der","pl":"-e","fa":"کفش","topic":"Kleidung"},
+    {"de":"modisch","art":null,"fa":"مد روز","topic":"Mode"},
+    {"de":"Stil","art":"der","pl":"-e","fa":"سبک","topic":"Mode"},
+    {"de":"Farbe","art":"die","pl":"-n","fa":"رنگ","topic":"Mode"},
+    {"de":"bequem","art":null,"fa":"راحت","topic":"Mode"},
+    {"de":"elegant","art":null,"fa":"شیک","topic":"Mode"},
+    {"de":"Größe","art":"die","pl":"-n","fa":"اندازه، سایز","topic":"Geschäfte und Einkaufen"},
+    {"de":"Umkleidekabine","art":"die","pl":"-n","fa":"اتاق پرو","topic":"Geschäfte und Einkaufen"},
+    {"de":"anprobieren","art":null,"fa":"پرو کردن","topic":"Geschäfte und Einkaufen"},
+    {"de":"passen","art":null,"fa":"اندازه بودن","topic":"Geschäfte und Einkaufen"},
+    {"de":"Boutique","art":"die","pl":"-n","fa":"بوتیک","topic":"Geschäfte und Einkaufen"},
+    {"de":"Angebot","art":"das","pl":"-e","fa":"تخفیف، پیشنهاد فروش","topic":"Geschäfte und Einkaufen"},
+    {"de":"kosten","art":null,"fa":"قیمت داشتن","topic":"Geschäfte und Einkaufen"},
+    {"de":"Aussehen","art":"das","fa":"ظاهر","topic":"Aussehen"},
+    {"de":"schlank","art":null,"fa":"لاغر، باریک‌اندام","topic":"Aussehen"},
+    {"de":"Bart","art":"der","pl":"¨-e","fa":"ریش","topic":"Aussehen"},
+    {"de":"Brille","art":"die","pl":"-n","fa":"عینک","topic":"Aussehen"},
+    {"de":"hübsch","art":null,"fa":"زیبا","topic":"Aussehen"},
+    {"de":"blond","art":null,"fa":"بور","topic":"Haar- und Augenfarbe"},
+    {"de":"braun","art":null,"fa":"قهوه‌ای","topic":"Haar- und Augenfarbe"},
+    {"de":"schwarz","art":null,"fa":"مشکی","topic":"Haar- und Augenfarbe"},
+    {"de":"grün","art":null,"fa":"سبز","topic":"Haar- und Augenfarbe"},
+    {"de":"lockig","art":null,"fa":"فر","topic":"Haar- und Augenfarbe"},
+    {"de":"Anzug","art":"der","pl":"¨-e","fa":"کت‌وشلوار","topic":"Kleidung"},
+    {"de":"Bluse","art":"die","pl":"-n","fa":"بلوز","topic":"Kleidung"},
+    {"de":"Krawatte","art":"die","pl":"-n","fa":"کراوات","topic":"Mode"},
+    {"de":"Schmuck","art":"der","fa":"زیورآلات","topic":"Geschäfte und Einkaufen"},
+    {"de":"Kaufhaus","art":"das","pl":"¨-er","fa":"فروشگاه بزرگ","topic":"Geschäfte und Einkaufen"},
+    {"de":"Flohmarkt","art":"der","pl":"¨-e","fa":"بازار دست‌دوم","topic":"Geschäfte und Einkaufen"},
+    {"de":"ziemlich","art":null,"fa":"نسبتاً","topic":"Aussehen"}
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "lesson": 4,
+  "source": "app",
+  "audio": null,
+  "grammar": [
+    {
+      "title": "Verben mit Wechselpräpositionen: legen, liegen, stehen, stellen, hängen",
+      "fa": "legen و stellen حرکت را نشان می‌دهند و با آکوزاتیو می‌آیند (wohin?). liegen و stehen مکان ثابت‌اند و با دَتیو می‌آیند (wo?). hängen هر دو حالت را دارد.",
+      "examples": [
+        {
+          "de": "Ich lege das Buch auf den Tisch.",
+          "fa": "کتاب را روی میز می‌گذارم."
+        },
+        {
+          "de": "Das Buch liegt auf dem Tisch.",
+          "fa": "کتاب روی میز است."
+        }
+      ]
+    },
+    {
+      "title": "Possessivartikel im Nominativ und Akkusativ: euer",
+      "fa": "euer یعنی «مال شما» برای دوم شخص جمع. وقتی پایانه بگیرد e دوم حذف می‌شود: eure, euren.",
+      "examples": [
+        {
+          "de": "Ist das euer Auto?",
+          "fa": "این ماشین شماست؟"
+        },
+        {
+          "de": "Wir mögen eure Wohnung sehr.",
+          "fa": "ما آپارتمان شما را خیلی دوست داریم."
+        }
+      ]
+    },
+    {
+      "title": "Wechselpräpositionen: in, auf, über, unter, neben, zwischen, vor, hinter",
+      "fa": "این حروف اضافه برای پرسش wo با دَتیو و برای پرسش wohin با آکوزاتیو می‌آیند.",
+      "examples": [
+        {
+          "de": "Der Hund schläft unter dem Bett.",
+          "fa": "سگ زیر تخت خوابیده است."
+        },
+        {
+          "de": "Der Hund läuft unter das Bett.",
+          "fa": "سگ به زیر تخت می‌دود."
+        }
+      ]
+    }
+  ],
+  "proverbs": [
+    {
+      "de": "Trautes Heim, Glück allein.",
+      "fa": "خوشبختی در خانه‌ی خود آدم است."
+    },
+    {
+      "de": "Eigener Herd ist Goldes wert.",
+      "fa": "خانه‌ی خود آدم به اندازه‌ی طلا می‌ارزد."
+    }
+  ],
+  "dialog": {
+    "title": "تلفن به صاحب‌خانه",
+    "lines": [
+      {
+        "who": "Herr Vogel",
+        "de": "Vogel, guten Tag.",
+        "fa": "فوگل هستم، روز به‌خیر."
+      },
+      {
+        "who": "Frau Karimi",
+        "de": "Guten Tag, ich rufe wegen der Wohnung im Westend an.",
+        "fa": "روز به‌خیر، درباره‌ی آپارتمان وست‌اند زنگ می‌زنم."
+      },
+      {
+        "who": "Herr Vogel",
+        "de": "Ja, die ist noch frei. Sie hat 60 Quadratmeter.",
+        "fa": "بله، هنوز خالی است. ۶۰ متر مربع است."
+      },
+      {
+        "who": "Frau Karimi",
+        "de": "Hat die Wohnung einen Balkon?",
+        "fa": "آپارتمان بالکن دارد؟"
+      },
+      {
+        "who": "Herr Vogel",
+        "de": "Ja, nach Süden. Die Miete beträgt 850 Euro warm.",
+        "fa": "بله، رو به جنوب. اجاره با شارژ ۸۵۰ یورو است."
+      },
+      {
+        "who": "Frau Karimi",
+        "de": "Schön! Kann ich sie morgen ansehen?",
+        "fa": "عالی! می‌توانم فردا آن را ببینم؟"
+      }
+    ]
+  },
+  "guide": {
+    "osd": "ایمیل کوتاه با پرسش درباره‌ی خانه و درک آگهی، هم برای Schreiben و هم Lesen مفید است.",
+    "starten": "درباره‌ی محل اقامت در تعطیلات و ایده‌ی تعویض خانه نظر می‌دهی.",
+    "sections": {
+      "A": "Carla و Bernd می‌خواهند برای سفر به کانادا خانه‌شان را عوض کنند. آگهی Carla درباره‌ی برلین و آپارتمانشان در Steglitz را می‌خوانی، vor و hinter را یاد می‌گیری و آگهی خانه‌ی رؤیایی خودت را می‌نویسی.",
+      "B": "طبقه‌های ساختمان و آگهی‌های اجاره، تماس تلفنی Olivia با صاحب‌خانه و ایمیل او به Carla. Possessivartikel با euer و نوشتن ایمیل تعویض خانه.",
+      "C": "لغات آشپزخانه با طرح طنز Bernd، فعل‌های stehen، liegen و hängen با دَتیو و یادداشت Olivia درباره‌ی جای وسایل. پیدا کردن تفاوت دو آشپزخانه.",
+      "D": "Carla و Bernd خانه را مرتب می‌کنند. فرق موقعیت و جهت با Wechselpräpositionen و فعل‌های stellen، legen و hängen با آکوزاتیو، و بازی پنهان‌کردن وسایل."
+    },
+    "xtra": "فروم اینترنتی طنز درباره‌ی این‌که مردم پولشان را در خانه کجا پنهان می‌کنند، به‌همراه خواندن عددهای بزرگ.",
+    "phrases": [
+      {
+        "de": "Wie hoch ist die Miete?",
+        "fa": "اجاره چقدر است؟"
+      },
+      {
+        "de": "Ist die Wohnung noch frei?",
+        "fa": "آپارتمان هنوز خالی است؟"
+      },
+      {
+        "de": "Ab wann ist sie frei?",
+        "fa": "از چه زمانی خالی است؟"
+      },
+      {
+        "de": "Tut mir leid.",
+        "fa": "متأسفم."
+      },
+      {
+        "de": "Viele Grüße",
+        "fa": "با سلام فراوان"
+      },
+      {
+        "de": "Wo liegt die Wohnung?",
+        "fa": "آپارتمان کجاست؟"
+      }
+    ]
+  },
+  "sentences": [
+    {"section":"A","de":"Wir tauschen im Sommer unser Haus mit einer Familie aus Graz.","fa":"تابستان خانه‌مان را با خانواده‌ای از گراتس عوض می‌کنیم."},
+    {"section":"A","de":"In der Nähe gibt es einen Park und eine Bäckerei.","fa":"آن نزدیکی یک پارک و یک نانوایی هست."},
+    {"section":"A","de":"Unser Stadtteil ist ruhig und zentral.","fa":"محله‌ی ما آرام و مرکزی است."},
+    {"section":"A","de":"Neben unserem Haus ist ein Supermarkt.","fa":"کنار خانه‌ی ما یک سوپرمارکت است."},
+    {"section":"A","de":"Das Haus hat leider keinen Aufzug.","fa":"این خانه متأسفانه آسانسور ندارد."},
+    {"section":"A","de":"Der Gemüsehändler ist gleich um die Ecke.","fa":"سبزی‌فروش درست سر کوچه است."},
+    {"section":"B","de":"Die Wohnung liegt im Süden der Stadt.","fa":"آپارتمان در جنوب شهر است."},
+    {"section":"B","de":"Wie hoch ist die Miete pro Monat?","fa":"اجاره‌ی ماهانه چقدر است؟"},
+    {"section":"B","de":"Die Wohnung hat drei Zimmer und einen Balkon.","fa":"آپارتمان سه اتاق و یک بالکن دارد."},
+    {"section":"B","de":"Sind die Nebenkosten in der Miete dabei?","fa":"هزینه‌های جانبی جزو اجاره است؟"},
+    {"section":"B","de":"Unsere Wohnung liegt im Erdgeschoss.","fa":"آپارتمان ما در طبقه‌ی همکف است."},
+    {"section":"B","de":"Im Keller stehen unsere Fahrräder.","fa":"دوچرخه‌هایمان در زیرزمین است."},
+    {"section":"B","de":"Im Winter ist die Heizung sehr wichtig.","fa":"در زمستان سیستم گرمایش خیلی مهم است."},
+    {"section":"C","de":"Der Tisch steht in der Mitte der Küche.","fa":"میز وسط آشپزخانه است."},
+    {"section":"C","de":"Das Bild hängt über dem Sofa.","fa":"تابلو بالای مبل آویزان است."},
+    {"section":"C","de":"Die Lampe hängt über dem Tisch.","fa":"چراغ بالای میز آویزان است."},
+    {"section":"C","de":"Der Topf steht auf dem Herd.","fa":"قابلمه روی اجاق است."},
+    {"section":"C","de":"Die Spülmaschine steht neben dem Herd.","fa":"ماشین ظرف‌شویی کنار اجاق است."},
+    {"section":"C","de":"Die Gabel liegt neben dem Messer.","fa":"چنگال کنار چاقوست."},
+    {"section":"D","de":"Ich habe die Schlüssel auf den Schrank gelegt.","fa":"کلیدها را روی کمد گذاشتم."},
+    {"section":"D","de":"Wohin stellst du die Blumen?","fa":"گل‌ها را کجا می‌گذاری؟"},
+    {"section":"D","de":"Wohin hast du meine Tasche gestellt?","fa":"کیفم را کجا گذاشتی؟"},
+    {"section":"D","de":"Ich lege die Bücher immer ins Regal.","fa":"کتاب‌ها را همیشه در قفسه می‌گذارم."},
+    {"section":"D","de":"Ich lege den Löffel auf den Teller.","fa":"قاشق را روی بشقاب می‌گذارم."}
+  ],
+  "words": [
+    {"de":"Anzeige","art":"die","pl":"-n","fa":"آگهی","topic":"Wohnungsanzeige"},
+    {"de":"Zimmer","art":"das","pl":"-","fa":"اتاق","topic":"Wohnungsanzeige"},
+    {"de":"Nebenkosten","art":"die","fa":"هزینه‌های جانبی","topic":"Wohnungsanzeige"},
+    {"de":"frei","art":null,"fa":"خالی","topic":"Wohnungsanzeige"},
+    {"de":"Norden","art":"der","fa":"شمال","topic":"Himmelsrichtungen"},
+    {"de":"Süden","art":"der","fa":"جنوب","topic":"Himmelsrichtungen"},
+    {"de":"Osten","art":"der","fa":"شرق","topic":"Himmelsrichtungen"},
+    {"de":"Westen","art":"der","fa":"غرب","topic":"Himmelsrichtungen"},
+    {"de":"Stadtteil","art":"der","pl":"-e","fa":"محله","topic":"Lage, Größe etc. von Wohnungen"},
+    {"de":"Lage","art":"die","pl":"-n","fa":"موقعیت مکانی","topic":"Lage, Größe etc. von Wohnungen"},
+    {"de":"Quadratmeter","art":"der","pl":"-","fa":"متر مربع","topic":"Lage, Größe etc. von Wohnungen"},
+    {"de":"Balkon","art":"der","pl":"-e","fa":"بالکن","topic":"Lage, Größe etc. von Wohnungen"},
+    {"de":"zentral","art":null,"fa":"مرکزی","topic":"Lage, Größe etc. von Wohnungen"},
+    {"de":"ruhig gelegen","art":null,"fa":"در جای آرام","topic":"Lage, Größe etc. von Wohnungen"},
+    {"de":"Vermieter","art":"der","pl":"-","fa":"صاحب‌خانه","topic":"Mieten einer Wohnung"},
+    {"de":"Miete","art":"die","pl":"-n","fa":"اجاره‌بها","topic":"Mieten einer Wohnung"},
+    {"de":"mieten","art":null,"fa":"اجاره کردن","topic":"Mieten einer Wohnung"},
+    {"de":"Kaution","art":"die","pl":"-en","fa":"ودیعه","topic":"Mieten einer Wohnung"},
+    {"de":"Mietvertrag","art":"der","pl":"¨-e","fa":"قرارداد اجاره","topic":"Mieten einer Wohnung"},
+    {"de":"Regal","art":"das","pl":"-e","fa":"قفسه","topic":"Wohnungseinrichtung"},
+    {"de":"Teppich","art":"der","pl":"-e","fa":"فرش","topic":"Wohnungseinrichtung"},
+    {"de":"möbliert","art":null,"fa":"مبله","topic":"Wohnungseinrichtung"},
+    {"de":"gemütlich","art":null,"fa":"دنج، راحت","topic":"Wohnungseinrichtung"},
+    {"de":"Schrank","art":"der","pl":"¨-e","fa":"کمد","topic":"Wohnungseinrichtung"},
+    {"de":"Sofa","art":"das","pl":"-s","fa":"مبل","topic":"Wohnungseinrichtung"},
+    {"de":"Schublade","art":"die","pl":"-n","fa":"کشو","topic":"Dinge im Haushalt"},
+    {"de":"hängen","art":null,"fa":"آویزان کردن یا بودن","topic":"Dinge im Haushalt"},
+    {"de":"Topf","art":"der","pl":"¨-e","fa":"قابلمه","topic":"Dinge im Haushalt"},
+    {"de":"Lampe","art":"die","pl":"-n","fa":"چراغ","topic":"Dinge im Haushalt"},
+    {"de":"Schlüssel","art":"der","pl":"-","fa":"کلید","topic":"Dinge im Haushalt"},
+    {"de":"Bäckerei","art":"die","pl":"-en","fa":"نانوایی","topic":"Geschäfte"},
+    {"de":"Apotheke","art":"die","pl":"-n","fa":"داروخانه","topic":"Geschäfte"},
+    {"de":"Supermarkt","art":"der","pl":"¨-e","fa":"سوپرمارکت","topic":"Geschäfte"},
+    {"de":"Post","art":"die","fa":"اداره‌ی پست","topic":"Geschäfte"},
+    {"de":"Erdgeschoss","art":"das","pl":"-e","fa":"همکف","topic":"Lage, Größe etc. von Wohnungen"},
+    {"de":"Keller","art":"der","pl":"-","fa":"زیرزمین","topic":"Lage, Größe etc. von Wohnungen"},
+    {"de":"Aufzug","art":"der","pl":"¨-e","fa":"آسانسور","topic":"Wohnungseinrichtung"},
+    {"de":"Heizung","art":"die","pl":"-en","fa":"سیستم گرمایش","topic":"Wohnungseinrichtung"},
+    {"de":"Spülmaschine","art":"die","pl":"-n","fa":"ماشین ظرف‌شویی","topic":"Dinge im Haushalt"},
+    {"de":"Löffel","art":"der","pl":"-","fa":"قاشق","topic":"Dinge im Haushalt"},
+    {"de":"Gabel","art":"die","pl":"-n","fa":"چنگال","topic":"Dinge im Haushalt"},
+    {"de":"Gemüsehändler","art":"der","pl":"-","fa":"سبزی‌فروش","topic":"Geschäfte"}
+  ]
+}

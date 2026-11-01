@@ -1,0 +1,211 @@
+{
+  "lesson": 8,
+  "source": "app",
+  "audio": null,
+  "grammar": [
+    {
+      "title": "Konjunktiv II: sein",
+      "fa": "wäre شکل Konjunktiv II فعل sein است و برای آرزو و شرایط غیرواقعی به کار می‌رود.",
+      "examples": [
+        {
+          "de": "Ich wäre jetzt gern im Urlaub.",
+          "fa": "کاش الان در تعطیلات بودم."
+        },
+        {
+          "de": "Das wäre wirklich schön!",
+          "fa": "این واقعاً عالی می‌شد!"
+        }
+      ]
+    },
+    {
+      "title": "temporale Präpositionen: bis und von ... bis",
+      "fa": "bis پایان یک بازه را نشان می‌دهد و von ... bis آغاز و پایان آن را. اسم بعد از von دَتیو می‌گیرد.",
+      "examples": [
+        {
+          "de": "Ich bleibe bis Freitag im Bett.",
+          "fa": "تا جمعه در رختخواب می‌مانم."
+        },
+        {
+          "de": "Die Praxis ist von Montag bis Donnerstag offen.",
+          "fa": "مطب از دوشنبه تا پنج‌شنبه باز است."
+        }
+      ]
+    },
+    {
+      "title": "Komparativ und Superlativ: Vergleiche mit genauso ... wie, als",
+      "fa": "برای برابری genauso ... wie با صفت ساده می‌آید و برای نابرابری صفت برتر همراه als به کار می‌رود.",
+      "examples": [
+        {
+          "de": "Yoga ist genauso gesund wie Schwimmen.",
+          "fa": "یوگا به اندازه‌ی شنا سالم است."
+        },
+        {
+          "de": "Laufen ist anstrengender als Yoga.",
+          "fa": "دویدن از یوگا سخت‌تر است."
+        }
+      ]
+    },
+    {
+      "title": "Adjektivdeklination nach indefinitem Artikel im Nominativ",
+      "fa": "بعد از ein و kein و mein در حالت نومیناتیو، صفت پایانه‌ی ‎-er برای مذکر، ‎-e برای مؤنث و ‎-es برای خنثی می‌گیرد.",
+      "examples": [
+        {
+          "de": "Das ist ein glücklicher Mensch.",
+          "fa": "این یک انسان خوشبخت است."
+        },
+        {
+          "de": "Das ist ein schönes Leben.",
+          "fa": "این یک زندگی زیباست."
+        }
+      ]
+    }
+  ],
+  "proverbs": [
+    {
+      "de": "Lachen ist die beste Medizin.",
+      "fa": "خنده بهترین داروست."
+    },
+    {
+      "de": "Jeder ist seines Glückes Schmied.",
+      "fa": "هر کس سازنده‌ی خوشبختی خودش است."
+    }
+  ],
+  "dialog": {
+    "title": "در داروخانه",
+    "lines": [
+      {
+        "who": "Apothekerin",
+        "de": "Guten Morgen! Was fehlt Ihnen denn?",
+        "fa": "صبح به‌خیر! مشکلتان چیست؟"
+      },
+      {
+        "who": "Kunde",
+        "de": "Mir tut der Hals weh und ich habe Husten.",
+        "fa": "گلویم درد می‌کند و سرفه دارم."
+      },
+      {
+        "who": "Apothekerin",
+        "de": "Haben Sie auch Fieber?",
+        "fa": "تب هم دارید؟"
+      },
+      {
+        "who": "Kunde",
+        "de": "Nein, aber ich bin sehr müde.",
+        "fa": "نه، ولی خیلی خسته‌ام."
+      },
+      {
+        "who": "Apothekerin",
+        "de": "Dieser Saft hilft. Nehmen Sie ihn morgens und abends.",
+        "fa": "این شربت کمک می‌کند. صبح و شب مصرفش کنید."
+      },
+      {
+        "who": "Kunde",
+        "de": "Danke! Muss ich damit zum Arzt?",
+        "fa": "ممنون! باید پیش دکتر هم بروم؟"
+      }
+    ]
+  },
+  "guide": {
+    "osd": "گفت‌وگوی داروخانه و درک دستور مصرف دارو تمرین خوب Hören است.",
+    "starten": "مسابقه‌ای درباره‌ی بدن انسان: قلب، سر، معده و دندان‌ها.",
+    "sections": {
+      "A": "مطب دکتر Brinkmann و بیمارانش، پرسش‌های پزشک، bis و von ... bis، نام بیماری‌ها و گفت‌وگوهای داروخانه درباره‌ی نحوه‌ی مصرف قرص.",
+      "B": "متن درباره‌ی پژوهشی که می‌پرسد مردم کجا از همه شادترند. مقایسه با als و genauso ... wie، بازی رادیویی و Konjunktiv II با sein برای آرزو.",
+      "C": "مقاله درباره‌ی Grete Reiter، کتاب‌فروش ۹۴ساله‌ی سالزبورگی که هنوز هر روز کار می‌کند. پایانه‌ی صفت بعد از ein و گفت‌وگو درباره‌ی چیزهایی که هنگام استرس کمک می‌کند."
+    },
+    "xtra": "چهار مرحله‌ی شوک فرهنگی هنگام زندگی در کشور تازه و راه‌های کنار آمدن با آن.",
+    "phrases": [
+      {
+        "de": "Was fehlt Ihnen denn?",
+        "fa": "مشکلتان چیست؟"
+      },
+      {
+        "de": "Was ist passiert?",
+        "fa": "چه اتفاقی افتاده؟"
+      },
+      {
+        "de": "Mein Kopf tut weh.",
+        "fa": "سرم درد می‌کند."
+      },
+      {
+        "de": "Haben Sie etwas gegen ...?",
+        "fa": "چیزی برای ... دارید؟"
+      },
+      {
+        "de": "Dreimal täglich vor dem Essen.",
+        "fa": "روزی سه بار قبل از غذا."
+      },
+      {
+        "de": "Was bedeutet ...?",
+        "fa": "... یعنی چه؟"
+      }
+    ]
+  },
+  "sentences": [
+    {"section":"A","de":"Seit gestern habe ich starke Kopfschmerzen.","fa":"از دیروز سردرد شدیدی دارم."},
+    {"section":"A","de":"Nehmen Sie die Tabletten dreimal täglich nach dem Essen.","fa":"قرص‌ها را روزی سه بار بعد از غذا بخورید."},
+    {"section":"A","de":"Die Apotheke ist von acht bis achtzehn Uhr geöffnet.","fa":"داروخانه از هشت تا هجده باز است."},
+    {"section":"A","de":"Mein Rücken tut seit Montag weh.","fa":"کمرم از دوشنبه درد می‌کند."},
+    {"section":"A","de":"Haben Sie etwas gegen Husten?","fa":"چیزی برای سرفه دارید؟"},
+    {"section":"A","de":"Mein Magen tut nach dem Essen weh.","fa":"بعد از غذا معده‌ام درد می‌کند."},
+    {"section":"A","de":"Sport ist gut für das Herz.","fa":"ورزش برای قلب خوب است."},
+    {"section":"A","de":"Ein Zahn tut mir sehr weh.","fa":"یکی از دندان‌هایم خیلی درد می‌کند."},
+    {"section":"A","de":"Die Apothekerin erklärt mir das Medikament.","fa":"داروساز دارو را برایم توضیح می‌دهد."},
+    {"section":"A","de":"Nach dem Unfall musste er zum Arzt.","fa":"بعد از تصادف باید پیش دکتر می‌رفت."},
+    {"section":"B","de":"Ich wäre gern öfter am Meer.","fa":"دوست داشتم بیشتر کنار دریا باشم."},
+    {"section":"B","de":"Für mich ist Gesundheit wichtiger als Geld.","fa":"برای من سلامت از پول مهم‌تر است."},
+    {"section":"B","de":"Meine Schwester ist genauso zufrieden wie ich.","fa":"خواهرم هم به اندازه‌ی من راضی است."},
+    {"section":"B","de":"Ich wäre gern ein bisschen geduldiger.","fa":"دوست داشتم کمی صبورتر باشم."},
+    {"section":"B","de":"Was macht dich glücklich?","fa":"چه چیزی تو را خوشحال می‌کند؟"},
+    {"section":"B","de":"Mein Freund aus Sydney ist Australier.","fa":"دوستم اهل سیدنی و استرالیایی است."},
+    {"section":"B","de":"Sei nicht so pessimistisch!","fa":"این‌قدر بدبین نباش!"},
+    {"section":"C","de":"Bei Stress hilft mir ein langer Spaziergang.","fa":"هنگام استرس، یک پیاده‌روی طولانی کمکم می‌کند."},
+    {"section":"C","de":"Was bedeutet das Wort „gelassen“?","fa":"کلمه‌ی «gelassen» چه معنایی دارد؟"},
+    {"section":"C","de":"Eine kurze Pause hilft mir bei der Arbeit.","fa":"یک استراحت کوتاه سر کار کمکم می‌کند."},
+    {"section":"C","de":"Meine Kollegin ist eine freundliche Frau.","fa":"همکارم زن مهربانی است."},
+    {"section":"C","de":"Wie erklärt man das Wort „Feierabend“?","fa":"کلمه‌ی «Feierabend» را چطور توضیح می‌دهند؟"},
+    {"section":"C","de":"Vor der Prüfung bin ich oft gestresst.","fa":"قبل از امتحان اغلب پراسترس هستم."}
+  ],
+  "words": [
+    {"de":"Körper","art":"der","pl":"-","fa":"بدن","topic":"Körper"},
+    {"de":"Rücken","art":"der","pl":"-","fa":"کمر، پشت","topic":"Körper"},
+    {"de":"Bauch","art":"der","pl":"¨-e","fa":"شکم","topic":"Körper"},
+    {"de":"Hals","art":"der","pl":"¨-e","fa":"گلو، گردن","topic":"Körper"},
+    {"de":"Kopf","art":"der","pl":"¨-e","fa":"سر","topic":"Körper"},
+    {"de":"Bein","art":"das","pl":"-e","fa":"پا","topic":"Körper"},
+    {"de":"Medikament","art":"das","pl":"-e","fa":"دارو","topic":"Arztbesuch"},
+    {"de":"Rezept","art":"das","pl":"-e","fa":"نسخه","topic":"Arztbesuch"},
+    {"de":"Sprechstunde","art":"die","pl":"-n","fa":"ساعت ویزیت","topic":"Arztbesuch"},
+    {"de":"einnehmen","art":null,"fa":"مصرف کردن (دارو)","topic":"Arztbesuch"},
+    {"de":"Praxis","art":"die","pl":"Praxen","fa":"مطب","topic":"Arztbesuch"},
+    {"de":"Tablette","art":"die","pl":"-n","fa":"قرص","topic":"Arztbesuch"},
+    {"de":"Erkältung","art":"die","pl":"-en","fa":"سرماخوردگی","topic":"Krankheiten"},
+    {"de":"Fieber","art":"das","fa":"تب","topic":"Krankheiten"},
+    {"de":"wehtun","art":null,"fa":"درد کردن","topic":"Krankheiten"},
+    {"de":"Husten","art":"der","fa":"سرفه","topic":"Krankheiten"},
+    {"de":"Schnupfen","art":"der","fa":"آبریزش بینی","topic":"Krankheiten"},
+    {"de":"Grippe","art":"die","pl":"-n","fa":"آنفلوآنزا","topic":"Krankheiten"},
+    {"de":"Glück","art":"das","fa":"شادی، خوشبختی","topic":"Charaktereigenschaften"},
+    {"de":"zufrieden","art":null,"fa":"راضی","topic":"Charaktereigenschaften"},
+    {"de":"fleißig","art":null,"fa":"کوشا","topic":"Charaktereigenschaften"},
+    {"de":"geduldig","art":null,"fa":"صبور","topic":"Charaktereigenschaften"},
+    {"de":"optimistisch","art":null,"fa":"خوش‌بین","topic":"Charaktereigenschaften"},
+    {"de":"freundlich","art":null,"fa":"مهربان","topic":"Charaktereigenschaften"},
+    {"de":"Iraner","art":"der","pl":"-","fa":"ایرانی (مرد)","topic":"Nationalitäten"},
+    {"de":"Iranerin","art":"die","pl":"-nen","fa":"ایرانی (زن)","topic":"Nationalitäten"},
+    {"de":"Deutsche","art":"der","pl":"-n","fa":"آلمانی (مرد)","topic":"Nationalitäten"},
+    {"de":"Schweizerin","art":"die","pl":"-nen","fa":"سوئیسی (زن)","topic":"Nationalitäten"},
+    {"de":"Stress","art":"der","fa":"استرس","topic":"Arbeit"},
+    {"de":"Pause","art":"die","pl":"-n","fa":"استراحت کوتاه","topic":"Arbeit"},
+    {"de":"Chef","art":"der","pl":"-s","fa":"رئیس","topic":"Arbeit"},
+    {"de":"Feierabend","art":"der","pl":"-e","fa":"پایان وقت کاری","topic":"Arbeit"},
+    {"de":"Magen","art":"der","pl":"¨-","fa":"معده","topic":"Körper"},
+    {"de":"Herz","art":"das","pl":"-en","fa":"قلب","topic":"Körper"},
+    {"de":"Zahn","art":"der","pl":"¨-e","fa":"دندان","topic":"Körper"},
+    {"de":"Apothekerin","art":"die","pl":"-nen","fa":"داروساز (زن)","topic":"Arztbesuch"},
+    {"de":"Unfall","art":"der","pl":"¨-e","fa":"تصادف، حادثه","topic":"Krankheiten"},
+    {"de":"gestresst","art":null,"fa":"پراسترس","topic":"Arbeit"},
+    {"de":"Australier","art":"der","pl":"-","fa":"استرالیایی (مرد)","topic":"Nationalitäten"},
+    {"de":"pessimistisch","art":null,"fa":"بدبین","topic":"Charaktereigenschaften"}
+  ]
+}

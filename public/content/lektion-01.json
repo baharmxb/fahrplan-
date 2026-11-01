@@ -1,0 +1,206 @@
+{
+  "lesson": 1,
+  "source": "app",
+  "audio": null,
+  "grammar": [
+    {
+      "title": "Perfekt: trennbare Verben",
+      "fa": "در فعل‌های جداشدنی، ge بین پیشوند و ریشه‌ی فعل می‌آید و کل فعل به آخر جمله می‌رود.",
+      "examples": [
+        {
+          "de": "Ich habe dich gestern angerufen.",
+          "fa": "دیروز به تو زنگ زدم."
+        },
+        {
+          "de": "Der Kurs hat um neun Uhr angefangen.",
+          "fa": "کلاس ساعت نه شروع شد."
+        }
+      ]
+    },
+    {
+      "title": "Personalpronomen im Dativ",
+      "fa": "ضمایر دَتیو این‌ها هستند: mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen. بعد از فعل‌هایی مانند helfen و gefallen به کار می‌روند.",
+      "examples": [
+        {
+          "de": "Kannst du mir helfen?",
+          "fa": "می‌توانی به من کمک کنی؟"
+        },
+        {
+          "de": "Der Film gefällt ihr sehr.",
+          "fa": "او (زن) از این فیلم خیلی خوشش می‌آید."
+        }
+      ]
+    },
+    {
+      "title": "Konnektor weil",
+      "fa": "weil دلیل را بیان می‌کند و فعل صرف‌شده را به آخر جمله‌ی فرعی می‌فرستد.",
+      "examples": [
+        {
+          "de": "Ich bleibe zu Hause, weil ich krank bin.",
+          "fa": "در خانه می‌مانم، چون بیمارم."
+        },
+        {
+          "de": "Sie lernt Deutsch, weil sie in München studieren will.",
+          "fa": "او آلمانی یاد می‌گیرد، چون می‌خواهد در مونیخ درس بخواند."
+        }
+      ]
+    },
+    {
+      "title": "temporale Präposition seit + Dativ",
+      "fa": "seit کاری را نشان می‌دهد که در گذشته شروع شده و هنوز ادامه دارد. پس فعل زمان حال است و اسم بعد از آن دَتیو می‌گیرد.",
+      "examples": [
+        {
+          "de": "Ich lerne seit einem Jahr Deutsch.",
+          "fa": "از یک سال پیش آلمانی یاد می‌گیرم."
+        },
+        {
+          "de": "Seit dem Sommer arbeitet er in Hamburg.",
+          "fa": "از تابستان در هامبورگ کار می‌کند."
+        }
+      ]
+    }
+  ],
+  "proverbs": [
+    {
+      "de": "Aller Anfang ist schwer.",
+      "fa": "هر شروعی سخت است."
+    },
+    {
+      "de": "Übung macht den Meister.",
+      "fa": "کار نیکو کردن از پر کردن است."
+    }
+  ],
+  "dialog": {
+    "title": "دیدار دوباره در کلاس",
+    "lines": [
+      {
+        "who": "Lena",
+        "de": "Hallo Omid! Lange nicht gesehen. Wie geht es dir?",
+        "fa": "سلام امید! خیلی وقته ندیدمت. حالت چطوره؟"
+      },
+      {
+        "who": "Omid",
+        "de": "Danke, gut! Ich bin im Sommer nach Köln umgezogen.",
+        "fa": "ممنون، خوبم! تابستان به کلن اسباب‌کشی کردم."
+      },
+      {
+        "who": "Lena",
+        "de": "Wirklich? Seit wann wohnst du denn dort?",
+        "fa": "واقعاً؟ از کی آنجا زندگی می‌کنی؟"
+      },
+      {
+        "who": "Omid",
+        "de": "Seit drei Monaten. Ich habe dort eine Arbeit gefunden.",
+        "fa": "از سه ماه پیش. آنجا کار پیدا کردم."
+      },
+      {
+        "who": "Lena",
+        "de": "Das ist ja toll! Und warum lernst du noch Deutsch?",
+        "fa": "چه عالی! حالا چرا هنوز آلمانی یاد می‌گیری؟"
+      },
+      {
+        "who": "Omid",
+        "de": "Weil ich im Büro besser sprechen möchte.",
+        "fa": "چون می‌خواهم در اداره بهتر صحبت کنم."
+      }
+    ]
+  },
+  "guide": {
+    "osd": "بخش شفاهی ÖSD با معرفی خود شروع می‌شود؛ پروفایل این درس را بلند و بدون نگاه‌کردن تمرین کن.",
+    "starten": "شروع کلاس جدید: به هم‌کلاسی‌های آشنا سلام می‌کنی و خودت را به افراد تازه معرفی می‌کنی.",
+    "sections": {
+      "A": "سه مکالمه‌ی کوتاه از روز اول کلاس A2 در برلین: آشنایی تازه و احوال‌پرسی با آشناهای قدیمی. تفاوت du و Sie، ضمایر دَتیو، ساختن فهرست کلاس و نوشتن پروفایل با یک اطلاعات غلط برای حدس‌زدن.",
+      "B": "زندگی Gisela، متولد ۱۹۶۲، که پس از سال‌ها خانه‌داری و فوت همسرش از طریق یک آژانس «مادربزرگ اوپر» یک خانواده در رم شده است. Perfekt فعل‌های جداشدنی را از متن بیرون می‌کشی، پادکست Caroline و Jan را برای seit گوش می‌دهی و پنج جمله از مراحل زندگی خودت می‌نویسی.",
+      "C": "Juan از اسپانیا، Fabiana از ایتالیا و Sina از چین از کار و زندگی در برلین و نقش انگلیسی و آلمانی می‌گویند. جمله‌های weil را از متن پیدا می‌کنی و درباره‌ی دلیل یادگیری آلمانی از هم‌کلاسی‌ها می‌پرسی."
+    },
+    "xtra": "شهرها و روستاهایی در سراسر جهان که نامشان Berlin است، از بزرگ‌ترینشان در ویسکانسین تا شهر متروکی در نوادا.",
+    "phrases": [
+      {
+        "de": "Lange nicht gesehen!",
+        "fa": "خیلی وقته ندیدمت!"
+      },
+      {
+        "de": "Das macht Spaß.",
+        "fa": "لذت‌بخش است."
+      },
+      {
+        "de": "Das ist neu für mich!",
+        "fa": "این برایم تازگی دارد!"
+      },
+      {
+        "de": "Was bist du von Beruf?",
+        "fa": "شغلت چیست؟"
+      },
+      {
+        "de": "Seit wann lernst du Deutsch?",
+        "fa": "از کی آلمانی یاد می‌گیری؟"
+      },
+      {
+        "de": "Das möchte ich auch wissen.",
+        "fa": "من هم می‌خواهم این را بدانم."
+      }
+    ]
+  },
+  "sentences": [
+    {"section":"A","de":"Freut mich sehr, ich bin Sara aus Teheran.","fa":"خیلی خوشوقتم، من سارا از تهران هستم."},
+    {"section":"A","de":"Wie geht es dir heute?","fa":"امروز حالت چطور است؟"},
+    {"section":"A","de":"Wir kennen uns doch aus dem Deutschkurs!","fa":"ما که همدیگر را از کلاس آلمانی می‌شناسیم!"},
+    {"section":"A","de":"Mein Familienname ist Ahmadi.","fa":"نام خانوادگی من احمدی است."},
+    {"section":"A","de":"Woher kommst du und wo wohnst du jetzt?","fa":"اهل کجایی و حالا کجا زندگی می‌کنی؟"},
+    {"section":"A","de":"Mein Vorname ist Neda.","fa":"نام من نداست."},
+    {"section":"A","de":"Wie ist die Postleitzahl von deiner Stadt?","fa":"کد پستی شهرت چند است؟"},
+    {"section":"B","de":"Ich wohne seit zwei Jahren in Berlin.","fa":"من از دو سال پیش در برلین زندگی می‌کنم."},
+    {"section":"B","de":"Nach dem Studium bin ich ins Ausland gegangen.","fa":"بعد از تحصیل به خارج از کشور رفتم."},
+    {"section":"B","de":"Meine Schwester ist letztes Jahr umgezogen.","fa":"خواهرم پارسال اسباب‌کشی کرد."},
+    {"section":"B","de":"Ich möchte in zwei Jahren in Deutschland studieren.","fa":"می‌خواهم دو سال دیگر در آلمان درس بخوانم."},
+    {"section":"B","de":"Seit wann bist du verheiratet?","fa":"از کی متأهل هستی؟"},
+    {"section":"B","de":"Mein Bruder hat dieses Jahr das Abitur gemacht.","fa":"برادرم امسال دیپلم گرفت."},
+    {"section":"B","de":"Eine Agentur hilft mir bei der Reise.","fa":"یک آژانس در این سفر به من کمک می‌کند."},
+    {"section":"B","de":"Meine Mutter war lange Hausfrau.","fa":"مادرم مدت‌ها خانه‌دار بود."},
+    {"section":"B","de":"Die Unterkunft in dieser Stadt ist nicht billig.","fa":"محل اقامت در این شهر ارزان نیست."},
+    {"section":"B","de":"Im Hotel ist die Verpflegung inklusive.","fa":"در هتل، غذا هم در قیمت حساب شده است."},
+    {"section":"B","de":"Mein Großvater ist vor zwei Jahren gestorben.","fa":"پدربزرگم دو سال پیش درگذشت."},
+    {"section":"C","de":"Ich lerne Deutsch, weil ich in Wien arbeiten möchte.","fa":"آلمانی یاد می‌گیرم، چون می‌خواهم در وین کار کنم."},
+    {"section":"C","de":"Das finde ich wirklich interessant!","fa":"این به نظرم واقعاً جالب است!"},
+    {"section":"C","de":"Warum lernst du eigentlich Deutsch?","fa":"راستی چرا آلمانی یاد می‌گیری؟"},
+    {"section":"C","de":"Wirklich? Das wusste ich nicht!","fa":"واقعاً؟ این را نمی‌دانستم!"},
+    {"section":"C","de":"Deutsch ist nicht leicht, aber es macht mir Spaß.","fa":"آلمانی آسان نیست، ولی برایم لذت‌بخش است."}
+  ],
+  "words": [
+    {"de":"Bekannte","art":"die","pl":"-n","fa":"آشنا (زن)","topic":"persönliche Informationen"},
+    {"de":"Beruf","art":"der","pl":"-e","fa":"شغل","topic":"persönliche Informationen"},
+    {"de":"Heimat","art":"die","fa":"وطن","topic":"persönliche Informationen"},
+    {"de":"sich vorstellen","art":null,"fa":"خود را معرفی کردن","topic":"persönliche Informationen"},
+    {"de":"Familienname","art":"der","pl":"-n","fa":"نام خانوادگی","topic":"persönliche Informationen"},
+    {"de":"Wohnort","art":"der","pl":"-e","fa":"محل زندگی","topic":"persönliche Informationen"},
+    {"de":"Muttersprache","art":"die","pl":"-n","fa":"زبان مادری","topic":"persönliche Informationen"},
+    {"de":"Geburtsdatum","art":"das","pl":"-daten","fa":"تاریخ تولد","topic":"persönliche Informationen"},
+    {"de":"ledig","art":null,"fa":"مجرد","topic":"persönliche Informationen"},
+    {"de":"verheiratet","art":null,"fa":"متأهل","topic":"persönliche Informationen"},
+    {"de":"Plan","art":"der","pl":"¨-e","fa":"برنامه، نقشه","topic":"Lebenspläne"},
+    {"de":"Ziel","art":"das","pl":"-e","fa":"هدف","topic":"Lebenspläne"},
+    {"de":"Fremdsprache","art":"die","pl":"-n","fa":"زبان خارجی","topic":"Lebenspläne"},
+    {"de":"Studium","art":"das","pl":"Studien","fa":"تحصیل دانشگاهی","topic":"Lebenspläne"},
+    {"de":"auswandern","art":null,"fa":"مهاجرت کردن","topic":"Lebenspläne"},
+    {"de":"Wunsch","art":"der","pl":"¨-e","fa":"آرزو","topic":"Lebenspläne"},
+    {"de":"Zukunft","art":"die","fa":"آینده","topic":"Lebenspläne"},
+    {"de":"planen","art":null,"fa":"برنامه‌ریزی کردن","topic":"Lebenspläne"},
+    {"de":"Ausland","art":"das","fa":"خارج از کشور","topic":"Stationen in einem Leben"},
+    {"de":"Lebenslauf","art":"der","pl":"¨-e","fa":"شرح حال، رزومه","topic":"Stationen in einem Leben"},
+    {"de":"umziehen","art":null,"fa":"اسباب‌کشی کردن","topic":"Stationen in einem Leben"},
+    {"de":"begrüßen","art":null,"fa":"سلام و احوال‌پرسی کردن","topic":"Stationen in einem Leben"},
+    {"de":"überrascht","art":null,"fa":"شگفت‌زده","topic":"Stationen in einem Leben"},
+    {"de":"Geburt","art":"die","pl":"-en","fa":"تولد","topic":"Stationen in einem Leben"},
+    {"de":"Abschluss","art":"der","pl":"¨-e","fa":"مدرک پایان تحصیل","topic":"Stationen in einem Leben"},
+    {"de":"Rente","art":"die","pl":"-n","fa":"بازنشستگی","topic":"Stationen in einem Leben"},
+    {"de":"geboren","art":null,"fa":"متولد","topic":"Stationen in einem Leben"},
+    {"de":"Vorname","art":"der","pl":"-n","fa":"نام","topic":"persönliche Informationen"},
+    {"de":"Postleitzahl","art":"die","pl":"-en","fa":"کد پستی","topic":"persönliche Informationen"},
+    {"de":"Agentur","art":"die","pl":"-en","fa":"آژانس","topic":"Lebenspläne"},
+    {"de":"Abitur","art":"das","fa":"دیپلم متوسطه","topic":"Stationen in einem Leben"},
+    {"de":"Hausfrau","art":"die","pl":"-en","fa":"زن خانه‌دار","topic":"Stationen in einem Leben"},
+    {"de":"Unterkunft","art":"die","pl":"¨-e","fa":"محل اقامت","topic":"Lebenspläne"},
+    {"de":"Verpflegung","art":"die","fa":"غذای تأمین‌شده","topic":"Lebenspläne"},
+    {"de":"sterben","art":null,"fa":"درگذشتن","topic":"Stationen in einem Leben"}
+  ]
+}

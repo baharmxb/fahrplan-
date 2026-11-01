@@ -1,0 +1,207 @@
+{
+  "lesson": 7,
+  "source": "app",
+  "audio": null,
+  "grammar": [
+    {
+      "title": "Modalverben: Präteritum",
+      "fa": "فعل‌های وجهی در گذشته -te می‌گیرند و اوملاوت خود را از دست می‌دهند: konnte, musste, durfte, wollte, sollte.",
+      "examples": [
+        {
+          "de": "Ich musste jeden Tag früh aufstehen.",
+          "fa": "مجبور بودم هر روز زود بیدار شوم."
+        },
+        {
+          "de": "Wir durften in der Schule nicht essen.",
+          "fa": "اجازه نداشتیم در مدرسه چیزی بخوریم."
+        }
+      ]
+    },
+    {
+      "title": "modale Präpositionen: ohne + Akkusativ, mit + Dativ",
+      "fa": "ohne یعنی «بدون» و با آکوزاتیو می‌آید. mit یعنی «با» و دَتیو می‌گیرد.",
+      "examples": [
+        {
+          "de": "Ich gehe nie ohne meinen Kalender ins Büro.",
+          "fa": "هیچ‌وقت بدون تقویمم به اداره نمی‌روم."
+        },
+        {
+          "de": "Sie arbeitet gern mit ihrer Kollegin.",
+          "fa": "او دوست دارد با همکارش کار کند."
+        }
+      ]
+    },
+    {
+      "title": "Konnektor deshalb",
+      "fa": "deshalb نتیجه را بیان می‌کند و در جایگاه اول جمله می‌نشیند، پس فعل بلافاصله بعد از آن می‌آید.",
+      "examples": [
+        {
+          "de": "Ich war krank, deshalb bin ich zu Hause geblieben.",
+          "fa": "بیمار بودم، به همین دلیل در خانه ماندم."
+        },
+        {
+          "de": "Der Bus kam nicht, deshalb kam ich zu spät.",
+          "fa": "اتوبوس نیامد، برای همین دیر رسیدم."
+        }
+      ]
+    },
+    {
+      "title": "Konnektoren wenn, dass",
+      "fa": "wenn شرط را بیان می‌کند و dass جمله‌ی مفعولی می‌سازد. در هر دو، فعل به آخر جمله‌ی فرعی می‌رود.",
+      "examples": [
+        {
+          "de": "Wenn ich Zeit habe, lese ich die Stellenanzeigen.",
+          "fa": "اگر وقت داشته باشم، آگهی‌های شغلی را می‌خوانم."
+        },
+        {
+          "de": "Ich hoffe, dass ich die Stelle bekomme.",
+          "fa": "امیدوارم این شغل را بگیرم."
+        }
+      ]
+    }
+  ],
+  "proverbs": [
+    {
+      "de": "Was Hänschen nicht lernt, lernt Hans nimmermehr.",
+      "fa": "آنچه در کودکی یاد نگیری، در بزرگی به‌سختی یاد می‌گیری."
+    },
+    {
+      "de": "Lehrjahre sind keine Herrenjahre.",
+      "fa": "دوران شاگردی، دوران آقایی نیست."
+    }
+  ],
+  "dialog": {
+    "title": "مصاحبه‌ی کاری",
+    "lines": [
+      {
+        "who": "Frau Weiß",
+        "de": "Warum möchten Sie bei uns arbeiten?",
+        "fa": "چرا می‌خواهید پیش ما کار کنید؟"
+      },
+      {
+        "who": "Herr Moradi",
+        "de": "Ihre Firma ist international, deshalb finde ich sie interessant.",
+        "fa": "شرکت شما بین‌المللی است، به همین دلیل به نظرم جالب است."
+      },
+      {
+        "who": "Frau Weiß",
+        "de": "Welche Erfahrung haben Sie?",
+        "fa": "چه تجربه‌ای دارید؟"
+      },
+      {
+        "who": "Herr Moradi",
+        "de": "Ich habe drei Jahre in einem Hotel gearbeitet.",
+        "fa": "سه سال در یک هتل کار کرده‌ام."
+      },
+      {
+        "who": "Frau Weiß",
+        "de": "Wann könnten Sie bei uns anfangen?",
+        "fa": "کی می‌توانید پیش ما شروع کنید؟"
+      },
+      {
+        "who": "Herr Moradi",
+        "de": "Wenn alles klappt, schon im nächsten Monat.",
+        "fa": "اگر همه‌چیز درست پیش برود، همین ماه آینده."
+      }
+    ]
+  },
+  "guide": {
+    "osd": "آگهی شغلی تمرین خوب Lesen است و جمله‌های dass و wenn برای دلیل آوردن در گفت‌وگو لازم می‌شوند.",
+    "starten": "Lena از نقشه‌ی اصلی و جایگزین زندگی‌اش می‌گوید و تو از چیزهایی که خوشحالت می‌کند فهرست می‌سازی.",
+    "sections": {
+      "A": "مصاحبه با Lena، «کوچ‌نشین دیجیتال» سوئیسی که کارش را رها کرد و یک سال در شش کشور سفر و کار کرد. ohne با آکوزاتیو، mit با دَتیو و نوشتن درباره‌ی رؤیایت.",
+      "B": "نام درس‌ها و برنامه‌ی رادیویی درباره‌ی معلمان محبوب. Modalverben در Präteritum، نوشتن درباره‌ی معلمت و آرزوی شغلی کودکی.",
+      "C": "آگهی شغلی فروشگاه MEDIA Plus، نامه‌ی درخواست Mario با اشتباه‌هایش و نکته‌های نوشتن نامه‌ی رسمی. deshalb و بازنویسی درست نامه.",
+      "D": "آگهی شغل عکاس سفر، پروفایل Kim Stefan و مصاحبه‌اش با هیئت داوران. wenn و dass و گفتن این‌که در کار چه چیزی برایت مهم است."
+    },
+    "xtra": "Kim شغل را می‌برد و با دوربین به سفر می‌رود؛ وبلاگ سفرش از برلین شروع می‌شود.",
+    "phrases": [
+      {
+        "de": "Sehr geehrte Frau ...",
+        "fa": "خانم ... محترم"
+      },
+      {
+        "de": "Ich möchte mich um die Stelle bewerben.",
+        "fa": "می‌خواهم برای این شغل درخواست بدهم."
+      },
+      {
+        "de": "Ich freue mich auf ein Gespräch.",
+        "fa": "مشتاق گفت‌وگو هستم."
+      },
+      {
+        "de": "Ich finde es wichtig, dass ...",
+        "fa": "به نظرم مهم است که ..."
+      },
+      {
+        "de": "Für mich ist wichtig, dass ...",
+        "fa": "برای من مهم است که ..."
+      },
+      {
+        "de": "Ich war gut in ...",
+        "fa": "در ... خوب بودم."
+      }
+    ]
+  },
+  "sentences": [
+    {"section":"A","de":"Ohne einen Plan B fühle ich mich unsicher.","fa":"بدون نقشه‌ی جایگزین احساس ناامنی می‌کنم."},
+    {"section":"A","de":"Im Job ist mir ein gutes Team am wichtigsten.","fa":"در کار، یک تیم خوب از همه برایم مهم‌تر است."},
+    {"section":"A","de":"Mein Traum ist ein eigenes Café.","fa":"رؤیای من یک کافه‌ی شخصی است."},
+    {"section":"A","de":"Ein gutes Gehalt ist mir wichtig.","fa":"حقوق خوب برایم مهم است."},
+    {"section":"A","de":"Ich möchte meinen Job nicht kündigen.","fa":"نمی‌خواهم از کارم استعفا بدهم."},
+    {"section":"B","de":"Als Kind wollte ich Pilotin werden.","fa":"در کودکی می‌خواستم خلبان شوم."},
+    {"section":"B","de":"In Mathematik war ich immer schlecht.","fa":"در ریاضی همیشه ضعیف بودم."},
+    {"section":"B","de":"Mein Lieblingsfach war Geschichte.","fa":"درس محبوبم تاریخ بود."},
+    {"section":"B","de":"Mein Bruder konnte schon mit fünf Jahren lesen.","fa":"برادرم از پنج‌سالگی می‌توانست بخواند."},
+    {"section":"B","de":"Meine Grundschule war in einem kleinen Dorf.","fa":"دبستانم در یک روستای کوچک بود."},
+    {"section":"B","de":"Nach der Grundschule ging ich aufs Gymnasium.","fa":"بعد از دبستان به دبیرستان رفتم."},
+    {"section":"C","de":"Hiermit bewerbe ich mich um die Stelle als Verkäuferin.","fa":"بدین‌وسیله برای شغل فروشندگی درخواست می‌دهم."},
+    {"section":"C","de":"Ich spreche gut Englisch, deshalb passe ich gut zu Ihrem Team.","fa":"انگلیسی را خوب صحبت می‌کنم، به همین دلیل با تیم شما هماهنگم."},
+    {"section":"C","de":"Sehr geehrte Frau Berger, ich habe Ihre Anzeige gelesen.","fa":"خانم برگر محترم، آگهی شما را خوانده‌ام."},
+    {"section":"C","de":"Ohne Erfahrung ist es nicht leicht.","fa":"بدون تجربه کار آسانی نیست."},
+    {"section":"C","de":"Die Firma sucht einen neuen Mitarbeiter.","fa":"شرکت دنبال یک کارمند جدید است."},
+    {"section":"C","de":"Sie arbeitet in der Abteilung für Verkauf.","fa":"او در بخش فروش کار می‌کند."},
+    {"section":"C","de":"Mein Vater arbeitet als Kaufmann.","fa":"پدرم کارشناس بازرگانی است."},
+    {"section":"C","de":"Ich schreibe heute mein Anschreiben.","fa":"امروز نامه‌ی درخواست شغلم را می‌نویسم."},
+    {"section":"D","de":"Wenn die Arbeitszeit flexibel ist, nehme ich den Job.","fa":"اگر ساعت کاری منعطف باشد، این کار را قبول می‌کنم."},
+    {"section":"D","de":"Ich finde, dass Kollegen sehr wichtig sind.","fa":"به نظرم همکاران خیلی مهم هستند."},
+    {"section":"D","de":"Wenn ich Teilzeit arbeite, habe ich mehr Zeit.","fa":"اگر پاره‌وقت کار کنم، وقت بیشتری دارم."},
+    {"section":"D","de":"Morgen habe ich ein Vorstellungsgespräch.","fa":"فردا مصاحبه‌ی کاری دارم."},
+    {"section":"D","de":"Mein Arbeitsplatz ist hell und ruhig.","fa":"محل کارم روشن و آرام است."}
+  ],
+  "words": [
+    {"de":"Gehalt","art":"das","pl":"¨-er","fa":"حقوق","topic":"Beruf und Berufsalltag"},
+    {"de":"Ausbildung","art":"die","pl":"-en","fa":"آموزش حرفه‌ای","topic":"Beruf und Berufsalltag"},
+    {"de":"Erfahrung","art":"die","pl":"-en","fa":"تجربه","topic":"Beruf und Berufsalltag"},
+    {"de":"Arbeitgeber","art":"der","pl":"-","fa":"کارفرما","topic":"Beruf und Berufsalltag"},
+    {"de":"Traum","art":"der","pl":"¨-e","fa":"رؤیا","topic":"Beruf und Berufsalltag"},
+    {"de":"verdienen","art":null,"fa":"درآمد داشتن","topic":"Beruf und Berufsalltag"},
+    {"de":"selbstständig","art":null,"fa":"مستقل، خویش‌فرما","topic":"Beruf und Berufsalltag"},
+    {"de":"Kollege","art":"der","pl":"-n","fa":"همکار","topic":"Beruf und Berufsalltag"},
+    {"de":"Arbeitszeit","art":"die","pl":"-en","fa":"ساعت کاری","topic":"Beruf und Berufsalltag"},
+    {"de":"Fach","art":"das","pl":"¨-er","fa":"درس، رشته","topic":"Schulfächer"},
+    {"de":"Note","art":"die","pl":"-n","fa":"نمره","topic":"Schulfächer"},
+    {"de":"Zeugnis","art":"das","pl":"-se","fa":"کارنامه، گواهی","topic":"Schulfächer"},
+    {"de":"Mathematik","art":"die","fa":"ریاضی","topic":"Schulfächer"},
+    {"de":"Geschichte","art":"die","fa":"تاریخ","topic":"Schulfächer"},
+    {"de":"Sport","art":"der","fa":"ورزش","topic":"Schulfächer"},
+    {"de":"Stelle","art":"die","pl":"-n","fa":"شغل، موقعیت کاری","topic":"Stellenanzeige"},
+    {"de":"Teilzeit","art":"die","fa":"پاره‌وقت","topic":"Stellenanzeige"},
+    {"de":"Vollzeit","art":"die","fa":"تمام‌وقت","topic":"Stellenanzeige"},
+    {"de":"gesucht","art":null,"fa":"مورد نیاز","topic":"Stellenanzeige"},
+    {"de":"flexibel","art":null,"fa":"منعطف","topic":"Stellenanzeige"},
+    {"de":"Bewerbung","art":"die","pl":"-en","fa":"درخواست شغل","topic":"Bewerbungsschreiben"},
+    {"de":"Vorstellungsgespräch","art":"das","pl":"-e","fa":"مصاحبه‌ی کاری","topic":"Bewerbungsschreiben"},
+    {"de":"sich bewerben","art":null,"fa":"درخواست شغل دادن","topic":"Bewerbungsschreiben"},
+    {"de":"Anrede","art":"die","pl":"-n","fa":"عبارت خطاب نامه","topic":"Bewerbungsschreiben"},
+    {"de":"Unterschrift","art":"die","pl":"-en","fa":"امضا","topic":"Bewerbungsschreiben"},
+    {"de":"Mit freundlichen Grüßen","art":null,"fa":"با احترام (پایان نامه)","topic":"Bewerbungsschreiben"},
+    {"de":"Mitarbeiter","art":"der","pl":"-","fa":"کارمند","topic":"Beruf und Berufsalltag"},
+    {"de":"Abteilung","art":"die","pl":"-en","fa":"بخش اداری","topic":"Stellenanzeige"},
+    {"de":"Arbeitsplatz","art":"der","pl":"¨-e","fa":"محل کار","topic":"Stellenanzeige"},
+    {"de":"Kaufmann","art":"der","pl":"-leute","fa":"کارشناس بازرگانی","topic":"Stellenanzeige"},
+    {"de":"Anschreiben","art":"das","pl":"-","fa":"نامه‌ی درخواست","topic":"Bewerbungsschreiben"},
+    {"de":"kündigen","art":null,"fa":"استعفا دادن","topic":"Beruf und Berufsalltag"},
+    {"de":"Grundschule","art":"die","pl":"-n","fa":"دبستان","topic":"Schulfächer"},
+    {"de":"Gymnasium","art":"das","pl":"Gymnasien","fa":"دبیرستان","topic":"Schulfächer"}
+  ]
+}

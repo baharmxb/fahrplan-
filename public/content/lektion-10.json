@@ -1,0 +1,233 @@
+{
+  "lesson": 10,
+  "source": "app",
+  "audio": null,
+  "grammar": [
+    {
+      "title": "Verb: lassen",
+      "fa": "lassen همراه مصدر یعنی کاری را به دیگری سپردن. lassen صرف می‌شود و مصدر به آخر جمله می‌رود.",
+      "examples": [
+        {
+          "de": "Ich lasse mir die Haare schneiden.",
+          "fa": "موهایم را می‌دهم کوتاه کنند."
+        },
+        {
+          "de": "Sie lässt das Kleid reinigen.",
+          "fa": "او پیراهن را برای خشک‌شویی می‌دهد."
+        }
+      ]
+    },
+    {
+      "title": "Verben mit Dativ- und Akkusativergänzung: Stellung der Objekte",
+      "fa": "اگر هر دو مفعول اسم باشند، دَتیو اول می‌آید. اگر آکوزاتیو ضمیر باشد، پیش از دَتیو قرار می‌گیرد.",
+      "examples": [
+        {
+          "de": "Ich gebe dem Kunden die Rechnung.",
+          "fa": "صورت‌حساب را به مشتری می‌دهم."
+        },
+        {
+          "de": "Ich gebe sie ihm morgen.",
+          "fa": "فردا آن را به او می‌دهم."
+        }
+      ]
+    },
+    {
+      "title": "Genitiv",
+      "fa": "ژنیتیو مالکیت را نشان می‌دهد. مذکر و خنثی des با ‎-s یا ‎-es می‌گیرند و مؤنث و جمع der.",
+      "examples": [
+        {
+          "de": "Das ist das Auto meines Vaters.",
+          "fa": "این ماشین پدر من است."
+        },
+        {
+          "de": "Der Preis der Jacke ist hoch.",
+          "fa": "قیمت این کت بالاست."
+        }
+      ]
+    },
+    {
+      "title": "Adjektivdeklination nach definitivem Artikel im Nominativ, Akkusativ und Dativ",
+      "fa": "بعد از der, die, das در نومیناتیو صفت ‎-e می‌گیرد، در آکوزاتیو مذکر ‎-en و در دَتیو و جمع هم ‎-en.",
+      "examples": [
+        {
+          "de": "Der rote Pullover ist neu.",
+          "fa": "پلیور قرمز نو است."
+        },
+        {
+          "de": "Ich nehme den roten Pullover.",
+          "fa": "پلیور قرمز را برمی‌دارم."
+        }
+      ]
+    },
+    {
+      "title": "modale Präposition: aus",
+      "fa": "aus برای بیان جنس و ماده به کار می‌رود و دَتیو می‌گیرد.",
+      "examples": [
+        {
+          "de": "Der Tisch ist aus Holz.",
+          "fa": "میز از چوب است."
+        },
+        {
+          "de": "Die Tasse ist aus Porzellan.",
+          "fa": "فنجان از چینی است."
+        }
+      ]
+    },
+    {
+      "title": "Präposition: über + Akkusativ",
+      "fa": "über به معنی «درباره‌ی» همیشه آکوزاتیو می‌گیرد.",
+      "examples": [
+        {
+          "de": "Wir sprechen über den neuen Film.",
+          "fa": "درباره‌ی فیلم جدید حرف می‌زنیم."
+        },
+        {
+          "de": "Sie schreibt über ihren Traumurlaub.",
+          "fa": "او درباره‌ی تعطیلات رؤیایی‌اش می‌نویسد."
+        }
+      ]
+    }
+  ],
+  "proverbs": [
+    {
+      "de": "Einem geschenkten Gaul schaut man nicht ins Maul.",
+      "fa": "دندان اسب پیشکشی را نمی‌شمارند."
+    },
+    {
+      "de": "Kleine Geschenke erhalten die Freundschaft.",
+      "fa": "هدیه‌های کوچک دوستی را نگه می‌دارند."
+    }
+  ],
+  "dialog": {
+    "title": "پرسش مشتری",
+    "lines": [
+      {
+        "who": "Kundin",
+        "de": "Entschuldigung, wo finde ich die Elektroabteilung?",
+        "fa": "ببخشید، بخش لوازم برقی کجاست؟"
+      },
+      {
+        "who": "Verkäufer",
+        "de": "Im ersten Stock, gleich neben der Rolltreppe.",
+        "fa": "طبقه‌ی اول، درست کنار پله‌برقی."
+      },
+      {
+        "who": "Kundin",
+        "de": "Ich möchte diesen Staubsauger umtauschen.",
+        "fa": "می‌خواهم این جاروبرقی را عوض کنم."
+      },
+      {
+        "who": "Verkäufer",
+        "de": "Gern. Haben Sie den Kassenbon dabei?",
+        "fa": "حتماً. رسید خرید همراهتان هست؟"
+      },
+      {
+        "who": "Kundin",
+        "de": "Ja, hier ist er.",
+        "fa": "بله، بفرمایید."
+      },
+      {
+        "who": "Verkäufer",
+        "de": "Vielen Dank. Ich hole Ihnen sofort einen neuen.",
+        "fa": "خیلی ممنون. همین الان یک نو برایتان می‌آورم."
+      }
+    ]
+  },
+  "guide": {
+    "osd": "گفتن نظر، پاسخ مؤدبانه و گفت‌وگوی کوتاه (Smalltalk) برای راحت بودن در بخش شفاهی عالی است.",
+    "starten": "نقشه‌ی طبقات یک مرکز خرید را می‌خوانی و راه بخش‌ها را می‌پرسی.",
+    "sections": {
+      "A": "توصیف شیء با شکل و جنس وقتی نامش را نمی‌دانی، قیمت متفاوت قهوه بر اساس ادب مشتری، پرسش‌های مشتری، پاسخ مؤدبانه و ژنیتیو.",
+      "B": "کلاس آشنایی Paula درباره‌ی تعریف کردن، این‌که زن و مرد از چه تعریفی خوششان می‌آید، قرار Alexis و Stefanie و پایانه‌ی صفت بعد از حرف تعریف معین.",
+      "C": "کارهایی که خودت انجام می‌دهی یا می‌سپاری، فعل lassen و سه پروفایل سایت دوستیابی با امتیاز یک متخصص. نوشتن پروفایل و نقش قرار ملاقات.",
+      "D": "هدیه برای Stefanie، جای ضمایر دَتیو و آکوزاتیو، رپ ولنتاین و نظرهای مشتریان درباره‌ی خریدها با پایانه‌ی صفت در دَتیو."
+    },
+    "xtra": "نکته‌های یک روان‌شناس برای Smalltalk: چطور شروع کنی، پرسش باز بپرسی و گفت‌وگو را با احترام تمام کنی.",
+    "phrases": [
+      {
+        "de": "Entschuldigung, ich suche ...",
+        "fa": "ببخشید، دنبال ... می‌گردم."
+      },
+      {
+        "de": "Im Moment leider nicht.",
+        "fa": "فعلاً متأسفانه نه."
+      },
+      {
+        "de": "Ist das in Ordnung?",
+        "fa": "این مناسب است؟"
+      },
+      {
+        "de": "Darf ich Sie bitten?",
+        "fa": "اجازه می‌دهید؟"
+      },
+      {
+        "de": "Danke für das interessante Gespräch.",
+        "fa": "ممنون بابت گفت‌وگوی جالب."
+      },
+      {
+        "de": "Wie war's im Urlaub?",
+        "fa": "تعطیلات چطور بود؟"
+      }
+    ]
+  },
+  "sentences": [
+    {"section":"A","de":"Die Schuhabteilung finden Sie im zweiten Stock.","fa":"بخش کفش را در طبقه‌ی دوم پیدا می‌کنید."},
+    {"section":"A","de":"Ist die Tasche aus echtem Leder?","fa":"این کیف از چرم طبیعی است؟"},
+    {"section":"A","de":"Die Kasse ist gleich neben dem Eingang.","fa":"صندوق درست کنار ورودی است."},
+    {"section":"A","de":"Darf ich Ihnen helfen?","fa":"اجازه هست کمکتان کنم؟"},
+    {"section":"A","de":"Die Schuhe finden Sie in der Abteilung links.","fa":"کفش‌ها را در بخش سمت چپ پیدا می‌کنید."},
+    {"section":"A","de":"Mein Auto steht in der Tiefgarage.","fa":"ماشینم در پارکینگ زیرزمینی است."},
+    {"section":"A","de":"Die Tasche ist aus Plastik.","fa":"این کیف پلاستیکی است."},
+    {"section":"A","de":"Der Tisch hat eine runde Form.","fa":"میز شکل گردی دارد."},
+    {"section":"B","de":"Du hast heute aber ein schönes Lächeln!","fa":"امروز چه لبخند زیبایی داری!"},
+    {"section":"B","de":"Das nette Kompliment hat mich sehr gefreut.","fa":"از آن تعریف محبت‌آمیز خیلی خوشحال شدم."},
+    {"section":"B","de":"Dein neuer Pullover steht dir sehr gut.","fa":"پلیور جدیدت خیلی به تو می‌آید."},
+    {"section":"B","de":"Du bist wirklich klug und freundlich.","fa":"تو واقعاً باهوش و مهربانی."},
+    {"section":"B","de":"Ich mag ihren Humor sehr.","fa":"شوخ‌طبعی او را خیلی دوست دارم."},
+    {"section":"C","de":"Ich lasse mein Auto in der Werkstatt reparieren.","fa":"ماشینم را می‌دهم در تعمیرگاه تعمیر کنند."},
+    {"section":"C","de":"Erzähl doch mal etwas über dich!","fa":"یک چیزی درباره‌ی خودت تعریف کن!"},
+    {"section":"C","de":"Ich lasse meine Wohnung einmal im Monat putzen.","fa":"ماهی یک بار می‌دهم آپارتمانم را تمیز کنند."},
+    {"section":"C","de":"Hast du am Wochenende Zeit?","fa":"آخر هفته وقت داری؟"},
+    {"section":"C","de":"Ich kann die Lampe selbst reparieren.","fa":"خودم می‌توانم چراغ را تعمیر کنم."},
+    {"section":"D","de":"Ich schenke sie ihm zum Geburtstag.","fa":"آن را برای تولدش به او هدیه می‌دهم."},
+    {"section":"D","de":"Das ist das Fahrrad meines Bruders.","fa":"این دوچرخه‌ی برادر من است."},
+    {"section":"D","de":"Ich bin mit der Kamera sehr zufrieden.","fa":"از این دوربین خیلی راضی‌ام."},
+    {"section":"D","de":"Die Vase aus Glas ist ein schönes Geschenk.","fa":"گلدان شیشه‌ای هدیه‌ی زیبایی است."},
+    {"section":"D","de":"Ein weiches Handtuch ist ein gutes Geschenk.","fa":"یک حوله‌ی نرم هدیه‌ی خوبی است."}
+  ],
+  "words": [
+    {"de":"Einkaufszentrum","art":"das","pl":"-zentren","fa":"مرکز خرید","topic":"Orientierung im Einkaufszentrum"},
+    {"de":"Rolltreppe","art":"die","pl":"-n","fa":"پله‌برقی","topic":"Orientierung im Einkaufszentrum"},
+    {"de":"Stock","art":"der","pl":"Stockwerke","fa":"طبقه","topic":"Orientierung im Einkaufszentrum"},
+    {"de":"Kasse","art":"die","pl":"-n","fa":"صندوق","topic":"Orientierung im Einkaufszentrum"},
+    {"de":"Aufzug","art":"der","pl":"¨-e","fa":"آسانسور","topic":"Orientierung im Einkaufszentrum"},
+    {"de":"Eingang","art":"der","pl":"¨-e","fa":"ورودی","topic":"Orientierung im Einkaufszentrum"},
+    {"de":"Leder","art":"das","fa":"چرم","topic":"Material und Form"},
+    {"de":"Holz","art":"das","pl":"¨-er","fa":"چوب","topic":"Material und Form"},
+    {"de":"Wolle","art":"die","fa":"پشم","topic":"Material und Form"},
+    {"de":"rund","art":null,"fa":"گرد","topic":"Material und Form"},
+    {"de":"Glas","art":"das","pl":"¨-er","fa":"شیشه","topic":"Material und Form"},
+    {"de":"Metall","art":"das","pl":"-e","fa":"فلز","topic":"Material und Form"},
+    {"de":"eckig","art":null,"fa":"چهارگوش","topic":"Material und Form"},
+    {"de":"Haushalt","art":"der","pl":"-e","fa":"امور خانه","topic":"Aufgaben im Haushalt"},
+    {"de":"Staubsauger","art":"der","pl":"-","fa":"جاروبرقی","topic":"Aufgaben im Haushalt"},
+    {"de":"bügeln","art":null,"fa":"اتو کردن","topic":"Aufgaben im Haushalt"},
+    {"de":"umtauschen","art":null,"fa":"تعویض کردن کالا","topic":"Aufgaben im Haushalt"},
+    {"de":"putzen","art":null,"fa":"تمیز کردن","topic":"Aufgaben im Haushalt"},
+    {"de":"waschen","art":null,"fa":"شستن","topic":"Aufgaben im Haushalt"},
+    {"de":"aufräumen","art":null,"fa":"مرتب کردن","topic":"Aufgaben im Haushalt"},
+    {"de":"Kompliment","art":"das","pl":"-e","fa":"تعریف، تمجید","topic":"Komplimente"},
+    {"de":"sympathisch","art":null,"fa":"دوست‌داشتنی","topic":"Komplimente"},
+    {"de":"Lächeln","art":"das","fa":"لبخند","topic":"Komplimente"},
+    {"de":"toll","art":null,"fa":"عالی","topic":"Komplimente"},
+    {"de":"klug","art":null,"fa":"باهوش","topic":"Komplimente"},
+    {"de":"Das steht dir gut.","art":null,"fa":"این به تو می‌آید.","topic":"Komplimente"},
+    {"de":"Abteilung","art":"die","pl":"-en","fa":"بخش فروشگاه","topic":"Orientierung im Einkaufszentrum"},
+    {"de":"Tiefgarage","art":"die","pl":"-n","fa":"پارکینگ زیرزمینی","topic":"Orientierung im Einkaufszentrum"},
+    {"de":"Plastik","art":"das","fa":"پلاستیک","topic":"Material und Form"},
+    {"de":"Form","art":"die","pl":"-en","fa":"شکل","topic":"Material und Form"},
+    {"de":"Handtuch","art":"das","pl":"¨-er","fa":"حوله","topic":"Aufgaben im Haushalt"},
+    {"de":"reparieren","art":null,"fa":"تعمیر کردن","topic":"Aufgaben im Haushalt"},
+    {"de":"Humor","art":"der","fa":"شوخ‌طبعی","topic":"Komplimente"}
+  ]
+}

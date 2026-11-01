@@ -1,0 +1,214 @@
+{
+  "lesson": 11,
+  "source": "app",
+  "audio": null,
+  "grammar": [
+    {
+      "title": "Passiv Präsens",
+      "fa": "در مجهول، تمرکز روی کار است نه کننده‌ی آن. werden صرف می‌شود و Partizip II به آخر جمله می‌رود.",
+      "examples": [
+        {
+          "de": "Das Geld wird heute überwiesen.",
+          "fa": "پول امروز حواله می‌شود."
+        },
+        {
+          "de": "In der Bank werden viele Fragen gestellt.",
+          "fa": "در بانک سؤال‌های زیادی پرسیده می‌شود."
+        }
+      ]
+    },
+    {
+      "title": "Indirekte Frage mit Fragewort und ob",
+      "fa": "پرسش غیرمستقیم مؤدبانه‌تر است. پرسش بله و خیر با ob ساخته می‌شود و بقیه با همان کلمه‌ی پرسشی. فعل به آخر می‌رود.",
+      "examples": [
+        {
+          "de": "Wissen Sie, wo der Geldautomat ist?",
+          "fa": "می‌دانید خودپرداز کجاست؟"
+        },
+        {
+          "de": "Ich möchte wissen, ob ich hier bezahlen kann.",
+          "fa": "می‌خواهم بدانم می‌توانم اینجا پرداخت کنم یا نه."
+        }
+      ]
+    },
+    {
+      "title": "Fragepronomen: Wem?",
+      "fa": "wem پرسش از مفعول دَتیو است، یعنی «به چه کسی» یا «مال چه کسی».",
+      "examples": [
+        {
+          "de": "Wem gehört das Handy?",
+          "fa": "این گوشی مال کیست؟"
+        },
+        {
+          "de": "Wem hast du die Mail geschickt?",
+          "fa": "ایمیل را برای چه کسی فرستادی؟"
+        }
+      ]
+    },
+    {
+      "title": "Possessivartikel: Ihr",
+      "fa": "Ihr با حرف بزرگ یعنی «مال شما» در خطاب رسمی. پایانه‌هایش مانند mein است.",
+      "examples": [
+        {
+          "de": "Ist das Ihre Karte, Frau Lang?",
+          "fa": "این کارت شماست، خانم لانگ؟"
+        },
+        {
+          "de": "Bitte nennen Sie mir Ihren Namen.",
+          "fa": "لطفاً نام خود را بگویید."
+        }
+      ]
+    }
+  ],
+  "proverbs": [
+    {
+      "de": "Geld allein macht nicht glücklich.",
+      "fa": "پول به‌تنهایی کسی را خوشبخت نمی‌کند."
+    },
+    {
+      "de": "Zeit ist Geld.",
+      "fa": "وقت طلاست."
+    }
+  ],
+  "dialog": {
+    "title": "در بانک",
+    "lines": [
+      {
+        "who": "Mitarbeiter",
+        "de": "Guten Tag, wie kann ich Ihnen helfen?",
+        "fa": "روز به‌خیر، چطور می‌توانم کمکتان کنم؟"
+      },
+      {
+        "who": "Kundin",
+        "de": "Ich möchte ein Konto eröffnen.",
+        "fa": "می‌خواهم یک حساب باز کنم."
+      },
+      {
+        "who": "Mitarbeiter",
+        "de": "Gern. Haben Sie Ihren Ausweis dabei?",
+        "fa": "حتماً. کارت شناسایی‌تان همراهتان است؟"
+      },
+      {
+        "who": "Kundin",
+        "de": "Ja. Können Sie mir sagen, ob das Konto kostenlos ist?",
+        "fa": "بله. می‌توانید بگویید حساب رایگان است یا نه؟"
+      },
+      {
+        "who": "Mitarbeiter",
+        "de": "Ja, und die Karte wird Ihnen nach Hause geschickt.",
+        "fa": "بله، و کارت به خانه‌تان فرستاده می‌شود."
+      },
+      {
+        "who": "Kundin",
+        "de": "Sehr gut. Wo muss ich unterschreiben?",
+        "fa": "خیلی خوب. کجا باید امضا کنم؟"
+      }
+    ]
+  },
+  "guide": {
+    "osd": "متن‌های مقاله‌مانند این درس تمرین Lesen هستند و پرسش غیرمستقیم در گفت‌وگوی رسمی کمک می‌کند.",
+    "starten": "پول برایت چه معنایی دارد و با پول چه کارهایی می‌شود کرد؛ شنیدن چهار نمونه.",
+    "sections": {
+      "A": "برنامه‌ی خیابانی bitte jetzt از مردم می‌پرسد چه چیزی مهم‌تر از پول است. پرسش غیرمستقیم با کلمه‌ی پرسشی، پرسش‌های ممنوع درباره‌ی پول و گزارش کوتاه رادیویی.",
+      "B": "ضرب‌المثل‌های پول، Wem gehört?، متن Grameen Bank و وام‌های خرد Muhammad Yunus در بنگلادش، و نقش مشتری و کارمند بانک.",
+      "C": "متنی درباره‌ی زوج‌ها و پول که سه حساب را پیشنهاد می‌دهد، جمله با ob، بانکداری آنلاین و نوشتن یک شعر ساده درباره‌ی روزمرگی.",
+      "D": "مسابقه‌ی آمار پیام‌ها، مسیر یک ایمیل، Passiv Präsens، قسمت‌های پاکت نامه، مسیر یک نامه و نظرسنجی درباره‌ی پیام‌های الکترونیکی."
+    },
+    "xtra": "دو نامه‌رسان در جاهای دورافتاده: جزیره‌ی کوچک Neuwerk و قله‌ی Zugspitze.",
+    "phrases": [
+      {
+        "de": "Können Sie mir sagen, ...?",
+        "fa": "می‌توانید به من بگویید ...؟"
+      },
+      {
+        "de": "Wissen Sie, wie ...?",
+        "fa": "می‌دانید چطور ...؟"
+      },
+      {
+        "de": "Wem gehört das?",
+        "fa": "این مال کیست؟"
+      },
+      {
+        "de": "Ich wollte dich fragen, ob ...",
+        "fa": "می‌خواستم از تو بپرسم آیا ..."
+      },
+      {
+        "de": "Wie kann ich Ihnen helfen?",
+        "fa": "چطور می‌توانم کمکتان کنم؟"
+      },
+      {
+        "de": "Bitte füllen Sie das Formular aus.",
+        "fa": "لطفاً این فرم را پر کنید."
+      }
+    ]
+  },
+  "sentences": [
+    {"section":"A","de":"In meinem Land fragt man nicht nach dem Gehalt.","fa":"در کشور من درباره‌ی حقوق سؤال نمی‌پرسند."},
+    {"section":"A","de":"Zeit mit der Familie ist mir wichtiger als Geld.","fa":"وقت گذراندن با خانواده برایم از پول مهم‌تر است."},
+    {"section":"A","de":"Gesundheit ist wichtiger als Geld.","fa":"سلامتی مهم‌تر از پول است."},
+    {"section":"A","de":"Was würdest du mit viel Geld machen?","fa":"با پول زیاد چه کار می‌کردی؟"},
+    {"section":"A","de":"Ein ehrlicher Freund ist mir sehr wichtig.","fa":"یک دوست صادق برایم خیلی مهم است."},
+    {"section":"B","de":"Können Sie mir sagen, wann die Bank öffnet?","fa":"می‌توانید به من بگویید بانک کی باز می‌شود؟"},
+    {"section":"B","de":"Wem gehört diese Kreditkarte?","fa":"این کارت اعتباری مال کیست؟"},
+    {"section":"B","de":"Ich möchte Geld auf mein Konto einzahlen.","fa":"می‌خواهم به حسابم پول واریز کنم."},
+    {"section":"B","de":"Können Sie mir sagen, wo die Kasse ist?","fa":"می‌توانید بگویید صندوق کجاست؟"},
+    {"section":"B","de":"Lesen Sie den Vertrag bitte genau.","fa":"لطفاً قرارداد را با دقت بخوانید."},
+    {"section":"B","de":"Hier fehlt noch Ihre Unterschrift.","fa":"اینجا هنوز امضای شما نیست."},
+    {"section":"B","de":"Kann ich hier Geld wechseln?","fa":"اینجا می‌توانم پول تبدیل کنم؟"},
+    {"section":"C","de":"Ich habe zu viel Geld für Kleidung ausgegeben.","fa":"پول زیادی خرج لباس کردم."},
+    {"section":"C","de":"Beim Online-Banking wird die Überweisung sofort erledigt.","fa":"در بانکداری آنلاین، حواله فوراً انجام می‌شود."},
+    {"section":"C","de":"Letzten Monat habe ich viel für Bücher ausgegeben.","fa":"ماه گذشته پول زیادی خرج کتاب کردم."},
+    {"section":"C","de":"Online-Banking ist praktisch, aber ist es auch sicher?","fa":"بانکداری آنلاین کاربردی است، ولی امن هم هست؟"},
+    {"section":"C","de":"Unser Budget für den Urlaub ist klein.","fa":"بودجه‌ی تعطیلات ما کم است."},
+    {"section":"C","de":"Dieses Konto ist wirklich günstig.","fa":"این حساب واقعاً به‌صرفه است."},
+    {"section":"D","de":"Der Brief wird morgen abgeholt.","fa":"نامه فردا برداشته می‌شود."},
+    {"section":"D","de":"Ich weiß nicht, ob meine Mail angekommen ist.","fa":"نمی‌دانم ایمیلم رسیده یا نه."},
+    {"section":"D","de":"Ich schreibe lieber WhatsApp-Nachrichten als Briefe.","fa":"نوشتن پیام واتس‌اپ را به نامه ترجیح می‌دهم."},
+    {"section":"D","de":"Hast du noch eine Briefmarke für mich?","fa":"یک تمبر دیگر برای من داری؟"},
+    {"section":"D","de":"Das Paket holen Sie bitte am Schalter ab.","fa":"لطفاً بسته را از باجه تحویل بگیرید."},
+    {"section":"D","de":"Der Postbote kommt jeden Morgen um neun.","fa":"نامه‌رسان هر روز صبح ساعت نه می‌آید."}
+  ],
+  "words": [
+    {"de":"Münze","art":"die","pl":"-n","fa":"سکه","topic":"Geld"},
+    {"de":"Schein","art":"der","pl":"-e","fa":"اسکناس","topic":"Geld"},
+    {"de":"sparen","art":null,"fa":"پس‌انداز کردن","topic":"Geld"},
+    {"de":"Preis","art":"der","pl":"-e","fa":"قیمت","topic":"Geld"},
+    {"de":"ausgeben","art":null,"fa":"خرج کردن","topic":"Geld"},
+    {"de":"Freundschaft","art":"die","pl":"-en","fa":"دوستی","topic":"Persönliche Werte"},
+    {"de":"Zeit","art":"die","fa":"زمان","topic":"Persönliche Werte"},
+    {"de":"Gesundheit","art":"die","fa":"سلامتی","topic":"Persönliche Werte"},
+    {"de":"Freiheit","art":"die","fa":"آزادی","topic":"Persönliche Werte"},
+    {"de":"Konto","art":"das","pl":"Konten","fa":"حساب بانکی","topic":"Banken"},
+    {"de":"Geldautomat","art":"der","pl":"-en","fa":"دستگاه خودپرداز","topic":"Banken"},
+    {"de":"Zinsen","art":null,"fa":"سود بانکی (جمع)","topic":"Banken"},
+    {"de":"Kreditkarte","art":"die","pl":"-n","fa":"کارت اعتباری","topic":"Banken"},
+    {"de":"Kredit","art":"der","pl":"-e","fa":"وام","topic":"Banken"},
+    {"de":"Überweisung","art":"die","pl":"-en","fa":"حواله‌ی بانکی","topic":"Online-Banking"},
+    {"de":"Geheimzahl","art":"die","pl":"-en","fa":"رمز کارت","topic":"Online-Banking"},
+    {"de":"überweisen","art":null,"fa":"حواله کردن","topic":"Online-Banking"},
+    {"de":"Vorteil","art":"der","pl":"-e","fa":"مزیت","topic":"Online-Banking"},
+    {"de":"Nachteil","art":"der","pl":"-e","fa":"عیب","topic":"Online-Banking"},
+    {"de":"Passwort","art":"das","pl":"¨-er","fa":"گذرواژه","topic":"Online-Banking"},
+    {"de":"sicher","art":null,"fa":"امن","topic":"Online-Banking"},
+    {"de":"Briefmarke","art":"die","pl":"-n","fa":"تمبر","topic":"Post"},
+    {"de":"Paket","art":"das","pl":"-e","fa":"بسته‌ی پستی","topic":"Post"},
+    {"de":"Briefkasten","art":"der","pl":"¨-","fa":"صندوق پست","topic":"Post"},
+    {"de":"Postkarte","art":"die","pl":"-n","fa":"کارت‌پستال","topic":"Post"},
+    {"de":"E-Mail","art":"die","pl":"-s","fa":"ایمیل","topic":"E-Mail, SMS, WhatsApp ..."},
+    {"de":"SMS","art":"die","pl":"-","fa":"پیامک","topic":"E-Mail, SMS, WhatsApp ..."},
+    {"de":"Anlage","art":"die","pl":"-n","fa":"پیوست","topic":"E-Mail, SMS, WhatsApp ..."},
+    {"de":"antworten","art":null,"fa":"پاسخ دادن","topic":"E-Mail, SMS, WhatsApp ..."},
+    {"de":"Absender","art":"der","pl":"-","fa":"فرستنده","topic":"Briefe"},
+    {"de":"Empfänger","art":"der","pl":"-","fa":"گیرنده","topic":"Briefe"},
+    {"de":"Umschlag","art":"der","pl":"¨-e","fa":"پاکت نامه","topic":"Briefe"},
+    {"de":"Adresse","art":"die","pl":"-n","fa":"نشانی","topic":"Briefe"},
+    {"de":"Vertrag","art":"der","pl":"¨-e","fa":"قرارداد","topic":"Banken"},
+    {"de":"Unterschrift","art":"die","pl":"-en","fa":"امضا","topic":"Banken"},
+    {"de":"Budget","art":"das","pl":"-s","fa":"بودجه","topic":"Geld"},
+    {"de":"wechseln","art":null,"fa":"تبدیل کردن پول","topic":"Geld"},
+    {"de":"ehrlich","art":null,"fa":"صادق","topic":"Persönliche Werte"},
+    {"de":"günstig","art":null,"fa":"به‌صرفه","topic":"Online-Banking"},
+    {"de":"Schalter","art":"der","pl":"-","fa":"باجه","topic":"Post"},
+    {"de":"Postbote","art":"der","pl":"-n","fa":"نامه‌رسان","topic":"Post"}
+  ]
+}

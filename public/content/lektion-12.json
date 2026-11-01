@@ -1,0 +1,232 @@
+{
+  "lesson": 12,
+  "source": "app",
+  "audio": null,
+  "grammar": [
+    {
+      "title": "Verben mit präpositionaler Ergänzung im Akkusativ und Dativ",
+      "fa": "حالت اسم را خود فعل تعیین می‌کند: sich freuen auf با آکوزاتیو و träumen von یا sprechen mit با دَتیو.",
+      "examples": [
+        {
+          "de": "Ich träume von einer Reise nach Japan.",
+          "fa": "رؤیای سفری به ژاپن را دارم."
+        },
+        {
+          "de": "Wir freuen uns auf den Urlaub.",
+          "fa": "مشتاق تعطیلات هستیم."
+        }
+      ]
+    },
+    {
+      "title": "Fragen und Präpositionaladverbien",
+      "fa": "برای چیزها از wo(r) + حرف اضافه در پرسش و da(r) + حرف اضافه در پاسخ استفاده می‌شود. برای اشخاص حرف اضافه با ضمیر می‌آید.",
+      "examples": [
+        {
+          "de": "Worüber sprecht ihr? Über die Reise.",
+          "fa": "درباره‌ی چه حرف می‌زنید؟ درباره‌ی سفر."
+        },
+        {
+          "de": "Ich denke oft daran.",
+          "fa": "من اغلب به آن فکر می‌کنم."
+        }
+      ]
+    },
+    {
+      "title": "Wechselpräpositionen: an, in, auf",
+      "fa": "برای مقصد آکوزاتیو و برای مکان دَتیو می‌آید. an برای کنار آب، in برای کوه و مکان‌های بسته و auf برای جزیره و سطح‌ها.",
+      "examples": [
+        {
+          "de": "Wir fahren an den See.",
+          "fa": "به کنار دریاچه می‌رویم."
+        },
+        {
+          "de": "Wir sind auf einer Insel.",
+          "fa": "ما در یک جزیره هستیم."
+        }
+      ]
+    },
+    {
+      "title": "lokale Präpositionen: aus, von, bis zu",
+      "fa": "aus یعنی بیرون آمدن از کشور یا فضای بسته، von یعنی آمدن از شخص یا نقطه و bis zu یعنی تا رسیدن به یک نقطه. هر سه دَتیو می‌گیرند.",
+      "examples": [
+        {
+          "de": "Sie kommt aus dem Iran.",
+          "fa": "او اهل ایران است."
+        },
+        {
+          "de": "Gehen Sie bis zur Ampel.",
+          "fa": "تا چراغ راهنمایی بروید."
+        }
+      ]
+    },
+    {
+      "title": "temporale Präposition: für",
+      "fa": "für با آکوزاتیو مدت زمانی را نشان می‌دهد که از پیش برنامه‌ریزی شده است.",
+      "examples": [
+        {
+          "de": "Ich fliege für eine Woche nach Rom.",
+          "fa": "برای یک هفته به رم پرواز می‌کنم."
+        },
+        {
+          "de": "Wir mieten das Haus für einen Monat.",
+          "fa": "خانه را برای یک ماه اجاره می‌کنیم."
+        }
+      ]
+    }
+  ],
+  "proverbs": [
+    {
+      "de": "Wenn einer eine Reise tut, so kann er was erzählen.",
+      "fa": "هر که سفر کند، حرفی برای گفتن دارد."
+    },
+    {
+      "de": "Alle Wege führen nach Rom.",
+      "fa": "همه‌ی راه‌ها به رم ختم می‌شود."
+    }
+  ],
+  "dialog": {
+    "title": "پرسیدن راه",
+    "lines": [
+      {
+        "who": "Tourist",
+        "de": "Entschuldigung, wie komme ich zum Hotel Cocoon?",
+        "fa": "ببخشید، چطور به هتل کوکون بروم؟"
+      },
+      {
+        "who": "Passantin",
+        "de": "Gehen Sie bis zur Kreuzung und dann nach rechts.",
+        "fa": "تا چهارراه بروید و بعد به راست بپیچید."
+      },
+      {
+        "who": "Tourist",
+        "de": "Ist das weit von hier?",
+        "fa": "از اینجا دور است؟"
+      },
+      {
+        "who": "Passantin",
+        "de": "Nein, nur zehn Minuten zu Fuß.",
+        "fa": "نه، فقط ده دقیقه پیاده."
+      },
+      {
+        "who": "Tourist",
+        "de": "Gibt es auch eine Haltestelle in der Nähe?",
+        "fa": "ایستگاهی هم آن نزدیکی هست؟"
+      },
+      {
+        "who": "Passantin",
+        "de": "Ja, die U-Bahn hält direkt vor dem Hotel.",
+        "fa": "بله، مترو درست جلوی هتل می‌ایستد."
+      }
+    ]
+  },
+  "guide": {
+    "osd": "برنامه‌ریزی سفر مشترک با کمک تقویم شبیه کار شفاهی آزمون است؛ صفحه‌ی ۱۴۲ هم تمرین خوب Lesen است.",
+    "starten": "برای اسکی، دریا، شهر، کوهستان یا سفر خارجی چه چیزهایی لازم داری؟",
+    "sections": {
+      "A": "آمار مقصدهای تعطیلات کوتاه در آلمان، an، in و auf برای مکان و جهت، برنامه‌ی تلویزیونی Christine و Hannah و برنامه‌ریزی مشترک سفر.",
+      "B": "مسیر پرسیدن و آدرس دادن به هتل Cocoon، حروف اضافه‌ی bis zu، aus و von، و نوشتن راهنمای مسیر برای وب‌سایت آموزشگاه.",
+      "C": "آگهی Nina برای یافتن همسفر، گفت‌وگو با Steffie، مصاحبه‌ی چند ماه بعد و پرسش با wofür، worauf و worüber. برنامه‌ریزی سفر با دو تقویم.",
+      "D": "darauf و dafür، فراخوان رادیو برای عکس سلفی، سه نوع سلفی‌گیر و فعل با حرف اضافه. ارائه‌ی گروهی درباره‌ی سلفی."
+    },
+    "xtra": "مقایسه‌ی راه‌های رفتن از فرودگاه به شهر برای پنج مسافر، با ساختاری شبیه خواندن آزمون.",
+    "phrases": [
+      {
+        "de": "Wie komme ich zum ...?",
+        "fa": "چطور به ... بروم؟"
+      },
+      {
+        "de": "Gehen Sie geradeaus.",
+        "fa": "مستقیم بروید."
+      },
+      {
+        "de": "An der Ampel rechts.",
+        "fa": "سر چراغ راست."
+      },
+      {
+        "de": "Worauf freust du dich?",
+        "fa": "مشتاق چه چیزی هستی؟"
+      },
+      {
+        "de": "Darauf freue ich mich.",
+        "fa": "مشتاق همین هستم."
+      },
+      {
+        "de": "Für wie lange?",
+        "fa": "برای چه مدت؟"
+      }
+    ]
+  },
+  "sentences": [
+    {"section":"A","de":"Wir fahren für drei Tage an die Nordsee.","fa":"برای سه روز به کنار دریای شمال می‌رویم."},
+    {"section":"A","de":"Am liebsten mache ich Kurzurlaub in den Bergen.","fa":"بیشتر از همه دوست دارم تعطیلات کوتاه را در کوهستان بگذرانم."},
+    {"section":"A","de":"Am Wochenende fahren wir in die Berge.","fa":"آخر هفته به کوهستان می‌رویم."},
+    {"section":"A","de":"Wohin möchtest du im Urlaub fahren?","fa":"در تعطیلات می‌خواهی کجا بروی؟"},
+    {"section":"A","de":"Pack bitte die Badehose in den Koffer.","fa":"لطفاً مایو را در چمدان بگذار."},
+    {"section":"A","de":"In den Bergen brauchst du eine warme Mütze.","fa":"در کوهستان کلاه گرم لازم داری."},
+    {"section":"A","de":"Im Januar machen wir Skiurlaub.","fa":"در ژانویه به تعطیلات اسکی می‌رویم."},
+    {"section":"B","de":"Gehen Sie geradeaus und dann die zweite Straße links.","fa":"مستقیم بروید و بعد خیابان دوم سمت چپ."},
+    {"section":"B","de":"Ich komme gerade aus der Schweiz.","fa":"همین الان از سوئیس می‌آیم."},
+    {"section":"B","de":"Die Sprachschule ist direkt neben der Post.","fa":"آموزشگاه زبان درست کنار اداره‌ی پست است."},
+    {"section":"B","de":"An der Kreuzung biegen Sie rechts ab.","fa":"سر چهارراه به راست بپیچید."},
+    {"section":"B","de":"Wegen der Baustelle fahren Sie bitte links.","fa":"به‌خاطر کارگاه ساختمانی لطفاً از چپ بروید."},
+    {"section":"B","de":"Gehen Sie über die Brücke.","fa":"از روی پل رد شوید."},
+    {"section":"C","de":"Ich suche eine Reisepartnerin für zwei Wochen.","fa":"برای دو هفته دنبال یک همسفر هستم."},
+    {"section":"C","de":"Mein Koffer ist am Flughafen verloren gegangen.","fa":"چمدانم در فرودگاه گم شده است."},
+    {"section":"C","de":"Wir bleiben für zehn Tage in Italien.","fa":"ده روز در ایتالیا می‌مانیم."},
+    {"section":"C","de":"Der Zug hat dreißig Minuten Verspätung.","fa":"قطار سی دقیقه تأخیر دارد."},
+    {"section":"C","de":"Das Hotel ist leider überbucht.","fa":"هتل متأسفانه بیش از ظرفیت رزرو شده است."},
+    {"section":"C","de":"Wir stehen seit einer Stunde im Stau.","fa":"یک ساعت است که در ترافیک هستیم."},
+    {"section":"D","de":"Worauf freust du dich am meisten?","fa":"بیشتر از همه مشتاق چه چیزی هستی؟"},
+    {"section":"D","de":"Ich freue mich auf das Meer und die Sonne.","fa":"مشتاق دریا و آفتاب هستم."},
+    {"section":"D","de":"Machst du gern Selfies im Urlaub?","fa":"در تعطیلات سلفی گرفتن را دوست داری؟"},
+    {"section":"D","de":"Auf dem Foto sehen wir sehr entspannt aus.","fa":"در این عکس خیلی آسوده به نظر می‌رسیم."},
+    {"section":"D","de":"Die Landschaft auf dem Selfie ist wunderschön.","fa":"منظره‌ی این سلفی فوق‌العاده زیباست."}
+  ],
+  "words": [
+    {"de":"Koffer","art":"der","pl":"-","fa":"چمدان","topic":"Reiseutensilien"},
+    {"de":"Reisepass","art":"der","pl":"¨-e","fa":"گذرنامه","topic":"Reiseutensilien"},
+    {"de":"Sonnencreme","art":"die","pl":"-s","fa":"کرم ضد آفتاب","topic":"Reiseutensilien"},
+    {"de":"Handtuch","art":"das","pl":"¨-er","fa":"حوله","topic":"Reiseutensilien"},
+    {"de":"Sonnenbrille","art":"die","pl":"-n","fa":"عینک آفتابی","topic":"Reiseutensilien"},
+    {"de":"Strand","art":"der","pl":"¨-e","fa":"ساحل","topic":"Reiseziele"},
+    {"de":"Gebirge","art":"das","pl":"-","fa":"کوهستان","topic":"Reiseziele"},
+    {"de":"Insel","art":"die","pl":"-n","fa":"جزیره","topic":"Reiseziele"},
+    {"de":"See","art":"der","pl":"-n","fa":"دریاچه","topic":"Reiseziele"},
+    {"de":"Paar","art":"das","pl":"-e","fa":"جفت","topic":"Mengenangaben"},
+    {"de":"Tube","art":"die","pl":"-n","fa":"تیوب، لوله","topic":"Mengenangaben"},
+    {"de":"ein bisschen","art":null,"fa":"کمی","topic":"Mengenangaben"},
+    {"de":"ein paar","art":null,"fa":"چندتایی","topic":"Mengenangaben"},
+    {"de":"Ampel","art":"die","pl":"-n","fa":"چراغ راهنمایی","topic":"Wegbeschreibung"},
+    {"de":"Kreuzung","art":"die","pl":"-en","fa":"چهارراه","topic":"Wegbeschreibung"},
+    {"de":"abbiegen","art":null,"fa":"پیچیدن","topic":"Wegbeschreibung"},
+    {"de":"geradeaus","art":null,"fa":"مستقیم","topic":"Wegbeschreibung"},
+    {"de":"links","art":null,"fa":"چپ","topic":"Wegbeschreibung"},
+    {"de":"rechts","art":null,"fa":"راست","topic":"Wegbeschreibung"},
+    {"de":"Verspätung","art":"die","pl":"-en","fa":"تأخیر","topic":"Probleme auf Reisen"},
+    {"de":"verpassen","art":null,"fa":"از دست دادن (قطار و...)","topic":"Probleme auf Reisen"},
+    {"de":"Panne","art":"die","pl":"-n","fa":"خرابی ماشین","topic":"Probleme auf Reisen"},
+    {"de":"verloren","art":null,"fa":"گم‌شده","topic":"Probleme auf Reisen"},
+    {"de":"entspannt","art":null,"fa":"آسوده","topic":"Gefühle"},
+    {"de":"müde","art":null,"fa":"خسته","topic":"Gefühle"},
+    {"de":"neugierig","art":null,"fa":"کنجکاو","topic":"Gefühle"},
+    {"de":"enttäuscht","art":null,"fa":"ناامید","topic":"Gefühle"},
+    {"de":"Selfie","art":"das","pl":"-s","fa":"سلفی","topic":"Selfies"},
+    {"de":"Selfie-Stick","art":"der","pl":"-s","fa":"مونوپاد","topic":"Selfies"},
+    {"de":"fotografieren","art":null,"fa":"عکس گرفتن","topic":"Selfies"},
+    {"de":"Unterkunft","art":"die","pl":"¨-e","fa":"محل اقامت","topic":"Selfies"},
+    {"de":"Fahrkarte","art":"die","pl":"-n","fa":"بلیت","topic":"Öffentliche Verkehrsmittel"},
+    {"de":"Gleis","art":"das","pl":"-e","fa":"سکوی قطار","topic":"Öffentliche Verkehrsmittel"},
+    {"de":"Haltestelle","art":"die","pl":"-n","fa":"ایستگاه","topic":"Öffentliche Verkehrsmittel"},
+    {"de":"umsteigen","art":null,"fa":"تعویض قطار یا خط","topic":"Öffentliche Verkehrsmittel"},
+    {"de":"U-Bahn","art":"die","pl":"-en","fa":"مترو","topic":"Öffentliche Verkehrsmittel"},
+    {"de":"Straßenbahn","art":"die","pl":"-en","fa":"تراموا","topic":"Öffentliche Verkehrsmittel"},
+    {"de":"Badehose","art":"die","pl":"-n","fa":"مایوی مردانه","topic":"Reiseutensilien"},
+    {"de":"Mütze","art":"die","pl":"-n","fa":"کلاه","topic":"Reiseutensilien"},
+    {"de":"Skiurlaub","art":"der","pl":"-e","fa":"تعطیلات اسکی","topic":"Reiseziele"},
+    {"de":"Baustelle","art":"die","pl":"-n","fa":"محل ساخت‌وساز","topic":"Wegbeschreibung"},
+    {"de":"Brücke","art":"die","pl":"-n","fa":"پل","topic":"Wegbeschreibung"},
+    {"de":"überbucht","art":null,"fa":"بیش از ظرفیت رزرو‌شده","topic":"Probleme auf Reisen"},
+    {"de":"Stau","art":"der","pl":"-s","fa":"ترافیک","topic":"Probleme auf Reisen"},
+    {"de":"Landschaft","art":"die","pl":"-en","fa":"منظره","topic":"Selfies"}
+  ]
+}
